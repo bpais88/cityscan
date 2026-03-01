@@ -11,6 +11,7 @@ export interface Neighborhood {
   categoryRates: Record<CrimeCategory, number>;
   trends: YearlyTrend[];
   centroid: [number, number]; // [lng, lat]
+  postcode: string; // 4-digit Dutch postcode
 }
 
 export type CrimeCategory =

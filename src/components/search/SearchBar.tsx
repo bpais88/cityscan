@@ -21,10 +21,11 @@ export default function SearchBar({ neighborhoods }: SearchBarProps) {
     () =>
       new Fuse(neighborhoods, {
         keys: [
-          { name: "name", weight: 0.7 },
-          { name: "code", weight: 0.3 },
+          { name: "name", weight: 0.5 },
+          { name: "postcode", weight: 0.35 },
+          { name: "code", weight: 0.15 },
         ],
-        threshold: 0.4,
+        threshold: 0.3,
         minMatchCharLength: 2,
       }),
     [neighborhoods]
@@ -69,7 +70,7 @@ export default function SearchBar({ neighborhoods }: SearchBarProps) {
           onKeyDown={handleKeyDown}
           onFocus={() => results.length > 0 && setIsOpen(true)}
           onBlur={() => setTimeout(() => setIsOpen(false), 200)}
-          placeholder="SECTOR_"
+          placeholder="NEIGHBORHOOD OR POSTCODE_"
           className="flex-1 bg-transparent text-sm text-[#e0e0f0] outline-none placeholder:text-[#333340]"
           autoComplete="off"
           spellCheck={false}
@@ -97,6 +98,9 @@ export default function SearchBar({ neighborhoods }: SearchBarProps) {
               <div>
                 <div className="text-[#e0e0f0]">{r.item.name}</div>
                 <div className="text-[9px] text-[#666680] tracking-wider mt-0.5">
+                  {r.item.postcode && (
+                    <span className="text-[#888899] mr-2">{r.item.postcode}</span>
+                  )}
                   {r.item.code}
                 </div>
               </div>

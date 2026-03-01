@@ -41,6 +41,7 @@ export async function fetchGeoData() {
           buurtcode: f.properties.buurtcode,
           buurtnaam: f.properties.buurtnaam,
           aantalInwoners: Math.max(0, Number(f.properties.aantalInwoners) || 0),
+          postcode: String(f.properties.meestVoorkomendePostcode ?? "").trim(),
         },
       })
     ),

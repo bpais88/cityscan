@@ -65,8 +65,9 @@ export async function processData() {
     ? JSON.parse(readFileSync(geoPath, "utf-8"))
     : null;
 
-  // Build centroid lookup from GeoJSON
+  // Build centroid + postcode lookups from GeoJSON
   const centroidMap = new Map<string, [number, number]>();
+  const postcodeMap = new Map<string, string>();
   if (geojson?.features) {
     for (const feature of geojson.features) {
       const code = feature.properties?.buurtcode;
@@ -79,6 +80,10 @@ export async function processData() {
           );
         } catch {
           // skip features with invalid geometry
+        }
+        const pc = String(feature.properties?.postcode ?? "").trim();
+        if (pc && pc !== "-99997") {
+          postcodeMap.set(code, pc);
         }
       }
     }
@@ -299,6 +304,7 @@ export async function processData() {
       categoryRates,
       trends,
       centroid: coord,
+      postcode: postcodeMap.get(code) ?? "",
     });
   }
 
