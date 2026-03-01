@@ -86,5 +86,13 @@
     "avgScore": 5,
     "criticalCount": 5,
     "avgRate": 21.3
+  },
+  {
+    "id": "de-ronde-venen",
+    "name": "De Ronde Venen",
+    "totalSectors": 24,
+    "avgScore": 5.4,
+    "criticalCount": 8,
+    "avgRate": 28
   }
 ]
