@@ -78,5 +78,13 @@
     "avgScore": 4,
     "criticalCount": 3,
     "avgRate": 74.4
+  },
+  {
+    "id": "wijdemeren",
+    "name": "Wijdemeren",
+    "totalSectors": 17,
+    "avgScore": 5,
+    "criticalCount": 5,
+    "avgRate": 21.3
   }
 ]

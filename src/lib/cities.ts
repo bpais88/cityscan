@@ -17,6 +17,7 @@ export const CITIES: CityConfig[] = [
   { id: "amstelveen", name: "Amstelveen", gemeenteCode: "0362", center: [52.3013, 4.8648], zoom: 13 },
   { id: "diemen", name: "Diemen", gemeenteCode: "0384", center: [52.3400, 4.9600], zoom: 14 },
   { id: "ouder-amstel", name: "Ouder-Amstel", gemeenteCode: "0437", center: [52.2960, 4.9120], zoom: 13 },
+  { id: "wijdemeren", name: "Wijdemeren", gemeenteCode: "1696", center: [52.2050, 5.0600], zoom: 13 },
 ];
 
 export function getCityById(id: string): CityConfig | undefined {
