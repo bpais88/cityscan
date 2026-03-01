@@ -33,7 +33,11 @@ export default function SearchBar({ neighborhoods }: SearchBarProps) {
 
   const results = useMemo(() => {
     if (!query || query.length < 2) return [];
-    return fuse.search(query).slice(0, 8);
+    // Strip letters from postcode input (e.g. "1011MR" → "1011")
+    const normalized = /^\d{4}\s*[a-zA-Z]{0,2}$/.test(query.trim())
+      ? query.trim().replace(/[a-zA-Z\s]/g, "")
+      : query;
+    return fuse.search(normalized).slice(0, 8);
   }, [fuse, query]);
 
   useEffect(() => {
