@@ -36,6 +36,11 @@ yarn-error.log*
 # vercel
 .vercel
 
+# generated data
+/src/data/*.json
+/src/data/*.geo.json
+/src/data/raw/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

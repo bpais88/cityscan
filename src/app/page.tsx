@@ -1,65 +1,93 @@
-import Image from "next/image";
+import SafetyMapWrapper from "@/components/map/SafetyMapWrapper";
+import SearchBar from "@/components/search/SearchBar";
+import Panel from "@/components/ui/Panel";
+import type { Neighborhood } from "@/lib/types";
 
-export default function Home() {
+async function getData() {
+  let neighborhoods: Neighborhood[] = [];
+  let geojson: GeoJSON.FeatureCollection = { type: "FeatureCollection", features: [] };
+
+  try {
+    neighborhoods = (await import("@/data/neighborhoods.json")).default as unknown as Neighborhood[];
+  } catch {
+    // Data not yet built
+  }
+
+  try {
+    geojson = (await import("@/data/amsterdam.geo.json")).default as unknown as GeoJSON.FeatureCollection;
+  } catch {
+    // Data not yet built
+  }
+
+  return { neighborhoods, geojson };
+}
+
+export default async function HomePage() {
+  const { neighborhoods, geojson } = await getData();
+
+  const totalSectors = neighborhoods.length;
+  const criticalCount = neighborhoods.filter((n) => n.threatLevel === "CRITICAL").length;
+  const highCount = neighborhoods.filter((n) => n.threatLevel === "HIGH").length;
+  const avgScore = totalSectors > 0
+    ? (neighborhoods.reduce((s, n) => s + n.safetyScore, 0) / totalSectors).toFixed(1)
+    : "—";
+
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="min-h-screen">
+      {/* Hero */}
+      <div className="px-4 py-6 md:px-8">
+        <div className="max-w-7xl mx-auto">
+          <div className="mb-6">
+            <h1 className="text-[10px] tracking-[0.3em] text-[#888899] uppercase mb-1">
+              CLASSIFIED // AMSTERDAM MUNICIPAL INTELLIGENCE
+            </h1>
+            <h2 className="text-2xl md:text-3xl font-bold text-[#e0e0f0] tracking-tight">
+              SECTOR <span className="text-[#00ffcc] glow-text-cyan">THREAT ANALYSIS</span>
+            </h2>
+            <p className="text-xs text-[#666680] mt-2 tracking-wider">
+              REAL-TIME NEIGHBORHOOD SAFETY PROFILING // CBS POLITIE DATA INTEGRATION
+            </p>
+          </div>
+
+          {/* Stats strip */}
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
+            <Panel>
+              <div className="text-[9px] text-[#888899] tracking-[0.2em] mb-1">SECTORS ANALYZED</div>
+              <div className="text-xl font-bold text-[#00ffcc]">{totalSectors}</div>
+            </Panel>
+            <Panel accent="red">
+              <div className="text-[9px] text-[#888899] tracking-[0.2em] mb-1">CRITICAL ZONES</div>
+              <div className="text-xl font-bold text-[#ff3333]">{criticalCount}</div>
+            </Panel>
+            <Panel accent="amber">
+              <div className="text-[9px] text-[#888899] tracking-[0.2em] mb-1">HIGH THREAT</div>
+              <div className="text-xl font-bold text-[#ffaa00]">{highCount}</div>
+            </Panel>
+            <Panel accent="green">
+              <div className="text-[9px] text-[#888899] tracking-[0.2em] mb-1">AVG SCORE</div>
+              <div className="text-xl font-bold text-[#00ff88]">{avgScore}</div>
+            </Panel>
+          </div>
+
+          {/* Search */}
+          <div className="mb-6">
+            <SearchBar neighborhoods={neighborhoods} />
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+      </div>
+
+      {/* Map */}
+      <div className="relative">
+        <SafetyMapWrapper geojson={geojson} neighborhoods={neighborhoods} />
+      </div>
+
+      {/* Footer */}
+      <div className="px-4 py-4 border-t border-[#333340]">
+        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between text-[9px] text-[#666680] tracking-wider font-mono">
+          <span>DATA: CBS OPEN DATA (47018NED) // PDOK WFS BOUNDARIES</span>
+          <span>AMSTERDAM SECTOR INTELLIGENCE v1.0</span>
         </div>
-      </main>
+      </div>
     </div>
   );
 }

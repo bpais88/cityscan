@@ -1,26 +1,107 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0f;
+  --foreground: #e0e0f0;
+  --cyan: #00ffcc;
+  --amber: #ffaa00;
+  --red: #ff3333;
+  --green: #00ff88;
+  --gray: #333340;
+  --gray-light: #666680;
+  --gray-text: #888899;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-mono: var(--font-jetbrains);
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-jetbrains), "JetBrains Mono", monospace;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333340;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #666680;
+}
+
+/* Blinking cursor for terminal input */
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.cursor-blink {
+  animation: blink 1s step-end infinite;
+}
+
+/* Glow effects */
+.glow-cyan {
+  box-shadow: 0 0 20px rgba(0, 255, 204, 0.1), inset 0 0 20px rgba(0, 255, 204, 0.02);
+}
+
+.glow-text-cyan {
+  text-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+}
+
+.glow-text-amber {
+  text-shadow: 0 0 10px rgba(255, 170, 0, 0.5);
+}
+
+.glow-text-red {
+  text-shadow: 0 0 10px rgba(255, 51, 51, 0.5);
+}
+
+/* Leaflet overrides for dark theme */
+.leaflet-container {
+  background: #0a0a0f !important;
+  font-family: var(--font-jetbrains), monospace !important;
+}
+
+.leaflet-popup-content-wrapper {
+  background: rgba(10, 10, 15, 0.95) !important;
+  color: #e0e0f0 !important;
+  border: 1px solid #333340 !important;
+  border-radius: 0 !important;
+  font-family: var(--font-jetbrains), monospace !important;
+  box-shadow: 0 0 20px rgba(0, 255, 204, 0.1) !important;
+}
+
+.leaflet-popup-tip {
+  background: rgba(10, 10, 15, 0.95) !important;
+  border: 1px solid #333340 !important;
+}
+
+.leaflet-control-zoom a {
+  background: rgba(10, 10, 15, 0.9) !important;
+  color: #00ffcc !important;
+  border-color: #333340 !important;
+}
+
+.leaflet-control-attribution {
+  background: rgba(10, 10, 15, 0.7) !important;
+  color: #666680 !important;
+  font-size: 9px !important;
+}
+
+.leaflet-control-attribution a {
+  color: #888899 !important;
 }
