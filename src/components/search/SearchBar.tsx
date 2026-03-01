@@ -8,9 +8,10 @@ import { THREAT_COLORS } from "@/lib/constants";
 
 interface SearchBarProps {
   neighborhoods: Neighborhood[];
+  cityId: string;
 }
 
-export default function SearchBar({ neighborhoods }: SearchBarProps) {
+export default function SearchBar({ neighborhoods, cityId }: SearchBarProps) {
   const [query, setQuery] = useState("");
   const [isOpen, setIsOpen] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -53,7 +54,7 @@ export default function SearchBar({ neighborhoods }: SearchBarProps) {
       e.preventDefault();
       setSelectedIndex((i) => Math.max(i - 1, 0));
     } else if (e.key === "Enter" && results[selectedIndex]) {
-      router.push(`/buurt/${results[selectedIndex].item.slug}`);
+      router.push(`/${cityId}/${results[selectedIndex].item.slug}`);
       setIsOpen(false);
     } else if (e.key === "Escape") {
       setIsOpen(false);
@@ -95,7 +96,7 @@ export default function SearchBar({ neighborhoods }: SearchBarProps) {
                   : "border-l-2 border-l-transparent hover:bg-[#333340]/30"
               }`}
               onMouseDown={() => {
-                router.push(`/buurt/${r.item.slug}`);
+                router.push(`/${cityId}/${r.item.slug}`);
               }}
               onMouseEnter={() => setSelectedIndex(i)}
             >

@@ -1,91 +1,137 @@
-import SafetyMapWrapper from "@/components/map/SafetyMapWrapper";
-import SearchBar from "@/components/search/SearchBar";
+import Link from "next/link";
+import StatusBar from "@/components/ui/StatusBar";
 import Panel from "@/components/ui/Panel";
-import type { Neighborhood } from "@/lib/types";
+import type { CityIndex } from "@/lib/types";
+import { THREAT_COLORS } from "@/lib/constants";
 
-async function getData() {
-  let neighborhoods: Neighborhood[] = [];
-  let geojson: GeoJSON.FeatureCollection = { type: "FeatureCollection", features: [] };
-
+async function getCityIndex(): Promise<CityIndex[]> {
   try {
-    neighborhoods = (await import("@/data/neighborhoods.json")).default as unknown as Neighborhood[];
+    return (await import("@/data/city-index.json")).default as unknown as CityIndex[];
   } catch {
-    // Data not yet built
+    return [];
   }
+}
 
-  try {
-    geojson = (await import("@/data/amsterdam.geo.json")).default as unknown as GeoJSON.FeatureCollection;
-  } catch {
-    // Data not yet built
-  }
-
-  return { neighborhoods, geojson };
+function getThreatColor(avgScore: number): string {
+  if (avgScore >= 8) return THREAT_COLORS.LOW;
+  if (avgScore >= 6) return THREAT_COLORS.MODERATE;
+  if (avgScore >= 4) return THREAT_COLORS.HIGH;
+  return THREAT_COLORS.CRITICAL;
 }
 
 export default async function HomePage() {
-  const { neighborhoods, geojson } = await getData();
+  const cities = await getCityIndex();
 
-  const totalSectors = neighborhoods.length;
-  const criticalCount = neighborhoods.filter((n) => n.threatLevel === "CRITICAL").length;
-  const highCount = neighborhoods.filter((n) => n.threatLevel === "HIGH").length;
-  const avgScore = totalSectors > 0
-    ? (neighborhoods.reduce((s, n) => s + n.safetyScore, 0) / totalSectors).toFixed(1)
+  const totalSectors = cities.reduce((s, c) => s + c.totalSectors, 0);
+  const totalCritical = cities.reduce((s, c) => s + c.criticalCount, 0);
+  const overallAvg = cities.length > 0
+    ? (cities.reduce((s, c) => s + c.avgScore, 0) / cities.length).toFixed(1)
     : "—";
 
   return (
     <div className="min-h-screen">
-      {/* Hero */}
-      <div className="px-4 py-6 md:px-8">
+      <StatusBar sectorCount={totalSectors} />
+
+      <div className="pt-10 px-4 py-6 md:px-8">
         <div className="max-w-7xl mx-auto">
-          <div className="mb-6">
+          {/* Hero */}
+          <div className="mb-8 text-center">
             <h1 className="text-[10px] tracking-[0.3em] text-[#888899] uppercase mb-1">
-              CLASSIFIED // AMSTERDAM MUNICIPAL INTELLIGENCE
+              CLASSIFIED // DUTCH MUNICIPAL INTELLIGENCE NETWORK
             </h1>
-            <h2 className="text-2xl md:text-3xl font-bold text-[#e0e0f0] tracking-tight">
-              SECTOR <span className="text-[#00ffcc] glow-text-cyan">THREAT ANALYSIS</span>
+            <h2 className="text-3xl md:text-4xl font-bold text-[#e0e0f0] tracking-tight">
+              CITY<span className="text-[#00ffcc] glow-text-cyan">SCAN</span>
             </h2>
-            <p className="text-xs text-[#666680] mt-2 tracking-wider">
-              REAL-TIME NEIGHBORHOOD SAFETY PROFILING // CBS POLITIE DATA INTEGRATION
+            <p className="text-xs text-[#666680] mt-2 tracking-wider max-w-md mx-auto">
+              NEIGHBORHOOD SAFETY PROFILING // CBS POLITIE DATA INTEGRATION // {cities.length} MUNICIPALITIES ACTIVE
             </p>
           </div>
 
-          {/* Stats strip */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
+          {/* Global stats */}
+          <div className="grid grid-cols-3 gap-3 mb-8 max-w-xl mx-auto">
             <Panel>
-              <div className="text-[9px] text-[#888899] tracking-[0.2em] mb-1">SECTORS ANALYZED</div>
+              <div className="text-[9px] text-[#888899] tracking-[0.2em] mb-1">MUNICIPALITIES</div>
+              <div className="text-xl font-bold text-[#00ffcc]">{cities.length}</div>
+            </Panel>
+            <Panel>
+              <div className="text-[9px] text-[#888899] tracking-[0.2em] mb-1">TOTAL SECTORS</div>
               <div className="text-xl font-bold text-[#00ffcc]">{totalSectors}</div>
             </Panel>
             <Panel accent="red">
               <div className="text-[9px] text-[#888899] tracking-[0.2em] mb-1">CRITICAL ZONES</div>
-              <div className="text-xl font-bold text-[#ff3333]">{criticalCount}</div>
-            </Panel>
-            <Panel accent="amber">
-              <div className="text-[9px] text-[#888899] tracking-[0.2em] mb-1">HIGH THREAT</div>
-              <div className="text-xl font-bold text-[#ffaa00]">{highCount}</div>
-            </Panel>
-            <Panel accent="green">
-              <div className="text-[9px] text-[#888899] tracking-[0.2em] mb-1">AVG SCORE</div>
-              <div className="text-xl font-bold text-[#00ff88]">{avgScore}</div>
+              <div className="text-xl font-bold text-[#ff3333]">{totalCritical}</div>
             </Panel>
           </div>
 
-          {/* Search */}
-          <div className="mb-6">
-            <SearchBar neighborhoods={neighborhoods} />
+          {/* City grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-8">
+            {cities.map((city) => (
+              <Link key={city.id} href={`/${city.id}`}>
+                <div className="group border border-[#333340] bg-[#0a0a0f]/80 p-4 hover:border-[#00ffcc]/50 hover:shadow-[0_0_20px_rgba(0,255,204,0.08)] transition-all cursor-pointer">
+                  <div className="flex items-center justify-between mb-3">
+                    <h3 className="text-sm font-bold text-[#e0e0f0] group-hover:text-[#00ffcc] transition-colors tracking-wider">
+                      {city.name.toUpperCase()}
+                    </h3>
+                    <span
+                      className="text-xs font-bold"
+                      style={{ color: getThreatColor(city.avgScore) }}
+                    >
+                      {city.avgScore}/10
+                    </span>
+                  </div>
+
+                  <div className="space-y-2">
+                    <div className="flex justify-between text-[10px] text-[#888899] tracking-wider">
+                      <span>SECTORS</span>
+                      <span className="text-[#e0e0f0]">{city.totalSectors}</span>
+                    </div>
+                    <div className="flex justify-between text-[10px] text-[#888899] tracking-wider">
+                      <span>CRIME RATE</span>
+                      <span className="text-[#e0e0f0]">{city.avgRate}/1K</span>
+                    </div>
+                    <div className="flex justify-between text-[10px] text-[#888899] tracking-wider">
+                      <span>CRITICAL</span>
+                      <span className={city.criticalCount > 0 ? "text-[#ff3333]" : "text-[#00ffcc]"}>
+                        {city.criticalCount}
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Score bar */}
+                  <div className="mt-3 h-1 bg-[#333340] overflow-hidden">
+                    <div
+                      className="h-full transition-all"
+                      style={{
+                        width: `${(city.avgScore / 10) * 100}%`,
+                        backgroundColor: getThreatColor(city.avgScore),
+                      }}
+                    />
+                  </div>
+
+                  <div className="mt-2 text-[9px] text-[#666680] tracking-wider text-right group-hover:text-[#00ffcc]/60 transition-colors">
+                    ENTER ANALYSIS →
+                  </div>
+                </div>
+              </Link>
+            ))}
           </div>
-        </div>
-      </div>
 
-      {/* Map */}
-      <div className="relative">
-        <SafetyMapWrapper geojson={geojson} neighborhoods={neighborhoods} />
-      </div>
+          {/* Empty state */}
+          {cities.length === 0 && (
+            <div className="text-center py-12">
+              <div className="text-[#666680] text-sm tracking-wider">
+                NO DATA AVAILABLE — RUN BUILD:DATA TO FETCH
+              </div>
+            </div>
+          )}
 
-      {/* Footer */}
-      <div className="px-4 py-4 border-t border-[#333340]">
-        <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between text-[9px] text-[#666680] tracking-wider font-mono">
-          <span>DATA: CBS OPEN DATA (47018NED) // PDOK WFS BOUNDARIES</span>
-          <span>AMSTERDAM SECTOR INTELLIGENCE v1.0</span>
+          {/* Footer */}
+          <div className="py-4 border-t border-[#333340]">
+            <div className="flex flex-col md:flex-row items-center justify-between text-[9px] text-[#666680] tracking-wider font-mono">
+              <span>DATA: CBS OPEN DATA (47018NED) // PDOK WFS BOUNDARIES</span>
+              <span>CITYSCAN v2.0 // AVG SAFETY: {overallAvg}/10</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>

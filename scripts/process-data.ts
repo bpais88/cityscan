@@ -1,4 +1,4 @@
-import { readFileSync, writeFileSync, existsSync } from "fs";
+import { readFileSync, writeFileSync, existsSync, mkdirSync } from "fs";
 import { join } from "path";
 import centroid from "@turf/centroid";
 import type {
@@ -13,6 +13,7 @@ import {
   calculateCrimeRate,
   slugify,
 } from "../src/lib/scoring";
+import { CITIES } from "../src/lib/cities";
 
 const DATA_DIR = join(process.cwd(), "src/data");
 const RAW_DIR = join(DATA_DIR, "raw");
@@ -29,15 +30,19 @@ interface RawBuurt {
   Title: string;
 }
 
-function loadJson<T>(filename: string): T {
-  return JSON.parse(readFileSync(join(RAW_DIR, filename), "utf-8"));
+type CategoryCounts = Record<CrimeCategory, number>;
+
+function emptyCounts(): CategoryCounts {
+  return { PROPERTY: 0, VIOLENT: 0, DRUGS: 0, FRAUD: 0, VANDALISM: 0, OTHER: 0 };
+}
+
+function loadJson<T>(path: string): T {
+  return JSON.parse(readFileSync(path, "utf-8"));
 }
 
 function mapCrimeCode(code: string): CrimeCategory | null {
   const trimmed = code.trim();
-  // Try exact match first
   if (CRIME_CATEGORY_MAP[trimmed]) return CRIME_CATEGORY_MAP[trimmed];
-  // Try matching by prefix (CBS codes have trailing whitespace sometimes)
   for (const [key, cat] of Object.entries(CRIME_CATEGORY_MAP)) {
     if (trimmed.startsWith(key)) return cat;
   }
@@ -45,130 +50,72 @@ function mapCrimeCode(code: string): CrimeCategory | null {
 }
 
 function extractYear(period: string): string {
-  // CBS period format: "2023JJ00" for annual
   return period.trim().slice(0, 4);
 }
 
-export async function processData() {
-  console.log("\n[PROCESS] Loading raw data...");
+function processCity(cityId: string, gemeenteCode: string) {
+  const cityRawDir = join(RAW_DIR, cityId);
+  const buurtPrefix = `BU${gemeenteCode}`;
 
-  const crimeRecords = loadJson<RawCrimeRecord[]>("buurt-crimes.json");
-  const municipalityRecords = loadJson<RawCrimeRecord[]>("municipality-totals.json");
-  const buurtenList = loadJson<RawBuurt[]>("buurten.json");
-  const crimeTypes = loadJson<Array<{ Key: string; Title: string }>>(
-    "crime-types.json"
-  );
+  console.log(`\n[${cityId}] Loading raw data...`);
 
-  // Load GeoJSON for centroids
-  const geoPath = join(DATA_DIR, "amsterdam.geo.json");
-  const geojson = existsSync(geoPath)
-    ? JSON.parse(readFileSync(geoPath, "utf-8"))
-    : null;
+  const crimeRecords = loadJson<RawCrimeRecord[]>(join(cityRawDir, "buurt-crimes.json"));
+  const municipalityRecords = loadJson<RawCrimeRecord[]>(join(cityRawDir, "municipality-totals.json"));
+  const buurtenList = loadJson<RawBuurt[]>(join(cityRawDir, "buurten.json"));
 
-  // Build centroid + postcode lookups from GeoJSON
+  // Load GeoJSON
+  const geoPath = join(DATA_DIR, `${cityId}.geo.json`);
+  const geojson = existsSync(geoPath) ? JSON.parse(readFileSync(geoPath, "utf-8")) : null;
+
+  // Build lookups from GeoJSON
   const centroidMap = new Map<string, [number, number]>();
   const postcodeMap = new Map<string, string>();
-  if (geojson?.features) {
-    for (const feature of geojson.features) {
-      const code = feature.properties?.buurtcode;
-      if (code) {
-        try {
-          const c = centroid(feature);
-          centroidMap.set(
-            code,
-            c.geometry.coordinates as [number, number]
-          );
-        } catch {
-          // skip features with invalid geometry
-        }
-        const pc = String(feature.properties?.postcode ?? "").trim();
-        if (pc && pc !== "-99997") {
-          postcodeMap.set(code, pc);
-        }
-      }
-    }
-  }
-
-  // Build buurt name lookup
-  const buurtNames = new Map<string, string>();
-  for (const b of buurtenList) {
-    buurtNames.set(b.Key.trim(), b.Title.trim());
-  }
-
-  // Build crime type code → readable code mapping
-  const crimeCodeMap = new Map<string, string>();
-  for (const ct of crimeTypes) {
-    crimeCodeMap.set(ct.Key.trim(), ct.Title.trim());
-  }
-
-  // Get population from GeoJSON
   const populationMap = new Map<string, number>();
+
   if (geojson?.features) {
     for (const feature of geojson.features) {
       const code = feature.properties?.buurtcode;
+      if (!code) continue;
+      try {
+        const c = centroid(feature);
+        centroidMap.set(code, c.geometry.coordinates as [number, number]);
+      } catch { /* skip invalid geometry */ }
+      const pc = String(feature.properties?.postcode ?? "").trim();
+      if (pc && pc !== "-99997") postcodeMap.set(code, pc);
       const pop = feature.properties?.aantalInwoners;
-      if (code && typeof pop === "number") {
-        populationMap.set(code, pop);
-      }
+      if (typeof pop === "number") populationMap.set(code, pop);
     }
   }
 
-  // Get all unique years
+  // Buurt name lookup
+  const buurtNames = new Map<string, string>();
+  for (const b of buurtenList) buurtNames.set(b.Key.trim(), b.Title.trim());
+
+  // Get years
   const allYears = new Set<string>();
-  for (const r of crimeRecords) {
-    allYears.add(extractYear(r.Perioden));
-  }
+  for (const r of crimeRecords) allYears.add(extractYear(r.Perioden));
   const years = Array.from(allYears).sort();
   const latestYear = years[years.length - 1];
-  // Use last 5 years for trends
   const trendYears = years.slice(-5);
-
-  console.log(`  Years available: ${years.join(", ")}`);
-  console.log(`  Latest year: ${latestYear}`);
-  console.log(`  Trend years: ${trendYears.join(", ")}`);
+  console.log(`  Years: ${years.join(", ")} | Latest: ${latestYear}`);
 
   // Group crime data by buurt
-  console.log("[PROCESS] Grouping crime data by buurt...");
-  type CategoryCounts = Record<CrimeCategory, number>;
   const buurtCrimes = new Map<string, Map<string, CategoryCounts>>();
-
-  function emptyCounts(): CategoryCounts {
-    return { PROPERTY: 0, VIOLENT: 0, DRUGS: 0, FRAUD: 0, VANDALISM: 0, OTHER: 0 };
-  }
-
   for (const r of crimeRecords) {
     const buurtCode = r.WijkenEnBuurten.trim();
     const year = extractYear(r.Perioden);
     const category = mapCrimeCode(r.SoortMisdrijf);
     const count = r.GeregistreerdeMisdrijven_1 ?? 0;
-
-    if (!category) continue;
-    if (!buurtCode.startsWith("BU0363")) continue;
-
-    if (!buurtCrimes.has(buurtCode)) {
-      buurtCrimes.set(buurtCode, new Map());
-    }
+    if (!category || !buurtCode.startsWith(buurtPrefix)) continue;
+    if (!buurtCrimes.has(buurtCode)) buurtCrimes.set(buurtCode, new Map());
     const yearMap = buurtCrimes.get(buurtCode)!;
-    if (!yearMap.has(year)) {
-      yearMap.set(year, emptyCounts());
-    }
-    const catMap = yearMap.get(year)!;
-    catMap[category] += count;
+    if (!yearMap.has(year)) yearMap.set(year, emptyCounts());
+    yearMap.get(year)![category] += count;
   }
 
-  // Calculate city-wide totals
-  console.log("[PROCESS] Computing city averages...");
+  // City-wide totals
   const cityTotalsByYear = new Map<string, number>();
-  const cityCategoryTotals: Record<CrimeCategory, number> = {
-    PROPERTY: 0,
-    VIOLENT: 0,
-    DRUGS: 0,
-    FRAUD: 0,
-    VANDALISM: 0,
-    OTHER: 0,
-  };
-
-  // Sum up all buurt crimes for city totals
+  const cityCategoryTotals = emptyCounts();
   let totalPopulation = 0;
   const buurtPopulations = new Map<string, number>();
 
@@ -178,60 +125,39 @@ export async function processData() {
     totalPopulation += pop;
   }
 
-  // Calculate city totals from municipality records if available, else sum buurten
   for (const r of municipalityRecords) {
     const year = extractYear(r.Perioden);
     const category = mapCrimeCode(r.SoortMisdrijf);
     const count = r.GeregistreerdeMisdrijven_1 ?? 0;
     if (!category) continue;
-
-    if (year === latestYear) {
-      cityCategoryTotals[category] += count;
-    }
-
-    const prev = cityTotalsByYear.get(year) ?? 0;
-    cityTotalsByYear.set(year, prev + count);
+    if (year === latestYear) cityCategoryTotals[category] += count;
+    cityTotalsByYear.set(year, (cityTotalsByYear.get(year) ?? 0) + count);
   }
 
-  // If municipality records are empty, aggregate from buurten
   if (municipalityRecords.length === 0) {
     for (const [, yearMap] of buurtCrimes) {
       for (const [year, catMap] of yearMap) {
         let yearTotal = 0;
         for (const cat of ALL_CATEGORIES) {
-          const v = catMap[cat];
-          yearTotal += v;
-          if (year === latestYear) {
-            cityCategoryTotals[cat] += v;
-          }
+          yearTotal += catMap[cat];
+          if (year === latestYear) cityCategoryTotals[cat] += catMap[cat];
         }
-        const prev = cityTotalsByYear.get(year) ?? 0;
-        cityTotalsByYear.set(year, prev + yearTotal);
+        cityTotalsByYear.set(year, (cityTotalsByYear.get(year) ?? 0) + yearTotal);
       }
     }
   }
 
-  const cityTotalCrimesLatest = Object.values(cityCategoryTotals).reduce(
-    (a, b) => a + b,
-    0
-  );
+  const cityTotalCrimesLatest = Object.values(cityCategoryTotals).reduce((a, b) => a + b, 0);
   const cityRate = calculateCrimeRate(cityTotalCrimesLatest, totalPopulation);
 
-  const cityCategoryRates: Record<CrimeCategory, number> = {} as Record<
-    CrimeCategory,
-    number
-  >;
+  const cityCategoryRates = {} as Record<CrimeCategory, number>;
   for (const cat of ALL_CATEGORIES) {
-    cityCategoryRates[cat] = calculateCrimeRate(
-      cityCategoryTotals[cat],
-      totalPopulation
-    );
+    cityCategoryRates[cat] = calculateCrimeRate(cityCategoryTotals[cat], totalPopulation);
   }
 
   const cityYearlyRates: Record<string, number> = {};
   for (const year of trendYears) {
-    const total = cityTotalsByYear.get(year) ?? 0;
-    cityYearlyRates[year] = calculateCrimeRate(total, totalPopulation);
+    cityYearlyRates[year] = calculateCrimeRate(cityTotalsByYear.get(year) ?? 0, totalPopulation);
   }
 
   const cityAverages: CityAverages = {
@@ -241,100 +167,98 @@ export async function processData() {
   };
 
   // Build neighborhood profiles
-  console.log("[PROCESS] Building neighborhood profiles...");
   const neighborhoods: Neighborhood[] = [];
+  const usedSlugs = new Set<string>();
 
   for (const [code, yearMap] of buurtCrimes) {
     const population = buurtPopulations.get(code) ?? 0;
-    if (population < 50) continue; // Exclude tiny buurten
+    if (population < 50) continue;
 
     const name = buurtNames.get(code) ?? code;
-    const slug = slugify(name);
+    let slug = slugify(name);
+    // Ensure unique slugs
+    if (usedSlugs.has(slug)) slug = `${slug}-${code.slice(-4).toLowerCase()}`;
+    usedSlugs.add(slug);
 
-    // Latest year categories
-    const latestCats: CategoryCounts = yearMap.get(latestYear) ?? emptyCounts();
-
+    const latestCats = yearMap.get(latestYear) ?? emptyCounts();
     const totalCrimes = Object.values(latestCats).reduce((a, b) => a + b, 0);
     const crimeRate = calculateCrimeRate(totalCrimes, population);
     const safetyScore = calculateSafetyScore(crimeRate, cityRate);
 
-    const categoryRates: Record<CrimeCategory, number> = {} as Record<
-      CrimeCategory,
-      number
-    >;
+    const categoryRates = {} as Record<CrimeCategory, number>;
     for (const cat of ALL_CATEGORIES) {
       categoryRates[cat] = calculateCrimeRate(latestCats[cat], population);
     }
 
-    // Yearly trends
     const trends: YearlyTrend[] = [];
     for (const year of trendYears) {
       const yCats = yearMap.get(year);
       if (yCats) {
         const total = Object.values(yCats).reduce((a, b) => a + b, 0);
-        trends.push({
-          year,
-          total,
-          rate: calculateCrimeRate(total, population),
-        });
+        trends.push({ year, total, rate: calculateCrimeRate(total, population) });
       }
     }
 
     const threatLevel =
-      safetyScore >= 8
-        ? "LOW"
-        : safetyScore >= 6
-          ? "MODERATE"
-          : safetyScore >= 4
-            ? "HIGH"
-            : "CRITICAL";
-
-    const coord = centroidMap.get(code) ?? [4.9041, 52.3676];
+      safetyScore >= 8 ? "LOW" : safetyScore >= 6 ? "MODERATE" : safetyScore >= 4 ? "HIGH" : "CRITICAL";
 
     neighborhoods.push({
-      code,
-      name,
-      slug,
-      population,
-      totalCrimes,
-      crimeRate,
-      safetyScore,
-      threatLevel,
-      categories: latestCats,
-      categoryRates,
-      trends,
-      centroid: coord,
+      code, name, slug, population, totalCrimes, crimeRate, safetyScore, threatLevel,
+      categories: latestCats, categoryRates, trends,
+      centroid: centroidMap.get(code) ?? [4.9041, 52.3676],
       postcode: postcodeMap.get(code) ?? "",
     });
   }
 
-  // Sort by safety score ascending (most dangerous first)
   neighborhoods.sort((a, b) => a.safetyScore - b.safetyScore);
+  console.log(`  -> ${neighborhoods.length} neighborhoods | City rate: ${cityRate.toFixed(1)}/1K`);
 
-  console.log(`  -> ${neighborhoods.length} neighborhoods profiled`);
+  return { neighborhoods, cityAverages };
+}
 
-  // Write outputs
-  writeFileSync(
-    join(DATA_DIR, "neighborhoods.json"),
-    JSON.stringify(neighborhoods, null, 2)
-  );
-  writeFileSync(
-    join(DATA_DIR, "city-averages.json"),
-    JSON.stringify(cityAverages, null, 2)
-  );
+export async function processData() {
+  console.log("\n[PROCESS] Processing all cities...");
 
-  // Crime trends by neighborhood (for profile pages)
-  const crimeTrends: Record<string, YearlyTrend[]> = {};
-  for (const n of neighborhoods) {
-    crimeTrends[n.slug] = n.trends;
+  const allCities: Record<string, { neighborhoods: Neighborhood[]; cityAverages: CityAverages }> = {};
+
+  for (const city of CITIES) {
+    const cityRawDir = join(RAW_DIR, city.id);
+    if (!existsSync(join(cityRawDir, "buurt-crimes.json"))) {
+      console.log(`  [${city.id}] No raw data found — skipping`);
+      continue;
+    }
+    allCities[city.id] = processCity(city.id, city.gemeenteCode);
   }
-  writeFileSync(
-    join(DATA_DIR, "crime-trends.json"),
-    JSON.stringify(crimeTrends, null, 2)
-  );
 
-  console.log("[PROCESS] All data processed successfully!");
-  console.log(`  Neighborhoods: ${neighborhoods.length}`);
-  console.log(`  City avg crime rate: ${cityRate.toFixed(1)} per 1000`);
-  console.log(`  Score range: ${neighborhoods[0]?.safetyScore} - ${neighborhoods[neighborhoods.length - 1]?.safetyScore}`);
+  // Write per-city output files
+  const citiesDir = join(DATA_DIR, "cities");
+  mkdirSync(citiesDir, { recursive: true });
+
+  for (const [cityId, data] of Object.entries(allCities)) {
+    const cityOutDir = join(citiesDir, cityId);
+    mkdirSync(cityOutDir, { recursive: true });
+    writeFileSync(join(cityOutDir, "neighborhoods.json"), JSON.stringify(data.neighborhoods, null, 2));
+    writeFileSync(join(cityOutDir, "city-averages.json"), JSON.stringify(data.cityAverages, null, 2));
+  }
+
+  // Write city index (summary for the landing page)
+  const cityIndex = Object.entries(allCities).map(([cityId, data]) => {
+    const cfg = CITIES.find((c) => c.id === cityId)!;
+    return {
+      id: cityId,
+      name: cfg.name,
+      totalSectors: data.neighborhoods.length,
+      avgScore: data.neighborhoods.length > 0
+        ? Number((data.neighborhoods.reduce((s, n) => s + n.safetyScore, 0) / data.neighborhoods.length).toFixed(1))
+        : 0,
+      criticalCount: data.neighborhoods.filter((n) => n.threatLevel === "CRITICAL").length,
+      avgRate: Number(data.cityAverages.totalRate.toFixed(1)),
+    };
+  });
+  writeFileSync(join(DATA_DIR, "city-index.json"), JSON.stringify(cityIndex, null, 2));
+
+  console.log("\n[PROCESS] All cities processed!");
+  for (const [id, data] of Object.entries(allCities)) {
+    console.log(`  ${id}: ${data.neighborhoods.length} neighborhoods`);
+  }
 }

@@ -1,0 +1,5280 @@
+[
+  {
+    "code": "BU03940102",
+    "name": "Hoofddorp Centrum Zuid",
+    "slug": "hoofddorp-centrum-zuid",
+    "population": 3390,
+    "totalCrimes": 512,
+    "crimeRate": 151.03244837758112,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 372,
+      "VIOLENT": 33,
+      "DRUGS": 12,
+      "FRAUD": 19,
+      "VANDALISM": 35,
+      "OTHER": 41
+    },
+    "categoryRates": {
+      "PROPERTY": 109.73451327433628,
+      "VIOLENT": 9.734513274336283,
+      "DRUGS": 3.5398230088495577,
+      "FRAUD": 5.604719764011799,
+      "VANDALISM": 10.32448377581121,
+      "OTHER": 12.094395280235988
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 377,
+        "rate": 111.20943952802361
+      },
+      {
+        "year": "2022",
+        "total": 492,
+        "rate": 145.13274336283186
+      },
+      {
+        "year": "2023",
+        "total": 571,
+        "rate": 168.43657817109144
+      },
+      {
+        "year": "2024",
+        "total": 537,
+        "rate": 158.40707964601768
+      },
+      {
+        "year": "2025",
+        "total": 512,
+        "rate": 151.03244837758112
+      }
+    ],
+    "centroid": [
+      4.6932826714703735,
+      52.29997158666935
+    ],
+    "postcode": "2132"
+  },
+  {
+    "code": "BU03940110",
+    "name": "Hoofddorp Hyde Park",
+    "slug": "hoofddorp-hyde-park",
+    "population": 195,
+    "totalCrimes": 42,
+    "crimeRate": 215.3846153846154,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 15,
+      "VIOLENT": 2,
+      "DRUGS": 1,
+      "FRAUD": 7,
+      "VANDALISM": 13,
+      "OTHER": 4
+    },
+    "categoryRates": {
+      "PROPERTY": 76.92307692307693,
+      "VIOLENT": 10.256410256410257,
+      "DRUGS": 5.128205128205129,
+      "FRAUD": 35.8974358974359,
+      "VANDALISM": 66.66666666666667,
+      "OTHER": 20.512820512820515
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 20,
+        "rate": 102.56410256410255
+      },
+      {
+        "year": "2022",
+        "total": 23,
+        "rate": 117.94871794871794
+      },
+      {
+        "year": "2023",
+        "total": 14,
+        "rate": 71.7948717948718
+      },
+      {
+        "year": "2024",
+        "total": 37,
+        "rate": 189.74358974358972
+      },
+      {
+        "year": "2025",
+        "total": 42,
+        "rate": 215.3846153846154
+      }
+    ],
+    "centroid": [
+      4.701271955205548,
+      52.29535950090794
+    ],
+    "postcode": "2132"
+  },
+  {
+    "code": "BU03940115",
+    "name": "Hoofddorp Vrijschot Noord",
+    "slug": "hoofddorp-vrijschot-noord",
+    "population": 435,
+    "totalCrimes": 50,
+    "crimeRate": 114.94252873563218,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 22,
+      "VIOLENT": 1,
+      "DRUGS": 11,
+      "FRAUD": 2,
+      "VANDALISM": 8,
+      "OTHER": 6
+    },
+    "categoryRates": {
+      "PROPERTY": 50.57471264367816,
+      "VIOLENT": 2.2988505747126435,
+      "DRUGS": 25.28735632183908,
+      "FRAUD": 4.597701149425287,
+      "VANDALISM": 18.39080459770115,
+      "OTHER": 13.793103448275861
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 29,
+        "rate": 66.66666666666667
+      },
+      {
+        "year": "2022",
+        "total": 40,
+        "rate": 91.95402298850574
+      },
+      {
+        "year": "2023",
+        "total": 53,
+        "rate": 121.83908045977012
+      },
+      {
+        "year": "2024",
+        "total": 45,
+        "rate": 103.44827586206897
+      },
+      {
+        "year": "2025",
+        "total": 50,
+        "rate": 114.94252873563218
+      }
+    ],
+    "centroid": [
+      4.675838215996417,
+      52.317626005176436
+    ],
+    "postcode": "2131"
+  },
+  {
+    "code": "BU03940119",
+    "name": "Hoofddorp De Landman",
+    "slug": "hoofddorp-de-landman",
+    "population": 300,
+    "totalCrimes": 162,
+    "crimeRate": 540,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 34,
+      "VIOLENT": 6,
+      "DRUGS": 37,
+      "FRAUD": 5,
+      "VANDALISM": 27,
+      "OTHER": 53
+    },
+    "categoryRates": {
+      "PROPERTY": 113.33333333333333,
+      "VIOLENT": 20,
+      "DRUGS": 123.33333333333334,
+      "FRAUD": 16.666666666666668,
+      "VANDALISM": 90,
+      "OTHER": 176.66666666666666
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 158,
+        "rate": 526.6666666666666
+      },
+      {
+        "year": "2022",
+        "total": 125,
+        "rate": 416.6666666666667
+      },
+      {
+        "year": "2023",
+        "total": 139,
+        "rate": 463.3333333333333
+      },
+      {
+        "year": "2024",
+        "total": 122,
+        "rate": 406.6666666666667
+      },
+      {
+        "year": "2025",
+        "total": 162,
+        "rate": 540
+      }
+    ],
+    "centroid": [
+      4.686914060262032,
+      52.271714571558725
+    ],
+    "postcode": "2132"
+  },
+  {
+    "code": "BU03940122",
+    "name": "Hoofddorp Omgeving",
+    "slug": "hoofddorp-omgeving",
+    "population": 295,
+    "totalCrimes": 91,
+    "crimeRate": 308.47457627118644,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 49,
+      "VIOLENT": 5,
+      "DRUGS": 20,
+      "FRAUD": 2,
+      "VANDALISM": 4,
+      "OTHER": 11
+    },
+    "categoryRates": {
+      "PROPERTY": 166.10169491525423,
+      "VIOLENT": 16.949152542372882,
+      "DRUGS": 67.79661016949153,
+      "FRAUD": 6.779661016949152,
+      "VANDALISM": 13.559322033898304,
+      "OTHER": 37.28813559322034
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 37,
+        "rate": 125.42372881355932
+      },
+      {
+        "year": "2022",
+        "total": 168,
+        "rate": 569.4915254237288
+      },
+      {
+        "year": "2023",
+        "total": 101,
+        "rate": 342.3728813559322
+      },
+      {
+        "year": "2024",
+        "total": 124,
+        "rate": 420.33898305084745
+      },
+      {
+        "year": "2025",
+        "total": 91,
+        "rate": 308.47457627118644
+      }
+    ],
+    "centroid": [
+      4.700052762596145,
+      52.320398220032246
+    ],
+    "postcode": "2131"
+  },
+  {
+    "code": "BU03940124",
+    "name": "Hoofddorp Graan voor Visch Zuid",
+    "slug": "hoofddorp-graan-voor-visch-zuid",
+    "population": 595,
+    "totalCrimes": 191,
+    "crimeRate": 321.00840336134456,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 154,
+      "VIOLENT": 7,
+      "DRUGS": 3,
+      "FRAUD": 13,
+      "VANDALISM": 9,
+      "OTHER": 5
+    },
+    "categoryRates": {
+      "PROPERTY": 258.82352941176475,
+      "VIOLENT": 11.76470588235294,
+      "DRUGS": 5.04201680672269,
+      "FRAUD": 21.848739495798316,
+      "VANDALISM": 15.126050420168067,
+      "OTHER": 8.403361344537815
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 59,
+        "rate": 99.15966386554621
+      },
+      {
+        "year": "2022",
+        "total": 66,
+        "rate": 110.92436974789915
+      },
+      {
+        "year": "2023",
+        "total": 34,
+        "rate": 57.14285714285714
+      },
+      {
+        "year": "2024",
+        "total": 50,
+        "rate": 84.03361344537815
+      },
+      {
+        "year": "2025",
+        "total": 191,
+        "rate": 321.00840336134456
+      }
+    ],
+    "centroid": [
+      4.686996646541817,
+      52.291674743332365
+    ],
+    "postcode": "2132"
+  },
+  {
+    "code": "BU03940125",
+    "name": "Hoofddorp Beukenhorst Oost",
+    "slug": "hoofddorp-beukenhorst-oost",
+    "population": 190,
+    "totalCrimes": 273,
+    "crimeRate": 1436.842105263158,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 162,
+      "VIOLENT": 17,
+      "DRUGS": 27,
+      "FRAUD": 19,
+      "VANDALISM": 18,
+      "OTHER": 30
+    },
+    "categoryRates": {
+      "PROPERTY": 852.6315789473684,
+      "VIOLENT": 89.47368421052632,
+      "DRUGS": 142.10526315789474,
+      "FRAUD": 100,
+      "VANDALISM": 94.73684210526316,
+      "OTHER": 157.89473684210526
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 145,
+        "rate": 763.1578947368422
+      },
+      {
+        "year": "2022",
+        "total": 236,
+        "rate": 1242.1052631578948
+      },
+      {
+        "year": "2023",
+        "total": 211,
+        "rate": 1110.5263157894735
+      },
+      {
+        "year": "2024",
+        "total": 269,
+        "rate": 1415.7894736842104
+      },
+      {
+        "year": "2025",
+        "total": 273,
+        "rate": 1436.842105263158
+      }
+    ],
+    "centroid": [
+      4.706522008216721,
+      52.29257666207598
+    ],
+    "postcode": "2132"
+  },
+  {
+    "code": "BU03940126",
+    "name": "Hoofddorp De President",
+    "slug": "hoofddorp-de-president",
+    "population": 430,
+    "totalCrimes": 37,
+    "crimeRate": 86.04651162790698,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 18,
+      "VIOLENT": 7,
+      "DRUGS": 1,
+      "FRAUD": 6,
+      "VANDALISM": 3,
+      "OTHER": 2
+    },
+    "categoryRates": {
+      "PROPERTY": 41.860465116279066,
+      "VIOLENT": 16.27906976744186,
+      "DRUGS": 2.3255813953488373,
+      "FRAUD": 13.953488372093023,
+      "VANDALISM": 6.976744186046512,
+      "OTHER": 4.651162790697675
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 25,
+        "rate": 58.13953488372093
+      },
+      {
+        "year": "2022",
+        "total": 13,
+        "rate": 30.232558139534884
+      },
+      {
+        "year": "2023",
+        "total": 26,
+        "rate": 60.46511627906977
+      },
+      {
+        "year": "2024",
+        "total": 28,
+        "rate": 65.11627906976744
+      },
+      {
+        "year": "2025",
+        "total": 37,
+        "rate": 86.04651162790698
+      }
+    ],
+    "centroid": [
+      4.673699303907989,
+      52.284616316476196
+    ],
+    "postcode": "2132"
+  },
+  {
+    "code": "BU03940230",
+    "name": "Nieuw-Vennep Oost",
+    "slug": "nieuw-vennep-oost",
+    "population": 895,
+    "totalCrimes": 150,
+    "crimeRate": 167.59776536312847,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 101,
+      "VIOLENT": 7,
+      "DRUGS": 14,
+      "FRAUD": 5,
+      "VANDALISM": 12,
+      "OTHER": 11
+    },
+    "categoryRates": {
+      "PROPERTY": 112.84916201117319,
+      "VIOLENT": 7.82122905027933,
+      "DRUGS": 15.64245810055866,
+      "FRAUD": 5.58659217877095,
+      "VANDALISM": 13.40782122905028,
+      "OTHER": 12.290502793296088
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 74,
+        "rate": 82.68156424581005
+      },
+      {
+        "year": "2022",
+        "total": 106,
+        "rate": 118.43575418994413
+      },
+      {
+        "year": "2023",
+        "total": 106,
+        "rate": 118.43575418994413
+      },
+      {
+        "year": "2024",
+        "total": 107,
+        "rate": 119.55307262569832
+      },
+      {
+        "year": "2025",
+        "total": 150,
+        "rate": 167.59776536312847
+      }
+    ],
+    "centroid": [
+      4.645650119634587,
+      52.267052975452955
+    ],
+    "postcode": "2153"
+  },
+  {
+    "code": "BU03940240",
+    "name": "Nieuw-Vennep Omgeving",
+    "slug": "nieuw-vennep-omgeving",
+    "population": 705,
+    "totalCrimes": 103,
+    "crimeRate": 146.09929078014184,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 21,
+      "VIOLENT": 5,
+      "DRUGS": 34,
+      "FRAUD": 5,
+      "VANDALISM": 4,
+      "OTHER": 34
+    },
+    "categoryRates": {
+      "PROPERTY": 29.787234042553195,
+      "VIOLENT": 7.092198581560283,
+      "DRUGS": 48.226950354609926,
+      "FRAUD": 7.092198581560283,
+      "VANDALISM": 5.673758865248227,
+      "OTHER": 48.226950354609926
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 78,
+        "rate": 110.63829787234042
+      },
+      {
+        "year": "2022",
+        "total": 103,
+        "rate": 146.09929078014184
+      },
+      {
+        "year": "2023",
+        "total": 78,
+        "rate": 110.63829787234042
+      },
+      {
+        "year": "2024",
+        "total": 84,
+        "rate": 119.14893617021278
+      },
+      {
+        "year": "2025",
+        "total": 103,
+        "rate": 146.09929078014184
+      }
+    ],
+    "centroid": [
+      4.63458609258677,
+      52.26568813505911
+    ],
+    "postcode": "2153"
+  },
+  {
+    "code": "BU03940349",
+    "name": "Zwanenburg Dijk",
+    "slug": "zwanenburg-dijk",
+    "population": 435,
+    "totalCrimes": 58,
+    "crimeRate": 133.33333333333334,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 18,
+      "VIOLENT": 6,
+      "DRUGS": 7,
+      "FRAUD": 8,
+      "VANDALISM": 9,
+      "OTHER": 10
+    },
+    "categoryRates": {
+      "PROPERTY": 41.37931034482759,
+      "VIOLENT": 13.793103448275861,
+      "DRUGS": 16.091954022988507,
+      "FRAUD": 18.39080459770115,
+      "VANDALISM": 20.689655172413794,
+      "OTHER": 22.988505747126435
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 53,
+        "rate": 121.83908045977012
+      },
+      {
+        "year": "2022",
+        "total": 38,
+        "rate": 87.35632183908046
+      },
+      {
+        "year": "2023",
+        "total": 64,
+        "rate": 147.1264367816092
+      },
+      {
+        "year": "2024",
+        "total": 51,
+        "rate": 117.24137931034483
+      },
+      {
+        "year": "2025",
+        "total": 58,
+        "rate": 133.33333333333334
+      }
+    ],
+    "centroid": [
+      4.747533739190002,
+      52.3799747739311
+    ],
+    "postcode": "1161"
+  },
+  {
+    "code": "BU03940350",
+    "name": "Zwanenburg Omgeving",
+    "slug": "zwanenburg-omgeving",
+    "population": 75,
+    "totalCrimes": 27,
+    "crimeRate": 360,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 4,
+      "VIOLENT": 1,
+      "DRUGS": 5,
+      "FRAUD": 2,
+      "VANDALISM": 2,
+      "OTHER": 13
+    },
+    "categoryRates": {
+      "PROPERTY": 53.333333333333336,
+      "VIOLENT": 13.333333333333334,
+      "DRUGS": 66.66666666666667,
+      "FRAUD": 26.666666666666668,
+      "VANDALISM": 26.666666666666668,
+      "OTHER": 173.33333333333334
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 16,
+        "rate": 213.33333333333334
+      },
+      {
+        "year": "2022",
+        "total": 28,
+        "rate": 373.33333333333337
+      },
+      {
+        "year": "2023",
+        "total": 17,
+        "rate": 226.66666666666666
+      },
+      {
+        "year": "2024",
+        "total": 24,
+        "rate": 320
+      },
+      {
+        "year": "2025",
+        "total": 27,
+        "rate": 360
+      }
+    ],
+    "centroid": [
+      4.733754262048119,
+      52.37333725837879
+    ],
+    "postcode": "1161"
+  },
+  {
+    "code": "BU03940429",
+    "name": "Lijnden Omgeving",
+    "slug": "lijnden-omgeving",
+    "population": 200,
+    "totalCrimes": 97,
+    "crimeRate": 485,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 23,
+      "VIOLENT": 7,
+      "DRUGS": 35,
+      "FRAUD": 5,
+      "VANDALISM": 3,
+      "OTHER": 24
+    },
+    "categoryRates": {
+      "PROPERTY": 115,
+      "VIOLENT": 35,
+      "DRUGS": 175,
+      "FRAUD": 25,
+      "VANDALISM": 15,
+      "OTHER": 120
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 81,
+        "rate": 405
+      },
+      {
+        "year": "2022",
+        "total": 68,
+        "rate": 340
+      },
+      {
+        "year": "2023",
+        "total": 85,
+        "rate": 425
+      },
+      {
+        "year": "2024",
+        "total": 83,
+        "rate": 415
+      },
+      {
+        "year": "2025",
+        "total": 97,
+        "rate": 485
+      }
+    ],
+    "centroid": [
+      4.749452747681302,
+      52.34701753701987
+    ],
+    "postcode": "1175"
+  },
+  {
+    "code": "BU03940466",
+    "name": "Boesingheliede",
+    "slug": "boesingheliede",
+    "population": 140,
+    "totalCrimes": 14,
+    "crimeRate": 100,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 5,
+      "VIOLENT": 2,
+      "DRUGS": 3,
+      "FRAUD": 1,
+      "VANDALISM": 2,
+      "OTHER": 1
+    },
+    "categoryRates": {
+      "PROPERTY": 35.714285714285715,
+      "VIOLENT": 14.285714285714285,
+      "DRUGS": 21.428571428571427,
+      "FRAUD": 7.142857142857142,
+      "VANDALISM": 14.285714285714285,
+      "OTHER": 7.142857142857142
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 18,
+        "rate": 128.57142857142856
+      },
+      {
+        "year": "2022",
+        "total": 10,
+        "rate": 71.42857142857143
+      },
+      {
+        "year": "2023",
+        "total": 14,
+        "rate": 100
+      },
+      {
+        "year": "2024",
+        "total": 8,
+        "rate": 57.14285714285714
+      },
+      {
+        "year": "2025",
+        "total": 14,
+        "rate": 100
+      }
+    ],
+    "centroid": [
+      4.721363040599726,
+      52.35595689542871
+    ],
+    "postcode": "2143"
+  },
+  {
+    "code": "BU03940551",
+    "name": "Badhoevedorp Omgeving",
+    "slug": "badhoevedorp-omgeving",
+    "population": 115,
+    "totalCrimes": 63,
+    "crimeRate": 547.8260869565216,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 18,
+      "VIOLENT": 4,
+      "DRUGS": 17,
+      "FRAUD": 0,
+      "VANDALISM": 1,
+      "OTHER": 23
+    },
+    "categoryRates": {
+      "PROPERTY": 156.52173913043478,
+      "VIOLENT": 34.78260869565217,
+      "DRUGS": 147.82608695652175,
+      "FRAUD": 0,
+      "VANDALISM": 8.695652173913043,
+      "OTHER": 200
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 29,
+        "rate": 252.17391304347825
+      },
+      {
+        "year": "2022",
+        "total": 35,
+        "rate": 304.34782608695656
+      },
+      {
+        "year": "2023",
+        "total": 38,
+        "rate": 330.4347826086956
+      },
+      {
+        "year": "2024",
+        "total": 47,
+        "rate": 408.69565217391306
+      },
+      {
+        "year": "2025",
+        "total": 63,
+        "rate": 547.8260869565216
+      }
+    ],
+    "centroid": [
+      4.761176482995106,
+      52.32830025020351
+    ],
+    "postcode": "1171"
+  },
+  {
+    "code": "BU03940561",
+    "name": "Badhoevedorp Schuilhoeve",
+    "slug": "badhoevedorp-schuilhoeve",
+    "population": 385,
+    "totalCrimes": 47,
+    "crimeRate": 122.07792207792208,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 24,
+      "VIOLENT": 7,
+      "DRUGS": 6,
+      "FRAUD": 2,
+      "VANDALISM": 1,
+      "OTHER": 7
+    },
+    "categoryRates": {
+      "PROPERTY": 62.33766233766234,
+      "VIOLENT": 18.18181818181818,
+      "DRUGS": 15.584415584415584,
+      "FRAUD": 5.194805194805195,
+      "VANDALISM": 2.5974025974025974,
+      "OTHER": 18.18181818181818
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 40,
+        "rate": 103.89610389610391
+      },
+      {
+        "year": "2022",
+        "total": 42,
+        "rate": 109.09090909090908
+      },
+      {
+        "year": "2023",
+        "total": 39,
+        "rate": 101.2987012987013
+      },
+      {
+        "year": "2024",
+        "total": 54,
+        "rate": 140.25974025974025
+      },
+      {
+        "year": "2025",
+        "total": 47,
+        "rate": 122.07792207792208
+      }
+    ],
+    "centroid": [
+      4.790016480898562,
+      52.326212373518395
+    ],
+    "postcode": "1171"
+  },
+  {
+    "code": "BU03940674",
+    "name": "Schiphol-Rijk",
+    "slug": "schiphol-rijk",
+    "population": 105,
+    "totalCrimes": 39,
+    "crimeRate": 371.42857142857144,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 22,
+      "VIOLENT": 3,
+      "DRUGS": 6,
+      "FRAUD": 4,
+      "VANDALISM": 1,
+      "OTHER": 3
+    },
+    "categoryRates": {
+      "PROPERTY": 209.52380952380952,
+      "VIOLENT": 28.57142857142857,
+      "DRUGS": 57.14285714285714,
+      "FRAUD": 38.0952380952381,
+      "VANDALISM": 9.523809523809526,
+      "OTHER": 28.57142857142857
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 31,
+        "rate": 295.23809523809524
+      },
+      {
+        "year": "2022",
+        "total": 39,
+        "rate": 371.42857142857144
+      },
+      {
+        "year": "2023",
+        "total": 48,
+        "rate": 457.1428571428571
+      },
+      {
+        "year": "2024",
+        "total": 37,
+        "rate": 352.3809523809524
+      },
+      {
+        "year": "2025",
+        "total": 39,
+        "rate": 371.42857142857144
+      }
+    ],
+    "centroid": [
+      4.76059719836371,
+      52.27987670153543
+    ],
+    "postcode": "1119"
+  },
+  {
+    "code": "BU03940884",
+    "name": "Leimuiderbrug",
+    "slug": "leimuiderbrug",
+    "population": 60,
+    "totalCrimes": 17,
+    "crimeRate": 283.3333333333333,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 4,
+      "VIOLENT": 0,
+      "DRUGS": 4,
+      "FRAUD": 0,
+      "VANDALISM": 3,
+      "OTHER": 6
+    },
+    "categoryRates": {
+      "PROPERTY": 66.66666666666667,
+      "VIOLENT": 0,
+      "DRUGS": 66.66666666666667,
+      "FRAUD": 0,
+      "VANDALISM": 50,
+      "OTHER": 100
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 7,
+        "rate": 116.66666666666667
+      },
+      {
+        "year": "2022",
+        "total": 15,
+        "rate": 250
+      },
+      {
+        "year": "2023",
+        "total": 9,
+        "rate": 150
+      },
+      {
+        "year": "2024",
+        "total": 15,
+        "rate": 250
+      },
+      {
+        "year": "2025",
+        "total": 17,
+        "rate": 283.3333333333333
+      }
+    ],
+    "centroid": [
+      4.664794583042487,
+      52.23561663839897
+    ],
+    "postcode": "2155"
+  },
+  {
+    "code": "BU03941570",
+    "name": "Vijfhuizen Omgeving",
+    "slug": "vijfhuizen-omgeving",
+    "population": 570,
+    "totalCrimes": 161,
+    "crimeRate": 282.4561403508772,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 100,
+      "VIOLENT": 6,
+      "DRUGS": 22,
+      "FRAUD": 5,
+      "VANDALISM": 7,
+      "OTHER": 21
+    },
+    "categoryRates": {
+      "PROPERTY": 175.43859649122805,
+      "VIOLENT": 10.526315789473683,
+      "DRUGS": 38.59649122807018,
+      "FRAUD": 8.771929824561402,
+      "VANDALISM": 12.280701754385966,
+      "OTHER": 36.84210526315789
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 108,
+        "rate": 189.47368421052633
+      },
+      {
+        "year": "2022",
+        "total": 98,
+        "rate": 171.9298245614035
+      },
+      {
+        "year": "2023",
+        "total": 120,
+        "rate": 210.52631578947367
+      },
+      {
+        "year": "2024",
+        "total": 79,
+        "rate": 138.59649122807016
+      },
+      {
+        "year": "2025",
+        "total": 161,
+        "rate": 282.4561403508772
+      }
+    ],
+    "centroid": [
+      4.683881908474289,
+      52.35537277343967
+    ],
+    "postcode": "2141"
+  },
+  {
+    "code": "BU03941663",
+    "name": "Schiphol",
+    "slug": "schiphol",
+    "population": 130,
+    "totalCrimes": 298,
+    "crimeRate": 2292.3076923076924,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 169,
+      "VIOLENT": 14,
+      "DRUGS": 35,
+      "FRAUD": 16,
+      "VANDALISM": 9,
+      "OTHER": 55
+    },
+    "categoryRates": {
+      "PROPERTY": 1300,
+      "VIOLENT": 107.6923076923077,
+      "DRUGS": 269.2307692307692,
+      "FRAUD": 123.07692307692308,
+      "VANDALISM": 69.23076923076924,
+      "OTHER": 423.0769230769231
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 103,
+        "rate": 792.3076923076923
+      },
+      {
+        "year": "2022",
+        "total": 241,
+        "rate": 1853.8461538461538
+      },
+      {
+        "year": "2023",
+        "total": 221,
+        "rate": 1700
+      },
+      {
+        "year": "2024",
+        "total": 309,
+        "rate": 2376.923076923077
+      },
+      {
+        "year": "2025",
+        "total": 298,
+        "rate": 2292.3076923076924
+      }
+    ],
+    "centroid": [
+      4.753640336797239,
+      52.316024927081216
+    ],
+    "postcode": "1118"
+  },
+  {
+    "code": "BU03942042",
+    "name": "Spaarndam Omgeving",
+    "slug": "spaarndam-omgeving",
+    "population": 185,
+    "totalCrimes": 33,
+    "crimeRate": 178.3783783783784,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 8,
+      "VIOLENT": 2,
+      "DRUGS": 9,
+      "FRAUD": 0,
+      "VANDALISM": 5,
+      "OTHER": 9
+    },
+    "categoryRates": {
+      "PROPERTY": 43.24324324324324,
+      "VIOLENT": 10.81081081081081,
+      "DRUGS": 48.64864864864865,
+      "FRAUD": 0,
+      "VANDALISM": 27.027027027027028,
+      "OTHER": 48.64864864864865
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 46,
+        "rate": 248.64864864864867
+      },
+      {
+        "year": "2022",
+        "total": 35,
+        "rate": 189.1891891891892
+      },
+      {
+        "year": "2023",
+        "total": 34,
+        "rate": 183.7837837837838
+      },
+      {
+        "year": "2024",
+        "total": 36,
+        "rate": 194.5945945945946
+      },
+      {
+        "year": "2025",
+        "total": 33,
+        "rate": 178.3783783783784
+      }
+    ],
+    "centroid": [
+      4.70064416940925,
+      52.40525099161171
+    ],
+    "postcode": "2064"
+  },
+  {
+    "code": "BU03942273",
+    "name": "Halfweg Omgeving",
+    "slug": "halfweg-omgeving",
+    "population": 75,
+    "totalCrimes": 131,
+    "crimeRate": 1746.6666666666665,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 85,
+      "VIOLENT": 6,
+      "DRUGS": 21,
+      "FRAUD": 2,
+      "VANDALISM": 4,
+      "OTHER": 13
+    },
+    "categoryRates": {
+      "PROPERTY": 1133.3333333333333,
+      "VIOLENT": 80,
+      "DRUGS": 280,
+      "FRAUD": 26.666666666666668,
+      "VANDALISM": 53.333333333333336,
+      "OTHER": 173.33333333333334
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 81,
+        "rate": 1080
+      },
+      {
+        "year": "2022",
+        "total": 143,
+        "rate": 1906.6666666666667
+      },
+      {
+        "year": "2023",
+        "total": 141,
+        "rate": 1880
+      },
+      {
+        "year": "2024",
+        "total": 108,
+        "rate": 1440
+      },
+      {
+        "year": "2025",
+        "total": 131,
+        "rate": 1746.6666666666665
+      }
+    ],
+    "centroid": [
+      4.730527761584061,
+      52.397616158084
+    ],
+    "postcode": "1165"
+  },
+  {
+    "code": "BU03941397",
+    "name": "Cruquius",
+    "slug": "cruquius",
+    "population": 850,
+    "totalCrimes": 68,
+    "crimeRate": 80,
+    "safetyScore": 2,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 33,
+      "VIOLENT": 5,
+      "DRUGS": 5,
+      "FRAUD": 11,
+      "VANDALISM": 2,
+      "OTHER": 12
+    },
+    "categoryRates": {
+      "PROPERTY": 38.82352941176471,
+      "VIOLENT": 5.88235294117647,
+      "DRUGS": 5.88235294117647,
+      "FRAUD": 12.941176470588236,
+      "VANDALISM": 2.352941176470588,
+      "OTHER": 14.11764705882353
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 46,
+        "rate": 54.11764705882353
+      },
+      {
+        "year": "2022",
+        "total": 50,
+        "rate": 58.8235294117647
+      },
+      {
+        "year": "2023",
+        "total": 61,
+        "rate": 71.76470588235294
+      },
+      {
+        "year": "2024",
+        "total": 64,
+        "rate": 75.29411764705881
+      },
+      {
+        "year": "2025",
+        "total": 68,
+        "rate": 80
+      }
+    ],
+    "centroid": [
+      4.64369566711884,
+      52.33492929601601
+    ],
+    "postcode": "2142"
+  },
+  {
+    "code": "BU03941398",
+    "name": "Cruquius Omgeving",
+    "slug": "cruquius-omgeving",
+    "population": 95,
+    "totalCrimes": 7,
+    "crimeRate": 73.68421052631578,
+    "safetyScore": 2,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 1,
+      "VIOLENT": 0,
+      "DRUGS": 2,
+      "FRAUD": 0,
+      "VANDALISM": 2,
+      "OTHER": 2
+    },
+    "categoryRates": {
+      "PROPERTY": 10.526315789473683,
+      "VIOLENT": 0,
+      "DRUGS": 21.052631578947366,
+      "FRAUD": 0,
+      "VANDALISM": 21.052631578947366,
+      "OTHER": 21.052631578947366
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 11,
+        "rate": 115.78947368421052
+      },
+      {
+        "year": "2022",
+        "total": 8,
+        "rate": 84.21052631578947
+      },
+      {
+        "year": "2023",
+        "total": 7,
+        "rate": 73.68421052631578
+      },
+      {
+        "year": "2024",
+        "total": 10,
+        "rate": 105.26315789473684
+      },
+      {
+        "year": "2025",
+        "total": 7,
+        "rate": 73.68421052631578
+      }
+    ],
+    "centroid": [
+      4.658510853628536,
+      52.33581039062435
+    ],
+    "postcode": "2142"
+  },
+  {
+    "code": "BU03941571",
+    "name": "Vijfhuizen Nieuwebrug",
+    "slug": "vijfhuizen-nieuwebrug",
+    "population": 530,
+    "totalCrimes": 41,
+    "crimeRate": 77.35849056603773,
+    "safetyScore": 2,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 7,
+      "VIOLENT": 3,
+      "DRUGS": 9,
+      "FRAUD": 7,
+      "VANDALISM": 4,
+      "OTHER": 11
+    },
+    "categoryRates": {
+      "PROPERTY": 13.20754716981132,
+      "VIOLENT": 5.660377358490566,
+      "DRUGS": 16.9811320754717,
+      "FRAUD": 13.20754716981132,
+      "VANDALISM": 7.547169811320755,
+      "OTHER": 20.754716981132074
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 28,
+        "rate": 52.83018867924528
+      },
+      {
+        "year": "2022",
+        "total": 38,
+        "rate": 71.69811320754717
+      },
+      {
+        "year": "2023",
+        "total": 28,
+        "rate": 52.83018867924528
+      },
+      {
+        "year": "2024",
+        "total": 32,
+        "rate": 60.37735849056604
+      },
+      {
+        "year": "2025",
+        "total": 41,
+        "rate": 77.35849056603773
+      }
+    ],
+    "centroid": [
+      4.688719917135777,
+      52.377124852766684
+    ],
+    "postcode": "2141"
+  },
+  {
+    "code": "BU03940564",
+    "name": "Badhoevedorp Nieuwe Meer",
+    "slug": "badhoevedorp-nieuwe-meer",
+    "population": 450,
+    "totalCrimes": 32,
+    "crimeRate": 71.11111111111111,
+    "safetyScore": 3,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 11,
+      "VIOLENT": 2,
+      "DRUGS": 3,
+      "FRAUD": 1,
+      "VANDALISM": 2,
+      "OTHER": 13
+    },
+    "categoryRates": {
+      "PROPERTY": 24.444444444444446,
+      "VIOLENT": 4.444444444444445,
+      "DRUGS": 6.666666666666667,
+      "FRAUD": 2.2222222222222223,
+      "VANDALISM": 4.444444444444445,
+      "OTHER": 28.88888888888889
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 37,
+        "rate": 82.22222222222223
+      },
+      {
+        "year": "2022",
+        "total": 57,
+        "rate": 126.66666666666667
+      },
+      {
+        "year": "2023",
+        "total": 32,
+        "rate": 71.11111111111111
+      },
+      {
+        "year": "2024",
+        "total": 28,
+        "rate": 62.22222222222222
+      },
+      {
+        "year": "2025",
+        "total": 32,
+        "rate": 71.11111111111111
+      }
+    ],
+    "centroid": [
+      4.808705497957706,
+      52.324190985359884
+    ],
+    "postcode": "1171"
+  },
+  {
+    "code": "BU03940675",
+    "name": "Oude Meer",
+    "slug": "oude-meer",
+    "population": 160,
+    "totalCrimes": 10,
+    "crimeRate": 62.5,
+    "safetyScore": 3,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 6,
+      "VIOLENT": 0,
+      "DRUGS": 1,
+      "FRAUD": 0,
+      "VANDALISM": 0,
+      "OTHER": 3
+    },
+    "categoryRates": {
+      "PROPERTY": 37.5,
+      "VIOLENT": 0,
+      "DRUGS": 6.25,
+      "FRAUD": 0,
+      "VANDALISM": 0,
+      "OTHER": 18.75
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 22,
+        "rate": 137.5
+      },
+      {
+        "year": "2022",
+        "total": 24,
+        "rate": 150
+      },
+      {
+        "year": "2023",
+        "total": 23,
+        "rate": 143.75
+      },
+      {
+        "year": "2024",
+        "total": 20,
+        "rate": 125
+      },
+      {
+        "year": "2025",
+        "total": 10,
+        "rate": 62.5
+      }
+    ],
+    "centroid": [
+      4.780145597998769,
+      52.28828677864181
+    ],
+    "postcode": "1438"
+  },
+  {
+    "code": "BU03940782",
+    "name": "Rijsenhout Omgeving",
+    "slug": "rijsenhout-omgeving",
+    "population": 815,
+    "totalCrimes": 51,
+    "crimeRate": 62.576687116564415,
+    "safetyScore": 3,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 12,
+      "VIOLENT": 3,
+      "DRUGS": 9,
+      "FRAUD": 9,
+      "VANDALISM": 5,
+      "OTHER": 13
+    },
+    "categoryRates": {
+      "PROPERTY": 14.723926380368098,
+      "VIOLENT": 3.6809815950920246,
+      "DRUGS": 11.042944785276074,
+      "FRAUD": 11.042944785276074,
+      "VANDALISM": 6.134969325153374,
+      "OTHER": 15.950920245398775
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 55,
+        "rate": 67.48466257668711
+      },
+      {
+        "year": "2022",
+        "total": 45,
+        "rate": 55.214723926380366
+      },
+      {
+        "year": "2023",
+        "total": 49,
+        "rate": 60.122699386503065
+      },
+      {
+        "year": "2024",
+        "total": 57,
+        "rate": 69.93865030674847
+      },
+      {
+        "year": "2025",
+        "total": 51,
+        "rate": 62.576687116564415
+      }
+    ],
+    "centroid": [
+      4.702304379633413,
+      52.2575033767278
+    ],
+    "postcode": "1435"
+  },
+  {
+    "code": "BU03940885",
+    "name": "Weteringbrug",
+    "slug": "weteringbrug",
+    "population": 375,
+    "totalCrimes": 24,
+    "crimeRate": 64,
+    "safetyScore": 3,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 4,
+      "VIOLENT": 2,
+      "DRUGS": 8,
+      "FRAUD": 1,
+      "VANDALISM": 1,
+      "OTHER": 8
+    },
+    "categoryRates": {
+      "PROPERTY": 10.666666666666666,
+      "VIOLENT": 5.333333333333333,
+      "DRUGS": 21.333333333333332,
+      "FRAUD": 2.6666666666666665,
+      "VANDALISM": 2.6666666666666665,
+      "OTHER": 21.333333333333332
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 20,
+        "rate": 53.333333333333336
+      },
+      {
+        "year": "2022",
+        "total": 14,
+        "rate": 37.333333333333336
+      },
+      {
+        "year": "2023",
+        "total": 13,
+        "rate": 34.666666666666664
+      },
+      {
+        "year": "2024",
+        "total": 16,
+        "rate": 42.666666666666664
+      },
+      {
+        "year": "2025",
+        "total": 24,
+        "rate": 64
+      }
+    ],
+    "centroid": [
+      4.645503813395967,
+      52.224432931202564
+    ],
+    "postcode": "2156"
+  },
+  {
+    "code": "BU03940989",
+    "name": "Abbenes Dijk",
+    "slug": "abbenes-dijk",
+    "population": 95,
+    "totalCrimes": 6,
+    "crimeRate": 63.15789473684211,
+    "safetyScore": 3,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 2,
+      "VIOLENT": 0,
+      "DRUGS": 0,
+      "FRAUD": 0,
+      "VANDALISM": 1,
+      "OTHER": 3
+    },
+    "categoryRates": {
+      "PROPERTY": 21.052631578947366,
+      "VIOLENT": 0,
+      "DRUGS": 0,
+      "FRAUD": 0,
+      "VANDALISM": 10.526315789473683,
+      "OTHER": 31.578947368421055
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 2,
+        "rate": 21.052631578947366
+      },
+      {
+        "year": "2022",
+        "total": 5,
+        "rate": 52.63157894736842
+      },
+      {
+        "year": "2023",
+        "total": 4,
+        "rate": 42.10526315789473
+      },
+      {
+        "year": "2024",
+        "total": 1,
+        "rate": 10.526315789473683
+      },
+      {
+        "year": "2025",
+        "total": 6,
+        "rate": 63.15789473684211
+      }
+    ],
+    "centroid": [
+      4.598250204982223,
+      52.21756667005707
+    ],
+    "postcode": "2157"
+  },
+  {
+    "code": "BU03940103",
+    "name": "Hoofddorp Graan voor Visch",
+    "slug": "hoofddorp-graan-voor-visch",
+    "population": 3420,
+    "totalCrimes": 208,
+    "crimeRate": 60.8187134502924,
+    "safetyScore": 4,
+    "threatLevel": "HIGH",
+    "categories": {
+      "PROPERTY": 55,
+      "VIOLENT": 19,
+      "DRUGS": 52,
+      "FRAUD": 22,
+      "VANDALISM": 36,
+      "OTHER": 24
+    },
+    "categoryRates": {
+      "PROPERTY": 16.08187134502924,
+      "VIOLENT": 5.555555555555555,
+      "DRUGS": 15.2046783625731,
+      "FRAUD": 6.432748538011697,
+      "VANDALISM": 10.526315789473683,
+      "OTHER": 7.017543859649123
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 154,
+        "rate": 45.02923976608187
+      },
+      {
+        "year": "2022",
+        "total": 199,
+        "rate": 58.187134502923975
+      },
+      {
+        "year": "2023",
+        "total": 190,
+        "rate": 55.55555555555555
+      },
+      {
+        "year": "2024",
+        "total": 197,
+        "rate": 57.60233918128655
+      },
+      {
+        "year": "2025",
+        "total": 208,
+        "rate": 60.8187134502924
+      }
+    ],
+    "centroid": [
+      4.689718607537166,
+      52.29582223673943
+    ],
+    "postcode": "2132"
+  },
+  {
+    "code": "BU03940104",
+    "name": "Hoofddorp Centrum Oost",
+    "slug": "hoofddorp-centrum-oost",
+    "population": 5440,
+    "totalCrimes": 308,
+    "crimeRate": 56.61764705882353,
+    "safetyScore": 4,
+    "threatLevel": "HIGH",
+    "categories": {
+      "PROPERTY": 137,
+      "VIOLENT": 25,
+      "DRUGS": 39,
+      "FRAUD": 29,
+      "VANDALISM": 29,
+      "OTHER": 49
+    },
+    "categoryRates": {
+      "PROPERTY": 25.183823529411764,
+      "VIOLENT": 4.595588235294118,
+      "DRUGS": 7.169117647058823,
+      "FRAUD": 5.330882352941177,
+      "VANDALISM": 5.330882352941177,
+      "OTHER": 9.00735294117647
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 211,
+        "rate": 38.786764705882355
+      },
+      {
+        "year": "2022",
+        "total": 231,
+        "rate": 42.46323529411765
+      },
+      {
+        "year": "2023",
+        "total": 225,
+        "rate": 41.36029411764706
+      },
+      {
+        "year": "2024",
+        "total": 223,
+        "rate": 40.99264705882353
+      },
+      {
+        "year": "2025",
+        "total": 308,
+        "rate": 56.61764705882353
+      }
+    ],
+    "centroid": [
+      4.708902221771128,
+      52.302803612975936
+    ],
+    "postcode": "2132"
+  },
+  {
+    "code": "BU03940553",
+    "name": "Badhoevedorp West",
+    "slug": "badhoevedorp-west",
+    "population": 1185,
+    "totalCrimes": 72,
+    "crimeRate": 60.75949367088607,
+    "safetyScore": 4,
+    "threatLevel": "HIGH",
+    "categories": {
+      "PROPERTY": 39,
+      "VIOLENT": 4,
+      "DRUGS": 0,
+      "FRAUD": 12,
+      "VANDALISM": 13,
+      "OTHER": 4
+    },
+    "categoryRates": {
+      "PROPERTY": 32.911392405063296,
+      "VIOLENT": 3.3755274261603376,
+      "DRUGS": 0,
+      "FRAUD": 10.126582278481013,
+      "VANDALISM": 10.970464135021098,
+      "OTHER": 3.3755274261603376
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 66,
+        "rate": 55.69620253164557
+      },
+      {
+        "year": "2022",
+        "total": 50,
+        "rate": 42.19409282700422
+      },
+      {
+        "year": "2023",
+        "total": 70,
+        "rate": 59.07172995780591
+      },
+      {
+        "year": "2024",
+        "total": 85,
+        "rate": 71.72995780590718
+      },
+      {
+        "year": "2025",
+        "total": 72,
+        "rate": 60.75949367088607
+      }
+    ],
+    "centroid": [
+      4.776089221398925,
+      52.34080729784138
+    ],
+    "postcode": "1171"
+  },
+  {
+    "code": "BU03940987",
+    "name": "Abbenes Omgeving",
+    "slug": "abbenes-omgeving",
+    "population": 180,
+    "totalCrimes": 11,
+    "crimeRate": 61.11111111111111,
+    "safetyScore": 4,
+    "threatLevel": "HIGH",
+    "categories": {
+      "PROPERTY": 3,
+      "VIOLENT": 0,
+      "DRUGS": 2,
+      "FRAUD": 1,
+      "VANDALISM": 0,
+      "OTHER": 5
+    },
+    "categoryRates": {
+      "PROPERTY": 16.666666666666668,
+      "VIOLENT": 0,
+      "DRUGS": 11.11111111111111,
+      "FRAUD": 5.555555555555555,
+      "VANDALISM": 0,
+      "OTHER": 27.777777777777775
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 12,
+        "rate": 66.66666666666667
+      },
+      {
+        "year": "2022",
+        "total": 24,
+        "rate": 133.33333333333334
+      },
+      {
+        "year": "2023",
+        "total": 11,
+        "rate": 61.11111111111111
+      },
+      {
+        "year": "2024",
+        "total": 10,
+        "rate": 55.55555555555555
+      },
+      {
+        "year": "2025",
+        "total": 11,
+        "rate": 61.11111111111111
+      }
+    ],
+    "centroid": [
+      4.59749570776341,
+      52.22825000771469
+    ],
+    "postcode": "2157"
+  },
+  {
+    "code": "BU03942121",
+    "name": "Penningsveer",
+    "slug": "penningsveer",
+    "population": 55,
+    "totalCrimes": 3,
+    "crimeRate": 54.54545454545454,
+    "safetyScore": 4,
+    "threatLevel": "HIGH",
+    "categories": {
+      "PROPERTY": 1,
+      "VIOLENT": 0,
+      "DRUGS": 0,
+      "FRAUD": 0,
+      "VANDALISM": 1,
+      "OTHER": 1
+    },
+    "categoryRates": {
+      "PROPERTY": 18.18181818181818,
+      "VIOLENT": 0,
+      "DRUGS": 0,
+      "FRAUD": 0,
+      "VANDALISM": 18.18181818181818,
+      "OTHER": 18.18181818181818
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 2,
+        "rate": 36.36363636363636
+      },
+      {
+        "year": "2022",
+        "total": 4,
+        "rate": 72.72727272727272
+      },
+      {
+        "year": "2023",
+        "total": 6,
+        "rate": 109.09090909090908
+      },
+      {
+        "year": "2024",
+        "total": 2,
+        "rate": 36.36363636363636
+      },
+      {
+        "year": "2025",
+        "total": 3,
+        "rate": 54.54545454545454
+      }
+    ],
+    "centroid": [
+      4.676154309729185,
+      52.39246401332304
+    ],
+    "postcode": "2065"
+  },
+  {
+    "code": "BU03942272",
+    "name": "Halfweg",
+    "slug": "halfweg",
+    "population": 2540,
+    "totalCrimes": 143,
+    "crimeRate": 56.2992125984252,
+    "safetyScore": 4,
+    "threatLevel": "HIGH",
+    "categories": {
+      "PROPERTY": 87,
+      "VIOLENT": 10,
+      "DRUGS": 8,
+      "FRAUD": 14,
+      "VANDALISM": 7,
+      "OTHER": 17
+    },
+    "categoryRates": {
+      "PROPERTY": 34.25196850393701,
+      "VIOLENT": 3.937007874015748,
+      "DRUGS": 3.149606299212598,
+      "FRAUD": 5.511811023622047,
+      "VANDALISM": 2.7559055118110236,
+      "OTHER": 6.692913385826771
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 96,
+        "rate": 37.79527559055118
+      },
+      {
+        "year": "2022",
+        "total": 106,
+        "rate": 41.732283464566926
+      },
+      {
+        "year": "2023",
+        "total": 101,
+        "rate": 39.76377952755906
+      },
+      {
+        "year": "2024",
+        "total": 107,
+        "rate": 42.125984251968504
+      },
+      {
+        "year": "2025",
+        "total": 143,
+        "rate": 56.2992125984252
+      }
+    ],
+    "centroid": [
+      4.747482384575921,
+      52.38646289919422
+    ],
+    "postcode": "1165"
+  },
+  {
+    "code": "BU03940101",
+    "name": "Hoofddorp Centrum West",
+    "slug": "hoofddorp-centrum-west",
+    "population": 1215,
+    "totalCrimes": 56,
+    "crimeRate": 46.09053497942387,
+    "safetyScore": 5,
+    "threatLevel": "HIGH",
+    "categories": {
+      "PROPERTY": 10,
+      "VIOLENT": 5,
+      "DRUGS": 15,
+      "FRAUD": 3,
+      "VANDALISM": 12,
+      "OTHER": 11
+    },
+    "categoryRates": {
+      "PROPERTY": 8.23045267489712,
+      "VIOLENT": 4.11522633744856,
+      "DRUGS": 12.345679012345679,
+      "FRAUD": 2.4691358024691357,
+      "VANDALISM": 9.876543209876543,
+      "OTHER": 9.05349794238683
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 47,
+        "rate": 38.68312757201646
+      },
+      {
+        "year": "2022",
+        "total": 63,
+        "rate": 51.85185185185185
+      },
+      {
+        "year": "2023",
+        "total": 48,
+        "rate": 39.50617283950617
+      },
+      {
+        "year": "2024",
+        "total": 92,
+        "rate": 75.7201646090535
+      },
+      {
+        "year": "2025",
+        "total": 56,
+        "rate": 46.09053497942387
+      }
+    ],
+    "centroid": [
+      4.684763842744112,
+      52.30520512815949
+    ],
+    "postcode": "2131"
+  },
+  {
+    "code": "BU03940347",
+    "name": "Zwanenburg Noordoost",
+    "slug": "zwanenburg-noordoost",
+    "population": 1075,
+    "totalCrimes": 54,
+    "crimeRate": 50.23255813953489,
+    "safetyScore": 5,
+    "threatLevel": "HIGH",
+    "categories": {
+      "PROPERTY": 24,
+      "VIOLENT": 4,
+      "DRUGS": 6,
+      "FRAUD": 8,
+      "VANDALISM": 5,
+      "OTHER": 7
+    },
+    "categoryRates": {
+      "PROPERTY": 22.325581395348838,
+      "VIOLENT": 3.72093023255814,
+      "DRUGS": 5.5813953488372094,
+      "FRAUD": 7.44186046511628,
+      "VANDALISM": 4.651162790697675,
+      "OTHER": 6.511627906976744
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 77,
+        "rate": 71.62790697674419
+      },
+      {
+        "year": "2022",
+        "total": 27,
+        "rate": 25.116279069767444
+      },
+      {
+        "year": "2023",
+        "total": 100,
+        "rate": 93.02325581395348
+      },
+      {
+        "year": "2024",
+        "total": 53,
+        "rate": 49.30232558139535
+      },
+      {
+        "year": "2025",
+        "total": 54,
+        "rate": 50.23255813953489
+      }
+    ],
+    "centroid": [
+      4.750738159430311,
+      52.378257649176845
+    ],
+    "postcode": "1161"
+  },
+  {
+    "code": "BU03940676",
+    "name": "Aalsmeerderbrug",
+    "slug": "aalsmeerderbrug",
+    "population": 510,
+    "totalCrimes": 23,
+    "crimeRate": 45.09803921568627,
+    "safetyScore": 5,
+    "threatLevel": "HIGH",
+    "categories": {
+      "PROPERTY": 10,
+      "VIOLENT": 0,
+      "DRUGS": 4,
+      "FRAUD": 5,
+      "VANDALISM": 1,
+      "OTHER": 3
+    },
+    "categoryRates": {
+      "PROPERTY": 19.607843137254903,
+      "VIOLENT": 0,
+      "DRUGS": 7.8431372549019605,
+      "FRAUD": 9.803921568627452,
+      "VANDALISM": 1.9607843137254901,
+      "OTHER": 5.88235294117647
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 12,
+        "rate": 23.52941176470588
+      },
+      {
+        "year": "2022",
+        "total": 14,
+        "rate": 27.45098039215686
+      },
+      {
+        "year": "2023",
+        "total": 14,
+        "rate": 27.45098039215686
+      },
+      {
+        "year": "2024",
+        "total": 15,
+        "rate": 29.41176470588235
+      },
+      {
+        "year": "2025",
+        "total": 23,
+        "rate": 45.09803921568627
+      }
+    ],
+    "centroid": [
+      4.751748206639748,
+      52.2748030209538
+    ],
+    "postcode": "1436"
+  },
+  {
+    "code": "BU03940883",
+    "name": "Burgerveen",
+    "slug": "burgerveen",
+    "population": 335,
+    "totalCrimes": 15,
+    "crimeRate": 44.776119402985074,
+    "safetyScore": 5,
+    "threatLevel": "HIGH",
+    "categories": {
+      "PROPERTY": 4,
+      "VIOLENT": 4,
+      "DRUGS": 2,
+      "FRAUD": 2,
+      "VANDALISM": 1,
+      "OTHER": 2
+    },
+    "categoryRates": {
+      "PROPERTY": 11.940298507462687,
+      "VIOLENT": 11.940298507462687,
+      "DRUGS": 5.970149253731344,
+      "FRAUD": 5.970149253731344,
+      "VANDALISM": 2.985074626865672,
+      "OTHER": 5.970149253731344
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 10,
+        "rate": 29.850746268656717
+      },
+      {
+        "year": "2022",
+        "total": 8,
+        "rate": 23.880597014925375
+      },
+      {
+        "year": "2023",
+        "total": 4,
+        "rate": 11.940298507462687
+      },
+      {
+        "year": "2024",
+        "total": 7,
+        "rate": 20.895522388059703
+      },
+      {
+        "year": "2025",
+        "total": 15,
+        "rate": 44.776119402985074
+      }
+    ],
+    "centroid": [
+      4.680876374607426,
+      52.242366229600144
+    ],
+    "postcode": "2154"
+  },
+  {
+    "code": "BU03941091",
+    "name": "Lisserbroek Omgeving",
+    "slug": "lisserbroek-omgeving",
+    "population": 170,
+    "totalCrimes": 8,
+    "crimeRate": 47.05882352941176,
+    "safetyScore": 5,
+    "threatLevel": "HIGH",
+    "categories": {
+      "PROPERTY": 2,
+      "VIOLENT": 1,
+      "DRUGS": 1,
+      "FRAUD": 0,
+      "VANDALISM": 1,
+      "OTHER": 3
+    },
+    "categoryRates": {
+      "PROPERTY": 11.76470588235294,
+      "VIOLENT": 5.88235294117647,
+      "DRUGS": 5.88235294117647,
+      "FRAUD": 0,
+      "VANDALISM": 5.88235294117647,
+      "OTHER": 17.647058823529413
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 5,
+        "rate": 29.41176470588235
+      },
+      {
+        "year": "2022",
+        "total": 3,
+        "rate": 17.647058823529413
+      },
+      {
+        "year": "2023",
+        "total": 7,
+        "rate": 41.1764705882353
+      },
+      {
+        "year": "2024",
+        "total": 5,
+        "rate": 29.41176470588235
+      },
+      {
+        "year": "2025",
+        "total": 8,
+        "rate": 47.05882352941176
+      }
+    ],
+    "centroid": [
+      4.574634152690058,
+      52.254880416363584
+    ],
+    "postcode": "2165"
+  },
+  {
+    "code": "BU03941192",
+    "name": "Beinsdorp Omgeving",
+    "slug": "beinsdorp-omgeving",
+    "population": 100,
+    "totalCrimes": 5,
+    "crimeRate": 50,
+    "safetyScore": 5,
+    "threatLevel": "HIGH",
+    "categories": {
+      "PROPERTY": 3,
+      "VIOLENT": 0,
+      "DRUGS": 0,
+      "FRAUD": 1,
+      "VANDALISM": 0,
+      "OTHER": 1
+    },
+    "categoryRates": {
+      "PROPERTY": 30,
+      "VIOLENT": 0,
+      "DRUGS": 0,
+      "FRAUD": 10,
+      "VANDALISM": 0,
+      "OTHER": 10
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 6,
+        "rate": 60
+      },
+      {
+        "year": "2022",
+        "total": 1,
+        "rate": 10
+      },
+      {
+        "year": "2023",
+        "total": 1,
+        "rate": 10
+      },
+      {
+        "year": "2024",
+        "total": 3,
+        "rate": 30
+      },
+      {
+        "year": "2025",
+        "total": 5,
+        "rate": 50
+      }
+    ],
+    "centroid": [
+      4.595551368138946,
+      52.28652967449691
+    ],
+    "postcode": "2144"
+  },
+  {
+    "code": "BU03940105",
+    "name": "Hoofddorp Centrum Noord",
+    "slug": "hoofddorp-centrum-noord",
+    "population": 3435,
+    "totalCrimes": 129,
+    "crimeRate": 37.55458515283843,
+    "safetyScore": 6,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 43,
+      "VIOLENT": 21,
+      "DRUGS": 12,
+      "FRAUD": 22,
+      "VANDALISM": 16,
+      "OTHER": 15
+    },
+    "categoryRates": {
+      "PROPERTY": 12.518195050946142,
+      "VIOLENT": 6.11353711790393,
+      "DRUGS": 3.493449781659389,
+      "FRAUD": 6.404657933042213,
+      "VANDALISM": 4.657933042212519,
+      "OTHER": 4.366812227074235
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 135,
+        "rate": 39.301310043668124
+      },
+      {
+        "year": "2022",
+        "total": 150,
+        "rate": 43.66812227074236
+      },
+      {
+        "year": "2023",
+        "total": 141,
+        "rate": 41.048034934497814
+      },
+      {
+        "year": "2024",
+        "total": 147,
+        "rate": 42.79475982532751
+      },
+      {
+        "year": "2025",
+        "total": 129,
+        "rate": 37.55458515283843
+      }
+    ],
+    "centroid": [
+      4.69075241950491,
+      52.31435821978555
+    ],
+    "postcode": "2131"
+  },
+  {
+    "code": "BU03940233",
+    "name": "Nieuw-Vennep West",
+    "slug": "nieuw-vennep-west",
+    "population": 2870,
+    "totalCrimes": 112,
+    "crimeRate": 39.02439024390244,
+    "safetyScore": 6,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 62,
+      "VIOLENT": 10,
+      "DRUGS": 7,
+      "FRAUD": 14,
+      "VANDALISM": 10,
+      "OTHER": 9
+    },
+    "categoryRates": {
+      "PROPERTY": 21.602787456445995,
+      "VIOLENT": 3.484320557491289,
+      "DRUGS": 2.4390243902439024,
+      "FRAUD": 4.878048780487805,
+      "VANDALISM": 3.484320557491289,
+      "OTHER": 3.1358885017421603
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 118,
+        "rate": 41.11498257839721
+      },
+      {
+        "year": "2022",
+        "total": 85,
+        "rate": 29.61672473867596
+      },
+      {
+        "year": "2023",
+        "total": 92,
+        "rate": 32.055749128919864
+      },
+      {
+        "year": "2024",
+        "total": 125,
+        "rate": 43.55400696864112
+      },
+      {
+        "year": "2025",
+        "total": 112,
+        "rate": 39.02439024390244
+      }
+    ],
+    "centroid": [
+      4.624046426320805,
+      52.26599560963466
+    ],
+    "postcode": "2151"
+  },
+  {
+    "code": "BU03940241",
+    "name": "Nieuw-Vennep 't Kabel",
+    "slug": "nieuw-vennep-t-kabel",
+    "population": 120,
+    "totalCrimes": 5,
+    "crimeRate": 41.666666666666664,
+    "safetyScore": 6,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 2,
+      "VIOLENT": 0,
+      "DRUGS": 0,
+      "FRAUD": 2,
+      "VANDALISM": 1,
+      "OTHER": 0
+    },
+    "categoryRates": {
+      "PROPERTY": 16.666666666666668,
+      "VIOLENT": 0,
+      "DRUGS": 0,
+      "FRAUD": 16.666666666666668,
+      "VANDALISM": 8.333333333333334,
+      "OTHER": 0
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 3,
+        "rate": 25
+      },
+      {
+        "year": "2022",
+        "total": 1,
+        "rate": 8.333333333333334
+      },
+      {
+        "year": "2023",
+        "total": 2,
+        "rate": 16.666666666666668
+      },
+      {
+        "year": "2024",
+        "total": 3,
+        "rate": 25
+      },
+      {
+        "year": "2025",
+        "total": 5,
+        "rate": 41.666666666666664
+      }
+    ],
+    "centroid": [
+      4.648448875365795,
+      52.25499515706046
+    ],
+    "postcode": "2153"
+  },
+  {
+    "code": "BU03940344",
+    "name": "Zwanenburg Zuidwest",
+    "slug": "zwanenburg-zuidwest",
+    "population": 1050,
+    "totalCrimes": 41,
+    "crimeRate": 39.047619047619044,
+    "safetyScore": 6,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 20,
+      "VIOLENT": 5,
+      "DRUGS": 1,
+      "FRAUD": 3,
+      "VANDALISM": 10,
+      "OTHER": 2
+    },
+    "categoryRates": {
+      "PROPERTY": 19.04761904761905,
+      "VIOLENT": 4.761904761904763,
+      "DRUGS": 0.9523809523809523,
+      "FRAUD": 2.857142857142857,
+      "VANDALISM": 9.523809523809526,
+      "OTHER": 1.9047619047619047
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 14,
+        "rate": 13.333333333333334
+      },
+      {
+        "year": "2022",
+        "total": 32,
+        "rate": 30.476190476190474
+      },
+      {
+        "year": "2023",
+        "total": 48,
+        "rate": 45.714285714285715
+      },
+      {
+        "year": "2024",
+        "total": 29,
+        "rate": 27.61904761904762
+      },
+      {
+        "year": "2025",
+        "total": 41,
+        "rate": 39.047619047619044
+      }
+    ],
+    "centroid": [
+      4.7439453597569905,
+      52.37867148548276
+    ],
+    "postcode": "1161"
+  },
+  {
+    "code": "BU03940345",
+    "name": "Zwanenburg Zuidoost",
+    "slug": "zwanenburg-zuidoost",
+    "population": 915,
+    "totalCrimes": 38,
+    "crimeRate": 41.53005464480874,
+    "safetyScore": 6,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 19,
+      "VIOLENT": 0,
+      "DRUGS": 2,
+      "FRAUD": 9,
+      "VANDALISM": 3,
+      "OTHER": 5
+    },
+    "categoryRates": {
+      "PROPERTY": 20.76502732240437,
+      "VIOLENT": 0,
+      "DRUGS": 2.185792349726776,
+      "FRAUD": 9.836065573770492,
+      "VANDALISM": 3.278688524590164,
+      "OTHER": 5.46448087431694
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 28,
+        "rate": 30.601092896174862
+      },
+      {
+        "year": "2022",
+        "total": 29,
+        "rate": 31.69398907103825
+      },
+      {
+        "year": "2023",
+        "total": 30,
+        "rate": 32.786885245901644
+      },
+      {
+        "year": "2024",
+        "total": 41,
+        "rate": 44.80874316939891
+      },
+      {
+        "year": "2025",
+        "total": 38,
+        "rate": 41.53005464480874
+      }
+    ],
+    "centroid": [
+      4.7482075866182285,
+      52.37580443963858
+    ],
+    "postcode": "1161"
+  },
+  {
+    "code": "BU03940558",
+    "name": "Badhoevedorp Noordoost",
+    "slug": "badhoevedorp-noordoost",
+    "population": 1285,
+    "totalCrimes": 45,
+    "crimeRate": 35.01945525291829,
+    "safetyScore": 6,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 21,
+      "VIOLENT": 3,
+      "DRUGS": 3,
+      "FRAUD": 10,
+      "VANDALISM": 4,
+      "OTHER": 4
+    },
+    "categoryRates": {
+      "PROPERTY": 16.34241245136187,
+      "VIOLENT": 2.3346303501945527,
+      "DRUGS": 2.3346303501945527,
+      "FRAUD": 7.782101167315175,
+      "VANDALISM": 3.11284046692607,
+      "OTHER": 3.11284046692607
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 36,
+        "rate": 28.01556420233463
+      },
+      {
+        "year": "2022",
+        "total": 31,
+        "rate": 24.124513618677042
+      },
+      {
+        "year": "2023",
+        "total": 39,
+        "rate": 30.35019455252918
+      },
+      {
+        "year": "2024",
+        "total": 30,
+        "rate": 23.346303501945524
+      },
+      {
+        "year": "2025",
+        "total": 45,
+        "rate": 35.01945525291829
+      }
+    ],
+    "centroid": [
+      4.792014671920477,
+      52.33603861325123
+    ],
+    "postcode": "1171"
+  },
+  {
+    "code": "BU03940559",
+    "name": "Badhoevedorp Antoniushoeve",
+    "slug": "badhoevedorp-antoniushoeve",
+    "population": 1265,
+    "totalCrimes": 44,
+    "crimeRate": 34.78260869565217,
+    "safetyScore": 6,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 24,
+      "VIOLENT": 3,
+      "DRUGS": 3,
+      "FRAUD": 5,
+      "VANDALISM": 6,
+      "OTHER": 3
+    },
+    "categoryRates": {
+      "PROPERTY": 18.972332015810277,
+      "VIOLENT": 2.3715415019762847,
+      "DRUGS": 2.3715415019762847,
+      "FRAUD": 3.952569169960474,
+      "VANDALISM": 4.743083003952569,
+      "OTHER": 2.3715415019762847
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 38,
+        "rate": 30.039525691699605
+      },
+      {
+        "year": "2022",
+        "total": 27,
+        "rate": 21.343873517786562
+      },
+      {
+        "year": "2023",
+        "total": 44,
+        "rate": 34.78260869565217
+      },
+      {
+        "year": "2024",
+        "total": 36,
+        "rate": 28.458498023715414
+      },
+      {
+        "year": "2025",
+        "total": 44,
+        "rate": 34.78260869565217
+      }
+    ],
+    "centroid": [
+      4.793542922791276,
+      52.3335488935125
+    ],
+    "postcode": "1171"
+  },
+  {
+    "code": "BU03941295",
+    "name": "Zwaanshoek Omgeving",
+    "slug": "zwaanshoek-omgeving",
+    "population": 470,
+    "totalCrimes": 16,
+    "crimeRate": 34.04255319148936,
+    "safetyScore": 6,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 4,
+      "VIOLENT": 1,
+      "DRUGS": 3,
+      "FRAUD": 1,
+      "VANDALISM": 0,
+      "OTHER": 7
+    },
+    "categoryRates": {
+      "PROPERTY": 8.51063829787234,
+      "VIOLENT": 2.127659574468085,
+      "DRUGS": 6.382978723404255,
+      "FRAUD": 2.127659574468085,
+      "VANDALISM": 0,
+      "OTHER": 14.893617021276597
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 26,
+        "rate": 55.31914893617021
+      },
+      {
+        "year": "2022",
+        "total": 21,
+        "rate": 44.68085106382979
+      },
+      {
+        "year": "2023",
+        "total": 17,
+        "rate": 36.170212765957444
+      },
+      {
+        "year": "2024",
+        "total": 17,
+        "rate": 36.170212765957444
+      },
+      {
+        "year": "2025",
+        "total": 16,
+        "rate": 34.04255319148936
+      }
+    ],
+    "centroid": [
+      4.625235682664545,
+      52.31805330524315
+    ],
+    "postcode": "2136"
+  },
+  {
+    "code": "BU03941399",
+    "name": "Cruquius Cruquiushoeve",
+    "slug": "cruquius-cruquiushoeve",
+    "population": 885,
+    "totalCrimes": 31,
+    "crimeRate": 35.02824858757062,
+    "safetyScore": 6,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 7,
+      "VIOLENT": 4,
+      "DRUGS": 1,
+      "FRAUD": 5,
+      "VANDALISM": 10,
+      "OTHER": 4
+    },
+    "categoryRates": {
+      "PROPERTY": 7.909604519774011,
+      "VIOLENT": 4.519774011299435,
+      "DRUGS": 1.1299435028248588,
+      "FRAUD": 5.649717514124294,
+      "VANDALISM": 11.299435028248588,
+      "OTHER": 4.519774011299435
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 14,
+        "rate": 15.819209039548022
+      },
+      {
+        "year": "2022",
+        "total": 20,
+        "rate": 22.598870056497177
+      },
+      {
+        "year": "2023",
+        "total": 27,
+        "rate": 30.508474576271187
+      },
+      {
+        "year": "2024",
+        "total": 18,
+        "rate": 20.338983050847457
+      },
+      {
+        "year": "2025",
+        "total": 31,
+        "rate": 35.02824858757062
+      }
+    ],
+    "centroid": [
+      4.643349557268996,
+      52.336493480942835
+    ],
+    "postcode": "2142"
+  },
+  {
+    "code": "BU03940107",
+    "name": "Hoofddorp Pax Oost",
+    "slug": "hoofddorp-pax-oost",
+    "population": 2460,
+    "totalCrimes": 76,
+    "crimeRate": 30.89430894308943,
+    "safetyScore": 7,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 26,
+      "VIOLENT": 8,
+      "DRUGS": 12,
+      "FRAUD": 11,
+      "VANDALISM": 10,
+      "OTHER": 9
+    },
+    "categoryRates": {
+      "PROPERTY": 10.56910569105691,
+      "VIOLENT": 3.252032520325203,
+      "DRUGS": 4.878048780487805,
+      "FRAUD": 4.471544715447155,
+      "VANDALISM": 4.065040650406504,
+      "OTHER": 3.658536585365854
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 64,
+        "rate": 26.016260162601625
+      },
+      {
+        "year": "2022",
+        "total": 72,
+        "rate": 29.26829268292683
+      },
+      {
+        "year": "2023",
+        "total": 67,
+        "rate": 27.23577235772358
+      },
+      {
+        "year": "2024",
+        "total": 73,
+        "rate": 29.67479674796748
+      },
+      {
+        "year": "2025",
+        "total": 76,
+        "rate": 30.89430894308943
+      }
+    ],
+    "centroid": [
+      4.680699345335089,
+      52.30324131794443
+    ],
+    "postcode": "2131"
+  },
+  {
+    "code": "BU03940109",
+    "name": "Hoofddorp Bornholm Oost",
+    "slug": "hoofddorp-bornholm-oost",
+    "population": 3725,
+    "totalCrimes": 96,
+    "crimeRate": 25.77181208053691,
+    "safetyScore": 7,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 30,
+      "VIOLENT": 13,
+      "DRUGS": 10,
+      "FRAUD": 15,
+      "VANDALISM": 17,
+      "OTHER": 11
+    },
+    "categoryRates": {
+      "PROPERTY": 8.053691275167786,
+      "VIOLENT": 3.48993288590604,
+      "DRUGS": 2.6845637583892614,
+      "FRAUD": 4.026845637583893,
+      "VANDALISM": 4.563758389261745,
+      "OTHER": 2.9530201342281877
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 101,
+        "rate": 27.114093959731544
+      },
+      {
+        "year": "2022",
+        "total": 133,
+        "rate": 35.70469798657718
+      },
+      {
+        "year": "2023",
+        "total": 125,
+        "rate": 33.557046979865774
+      },
+      {
+        "year": "2024",
+        "total": 97,
+        "rate": 26.040268456375838
+      },
+      {
+        "year": "2025",
+        "total": 96,
+        "rate": 25.77181208053691
+      }
+    ],
+    "centroid": [
+      4.673388385885471,
+      52.31024776205985
+    ],
+    "postcode": "2133"
+  },
+  {
+    "code": "BU03940111",
+    "name": "Hoofddorp Overbos Noord",
+    "slug": "hoofddorp-overbos-noord",
+    "population": 4830,
+    "totalCrimes": 159,
+    "crimeRate": 32.91925465838509,
+    "safetyScore": 7,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 55,
+      "VIOLENT": 14,
+      "DRUGS": 17,
+      "FRAUD": 23,
+      "VANDALISM": 32,
+      "OTHER": 18
+    },
+    "categoryRates": {
+      "PROPERTY": 11.387163561076605,
+      "VIOLENT": 2.898550724637681,
+      "DRUGS": 3.5196687370600417,
+      "FRAUD": 4.761904761904763,
+      "VANDALISM": 6.625258799171843,
+      "OTHER": 3.7267080745341614
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 136,
+        "rate": 28.157349896480333
+      },
+      {
+        "year": "2022",
+        "total": 163,
+        "rate": 33.74741200828157
+      },
+      {
+        "year": "2023",
+        "total": 146,
+        "rate": 30.227743271221534
+      },
+      {
+        "year": "2024",
+        "total": 142,
+        "rate": 29.399585921325052
+      },
+      {
+        "year": "2025",
+        "total": 159,
+        "rate": 32.91925465838509
+      }
+    ],
+    "centroid": [
+      4.658664071991629,
+      52.316774037812706
+    ],
+    "postcode": "2134"
+  },
+  {
+    "code": "BU03940113",
+    "name": "Hoofddorp Toolenburg West",
+    "slug": "hoofddorp-toolenburg-west",
+    "population": 6560,
+    "totalCrimes": 176,
+    "crimeRate": 26.829268292682926,
+    "safetyScore": 7,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 72,
+      "VIOLENT": 21,
+      "DRUGS": 8,
+      "FRAUD": 33,
+      "VANDALISM": 12,
+      "OTHER": 30
+    },
+    "categoryRates": {
+      "PROPERTY": 10.97560975609756,
+      "VIOLENT": 3.201219512195122,
+      "DRUGS": 1.2195121951219512,
+      "FRAUD": 5.030487804878049,
+      "VANDALISM": 1.829268292682927,
+      "OTHER": 4.573170731707317
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 193,
+        "rate": 29.42073170731707
+      },
+      {
+        "year": "2022",
+        "total": 195,
+        "rate": 29.72560975609756
+      },
+      {
+        "year": "2023",
+        "total": 262,
+        "rate": 39.9390243902439
+      },
+      {
+        "year": "2024",
+        "total": 166,
+        "rate": 25.30487804878049
+      },
+      {
+        "year": "2025",
+        "total": 176,
+        "rate": 26.829268292682926
+      }
+    ],
+    "centroid": [
+      4.659966211893818,
+      52.303849875002406
+    ],
+    "postcode": "2135"
+  },
+  {
+    "code": "BU03940117",
+    "name": "Hoofddorp Floriande Oost",
+    "slug": "hoofddorp-floriande-oost",
+    "population": 8090,
+    "totalCrimes": 221,
+    "crimeRate": 27.317676143386898,
+    "safetyScore": 7,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 89,
+      "VIOLENT": 32,
+      "DRUGS": 12,
+      "FRAUD": 32,
+      "VANDALISM": 25,
+      "OTHER": 31
+    },
+    "categoryRates": {
+      "PROPERTY": 11.001236093943138,
+      "VIOLENT": 3.955500618046972,
+      "DRUGS": 1.4833127317676142,
+      "FRAUD": 3.955500618046972,
+      "VANDALISM": 3.0902348578491963,
+      "OTHER": 3.8318912237330034
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 202,
+        "rate": 24.96909765142151
+      },
+      {
+        "year": "2022",
+        "total": 215,
+        "rate": 26.576019777503088
+      },
+      {
+        "year": "2023",
+        "total": 270,
+        "rate": 33.374536464771325
+      },
+      {
+        "year": "2024",
+        "total": 184,
+        "rate": 22.74412855377009
+      },
+      {
+        "year": "2025",
+        "total": 221,
+        "rate": 27.317676143386898
+      }
+    ],
+    "centroid": [
+      4.644821840916086,
+      52.30683590548357
+    ],
+    "postcode": "2134"
+  },
+  {
+    "code": "BU03940231",
+    "name": "Nieuw-Vennep Welgelegen",
+    "slug": "nieuw-vennep-welgelegen",
+    "population": 2040,
+    "totalCrimes": 55,
+    "crimeRate": 26.96078431372549,
+    "safetyScore": 7,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 27,
+      "VIOLENT": 6,
+      "DRUGS": 1,
+      "FRAUD": 10,
+      "VANDALISM": 7,
+      "OTHER": 4
+    },
+    "categoryRates": {
+      "PROPERTY": 13.235294117647058,
+      "VIOLENT": 2.941176470588235,
+      "DRUGS": 0.49019607843137253,
+      "FRAUD": 4.901960784313726,
+      "VANDALISM": 3.4313725490196076,
+      "OTHER": 1.9607843137254901
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 53,
+        "rate": 25.980392156862745
+      },
+      {
+        "year": "2022",
+        "total": 52,
+        "rate": 25.49019607843137
+      },
+      {
+        "year": "2023",
+        "total": 48,
+        "rate": 23.52941176470588
+      },
+      {
+        "year": "2024",
+        "total": 66,
+        "rate": 32.352941176470594
+      },
+      {
+        "year": "2025",
+        "total": 55,
+        "rate": 26.96078431372549
+      }
+    ],
+    "centroid": [
+      4.630645672745968,
+      52.270944417719974
+    ],
+    "postcode": "2152"
+  },
+  {
+    "code": "BU03940234",
+    "name": "Nieuw-Vennep Zuid",
+    "slug": "nieuw-vennep-zuid",
+    "population": 2075,
+    "totalCrimes": 58,
+    "crimeRate": 27.951807228915662,
+    "safetyScore": 7,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 13,
+      "VIOLENT": 5,
+      "DRUGS": 11,
+      "FRAUD": 11,
+      "VANDALISM": 9,
+      "OTHER": 9
+    },
+    "categoryRates": {
+      "PROPERTY": 6.265060240963855,
+      "VIOLENT": 2.4096385542168677,
+      "DRUGS": 5.301204819277109,
+      "FRAUD": 5.301204819277109,
+      "VANDALISM": 4.337349397590361,
+      "OTHER": 4.337349397590361
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 55,
+        "rate": 26.50602409638554
+      },
+      {
+        "year": "2022",
+        "total": 70,
+        "rate": 33.734939759036145
+      },
+      {
+        "year": "2023",
+        "total": 70,
+        "rate": 33.734939759036145
+      },
+      {
+        "year": "2024",
+        "total": 88,
+        "rate": 42.40963855421687
+      },
+      {
+        "year": "2025",
+        "total": 58,
+        "rate": 27.951807228915662
+      }
+    ],
+    "centroid": [
+      4.634727445944277,
+      52.25795662433472
+    ],
+    "postcode": "2153"
+  },
+  {
+    "code": "BU03940237",
+    "name": "Nieuw-Vennep Getsewoud Zuid",
+    "slug": "nieuw-vennep-getsewoud-zuid",
+    "population": 8785,
+    "totalCrimes": 224,
+    "crimeRate": 25.498007968127492,
+    "safetyScore": 7,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 119,
+      "VIOLENT": 4,
+      "DRUGS": 4,
+      "FRAUD": 42,
+      "VANDALISM": 28,
+      "OTHER": 27
+    },
+    "categoryRates": {
+      "PROPERTY": 13.545816733067728,
+      "VIOLENT": 0.4553215708594195,
+      "DRUGS": 0.4553215708594195,
+      "FRAUD": 4.780876494023904,
+      "VANDALISM": 3.1872509960159365,
+      "OTHER": 3.073420603301081
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 241,
+        "rate": 27.43312464428002
+      },
+      {
+        "year": "2022",
+        "total": 171,
+        "rate": 19.46499715424018
+      },
+      {
+        "year": "2023",
+        "total": 186,
+        "rate": 21.172453044963007
+      },
+      {
+        "year": "2024",
+        "total": 176,
+        "rate": 20.034149117814458
+      },
+      {
+        "year": "2025",
+        "total": 224,
+        "rate": 25.498007968127492
+      }
+    ],
+    "centroid": [
+      4.611309543377747,
+      52.26967028360327
+    ],
+    "postcode": "2151"
+  },
+  {
+    "code": "BU03940343",
+    "name": "Zwanenburg West",
+    "slug": "zwanenburg-west",
+    "population": 2165,
+    "totalCrimes": 57,
+    "crimeRate": 26.32794457274827,
+    "safetyScore": 7,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 27,
+      "VIOLENT": 2,
+      "DRUGS": 2,
+      "FRAUD": 6,
+      "VANDALISM": 15,
+      "OTHER": 5
+    },
+    "categoryRates": {
+      "PROPERTY": 12.471131639722863,
+      "VIOLENT": 0.9237875288683602,
+      "DRUGS": 0.9237875288683602,
+      "FRAUD": 2.771362586605081,
+      "VANDALISM": 6.928406466512702,
+      "OTHER": 2.3094688221709005
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 45,
+        "rate": 20.785219399538104
+      },
+      {
+        "year": "2022",
+        "total": 57,
+        "rate": 26.32794457274827
+      },
+      {
+        "year": "2023",
+        "total": 49,
+        "rate": 22.632794457274827
+      },
+      {
+        "year": "2024",
+        "total": 42,
+        "rate": 19.399538106235568
+      },
+      {
+        "year": "2025",
+        "total": 57,
+        "rate": 26.32794457274827
+      }
+    ],
+    "centroid": [
+      4.730311631342142,
+      52.38253501457567
+    ],
+    "postcode": "1161"
+  },
+  {
+    "code": "BU03940346",
+    "name": "Zwanenburg Oost",
+    "slug": "zwanenburg-oost",
+    "population": 1245,
+    "totalCrimes": 32,
+    "crimeRate": 25.70281124497992,
+    "safetyScore": 7,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 16,
+      "VIOLENT": 6,
+      "DRUGS": 1,
+      "FRAUD": 5,
+      "VANDALISM": 2,
+      "OTHER": 2
+    },
+    "categoryRates": {
+      "PROPERTY": 12.85140562248996,
+      "VIOLENT": 4.819277108433735,
+      "DRUGS": 0.8032128514056225,
+      "FRAUD": 4.016064257028112,
+      "VANDALISM": 1.606425702811245,
+      "OTHER": 1.606425702811245
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 21,
+        "rate": 16.867469879518072
+      },
+      {
+        "year": "2022",
+        "total": 32,
+        "rate": 25.70281124497992
+      },
+      {
+        "year": "2023",
+        "total": 25,
+        "rate": 20.080321285140563
+      },
+      {
+        "year": "2024",
+        "total": 31,
+        "rate": 24.899598393574298
+      },
+      {
+        "year": "2025",
+        "total": 32,
+        "rate": 25.70281124497992
+      }
+    ],
+    "centroid": [
+      4.752342131717337,
+      52.37369028129137
+    ],
+    "postcode": "1161"
+  },
+  {
+    "code": "BU03940465",
+    "name": "Lijnden",
+    "slug": "lijnden",
+    "population": 720,
+    "totalCrimes": 20,
+    "crimeRate": 27.777777777777775,
+    "safetyScore": 7,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 9,
+      "VIOLENT": 4,
+      "DRUGS": 1,
+      "FRAUD": 2,
+      "VANDALISM": 3,
+      "OTHER": 1
+    },
+    "categoryRates": {
+      "PROPERTY": 12.5,
+      "VIOLENT": 5.555555555555555,
+      "DRUGS": 1.3888888888888888,
+      "FRAUD": 2.7777777777777777,
+      "VANDALISM": 4.166666666666667,
+      "OTHER": 1.3888888888888888
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 27,
+        "rate": 37.5
+      },
+      {
+        "year": "2022",
+        "total": 40,
+        "rate": 55.55555555555555
+      },
+      {
+        "year": "2023",
+        "total": 35,
+        "rate": 48.611111111111114
+      },
+      {
+        "year": "2024",
+        "total": 22,
+        "rate": 30.555555555555554
+      },
+      {
+        "year": "2025",
+        "total": 20,
+        "rate": 27.777777777777775
+      }
+    ],
+    "centroid": [
+      4.757301411633484,
+      52.354142657762665
+    ],
+    "postcode": "1175"
+  },
+  {
+    "code": "BU03940554",
+    "name": "Badhoevedorp Bouwlust",
+    "slug": "badhoevedorp-bouwlust",
+    "population": 3030,
+    "totalCrimes": 100,
+    "crimeRate": 33.003300330033,
+    "safetyScore": 7,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 58,
+      "VIOLENT": 6,
+      "DRUGS": 0,
+      "FRAUD": 20,
+      "VANDALISM": 8,
+      "OTHER": 8
+    },
+    "categoryRates": {
+      "PROPERTY": 19.14191419141914,
+      "VIOLENT": 1.9801980198019802,
+      "DRUGS": 0,
+      "FRAUD": 6.600660066006601,
+      "VANDALISM": 2.6402640264026402,
+      "OTHER": 2.6402640264026402
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 52,
+        "rate": 17.16171617161716
+      },
+      {
+        "year": "2022",
+        "total": 45,
+        "rate": 14.85148514851485
+      },
+      {
+        "year": "2023",
+        "total": 53,
+        "rate": 17.49174917491749
+      },
+      {
+        "year": "2024",
+        "total": 67,
+        "rate": 22.112211221122113
+      },
+      {
+        "year": "2025",
+        "total": 100,
+        "rate": 33.003300330033
+      }
+    ],
+    "centroid": [
+      4.7709576492328045,
+      52.34301472352722
+    ],
+    "postcode": "1171"
+  },
+  {
+    "code": "BU03940556",
+    "name": "Badhoevedorp Zuid",
+    "slug": "badhoevedorp-zuid",
+    "population": 940,
+    "totalCrimes": 23,
+    "crimeRate": 24.46808510638298,
+    "safetyScore": 7,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 12,
+      "VIOLENT": 1,
+      "DRUGS": 2,
+      "FRAUD": 2,
+      "VANDALISM": 3,
+      "OTHER": 3
+    },
+    "categoryRates": {
+      "PROPERTY": 12.76595744680851,
+      "VIOLENT": 1.0638297872340425,
+      "DRUGS": 2.127659574468085,
+      "FRAUD": 2.127659574468085,
+      "VANDALISM": 3.1914893617021276,
+      "OTHER": 3.1914893617021276
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 25,
+        "rate": 26.595744680851062
+      },
+      {
+        "year": "2022",
+        "total": 30,
+        "rate": 31.914893617021274
+      },
+      {
+        "year": "2023",
+        "total": 37,
+        "rate": 39.361702127659576
+      },
+      {
+        "year": "2024",
+        "total": 31,
+        "rate": 32.97872340425532
+      },
+      {
+        "year": "2025",
+        "total": 23,
+        "rate": 24.46808510638298
+      }
+    ],
+    "centroid": [
+      4.780027015072724,
+      52.33608589006287
+    ],
+    "postcode": "1171"
+  },
+  {
+    "code": "BU03940557",
+    "name": "Badhoevedorp Centrum",
+    "slug": "badhoevedorp-centrum",
+    "population": 1475,
+    "totalCrimes": 43,
+    "crimeRate": 29.152542372881353,
+    "safetyScore": 7,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 25,
+      "VIOLENT": 0,
+      "DRUGS": 2,
+      "FRAUD": 4,
+      "VANDALISM": 9,
+      "OTHER": 3
+    },
+    "categoryRates": {
+      "PROPERTY": 16.949152542372882,
+      "VIOLENT": 0,
+      "DRUGS": 1.3559322033898307,
+      "FRAUD": 2.7118644067796613,
+      "VANDALISM": 6.101694915254237,
+      "OTHER": 2.0338983050847457
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 49,
+        "rate": 33.220338983050844
+      },
+      {
+        "year": "2022",
+        "total": 34,
+        "rate": 23.05084745762712
+      },
+      {
+        "year": "2023",
+        "total": 35,
+        "rate": 23.728813559322035
+      },
+      {
+        "year": "2024",
+        "total": 63,
+        "rate": 42.71186440677966
+      },
+      {
+        "year": "2025",
+        "total": 43,
+        "rate": 29.152542372881353
+      }
+    ],
+    "centroid": [
+      4.785694221716186,
+      52.338954029842995
+    ],
+    "postcode": "1171"
+  },
+  {
+    "code": "BU03940562",
+    "name": "Badhoevedorp Dijk",
+    "slug": "badhoevedorp-dijk",
+    "population": 525,
+    "totalCrimes": 14,
+    "crimeRate": 26.666666666666668,
+    "safetyScore": 7,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 6,
+      "VIOLENT": 1,
+      "DRUGS": 1,
+      "FRAUD": 2,
+      "VANDALISM": 2,
+      "OTHER": 2
+    },
+    "categoryRates": {
+      "PROPERTY": 11.428571428571429,
+      "VIOLENT": 1.9047619047619047,
+      "DRUGS": 1.9047619047619047,
+      "FRAUD": 3.8095238095238093,
+      "VANDALISM": 3.8095238095238093,
+      "OTHER": 3.8095238095238093
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 16,
+        "rate": 30.476190476190474
+      },
+      {
+        "year": "2022",
+        "total": 22,
+        "rate": 41.904761904761905
+      },
+      {
+        "year": "2023",
+        "total": 23,
+        "rate": 43.80952380952381
+      },
+      {
+        "year": "2024",
+        "total": 19,
+        "rate": 36.19047619047619
+      },
+      {
+        "year": "2025",
+        "total": 14,
+        "rate": 26.666666666666668
+      }
+    ],
+    "centroid": [
+      4.787187764731357,
+      52.341702018554315
+    ],
+    "postcode": "1171"
+  },
+  {
+    "code": "BU03940779",
+    "name": "Rijsenhout Dorp",
+    "slug": "rijsenhout-dorp",
+    "population": 1655,
+    "totalCrimes": 47,
+    "crimeRate": 28.3987915407855,
+    "safetyScore": 7,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 7,
+      "VIOLENT": 6,
+      "DRUGS": 1,
+      "FRAUD": 14,
+      "VANDALISM": 13,
+      "OTHER": 6
+    },
+    "categoryRates": {
+      "PROPERTY": 4.229607250755287,
+      "VIOLENT": 3.6253776435045317,
+      "DRUGS": 0.6042296072507553,
+      "FRAUD": 8.459214501510575,
+      "VANDALISM": 7.85498489425982,
+      "OTHER": 3.6253776435045317
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 38,
+        "rate": 22.960725075528703
+      },
+      {
+        "year": "2022",
+        "total": 45,
+        "rate": 27.190332326283986
+      },
+      {
+        "year": "2023",
+        "total": 45,
+        "rate": 27.190332326283986
+      },
+      {
+        "year": "2024",
+        "total": 48,
+        "rate": 29.003021148036254
+      },
+      {
+        "year": "2025",
+        "total": 47,
+        "rate": 28.3987915407855
+      }
+    ],
+    "centroid": [
+      4.715538597932309,
+      52.26002398383219
+    ],
+    "postcode": "1435"
+  },
+  {
+    "code": "BU03942120",
+    "name": "Haarlemmerliede",
+    "slug": "haarlemmerliede",
+    "population": 235,
+    "totalCrimes": 6,
+    "crimeRate": 25.53191489361702,
+    "safetyScore": 7,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 2,
+      "VIOLENT": 0,
+      "DRUGS": 2,
+      "FRAUD": 1,
+      "VANDALISM": 1,
+      "OTHER": 0
+    },
+    "categoryRates": {
+      "PROPERTY": 8.51063829787234,
+      "VIOLENT": 0,
+      "DRUGS": 8.51063829787234,
+      "FRAUD": 4.25531914893617,
+      "VANDALISM": 4.25531914893617,
+      "OTHER": 0
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 13,
+        "rate": 55.31914893617021
+      },
+      {
+        "year": "2022",
+        "total": 6,
+        "rate": 25.53191489361702
+      },
+      {
+        "year": "2023",
+        "total": 9,
+        "rate": 38.297872340425535
+      },
+      {
+        "year": "2024",
+        "total": 3,
+        "rate": 12.76595744680851
+      },
+      {
+        "year": "2025",
+        "total": 6,
+        "rate": 25.53191489361702
+      }
+    ],
+    "centroid": [
+      4.688306878576132,
+      52.38807086287814
+    ],
+    "postcode": "2065"
+  },
+  {
+    "code": "BU03940106",
+    "name": "Hoofddorp Pax West",
+    "slug": "hoofddorp-pax-west",
+    "population": 2695,
+    "totalCrimes": 58,
+    "crimeRate": 21.521335807050093,
+    "safetyScore": 8,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 20,
+      "VIOLENT": 6,
+      "DRUGS": 5,
+      "FRAUD": 12,
+      "VANDALISM": 7,
+      "OTHER": 8
+    },
+    "categoryRates": {
+      "PROPERTY": 7.421150278293135,
+      "VIOLENT": 2.226345083487941,
+      "DRUGS": 1.8552875695732838,
+      "FRAUD": 4.452690166975882,
+      "VANDALISM": 2.5974025974025974,
+      "OTHER": 2.968460111317254
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 61,
+        "rate": 22.634508348794064
+      },
+      {
+        "year": "2022",
+        "total": 75,
+        "rate": 27.82931354359926
+      },
+      {
+        "year": "2023",
+        "total": 60,
+        "rate": 22.263450834879407
+      },
+      {
+        "year": "2024",
+        "total": 53,
+        "rate": 19.666048237476808
+      },
+      {
+        "year": "2025",
+        "total": 58,
+        "rate": 21.521335807050093
+      }
+    ],
+    "centroid": [
+      4.678327064095601,
+      52.30549637730362
+    ],
+    "postcode": "2131"
+  },
+  {
+    "code": "BU03940108",
+    "name": "Hoofddorp Bornholm West",
+    "slug": "hoofddorp-bornholm-west",
+    "population": 4095,
+    "totalCrimes": 88,
+    "crimeRate": 21.489621489621488,
+    "safetyScore": 8,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 22,
+      "VIOLENT": 12,
+      "DRUGS": 14,
+      "FRAUD": 14,
+      "VANDALISM": 14,
+      "OTHER": 12
+    },
+    "categoryRates": {
+      "PROPERTY": 5.372405372405372,
+      "VIOLENT": 2.93040293040293,
+      "DRUGS": 3.4188034188034186,
+      "FRAUD": 3.4188034188034186,
+      "VANDALISM": 3.4188034188034186,
+      "OTHER": 2.93040293040293
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 89,
+        "rate": 21.73382173382173
+      },
+      {
+        "year": "2022",
+        "total": 74,
+        "rate": 18.070818070818074
+      },
+      {
+        "year": "2023",
+        "total": 88,
+        "rate": 21.489621489621488
+      },
+      {
+        "year": "2024",
+        "total": 81,
+        "rate": 19.78021978021978
+      },
+      {
+        "year": "2025",
+        "total": 88,
+        "rate": 21.489621489621488
+      }
+    ],
+    "centroid": [
+      4.667619929022156,
+      52.31072168300641
+    ],
+    "postcode": "2133"
+  },
+  {
+    "code": "BU03940112",
+    "name": "Hoofddorp Overbos Zuid",
+    "slug": "hoofddorp-overbos-zuid",
+    "population": 5310,
+    "totalCrimes": 96,
+    "crimeRate": 18.07909604519774,
+    "safetyScore": 8,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 20,
+      "VIOLENT": 14,
+      "DRUGS": 6,
+      "FRAUD": 22,
+      "VANDALISM": 26,
+      "OTHER": 8
+    },
+    "categoryRates": {
+      "PROPERTY": 3.766478342749529,
+      "VIOLENT": 2.6365348399246704,
+      "DRUGS": 1.1299435028248588,
+      "FRAUD": 4.143126177024483,
+      "VANDALISM": 4.896421845574388,
+      "OTHER": 1.5065913370998116
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 125,
+        "rate": 23.540489642184557
+      },
+      {
+        "year": "2022",
+        "total": 122,
+        "rate": 22.975517890772128
+      },
+      {
+        "year": "2023",
+        "total": 102,
+        "rate": 19.2090395480226
+      },
+      {
+        "year": "2024",
+        "total": 116,
+        "rate": 21.845574387947266
+      },
+      {
+        "year": "2025",
+        "total": 96,
+        "rate": 18.07909604519774
+      }
+    ],
+    "centroid": [
+      4.651130535329966,
+      52.31160784068609
+    ],
+    "postcode": "2134"
+  },
+  {
+    "code": "BU03940114",
+    "name": "Hoofddorp Toolenburg Oost",
+    "slug": "hoofddorp-toolenburg-oost",
+    "population": 8055,
+    "totalCrimes": 145,
+    "crimeRate": 18.001241464928615,
+    "safetyScore": 8,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 38,
+      "VIOLENT": 20,
+      "DRUGS": 7,
+      "FRAUD": 42,
+      "VANDALISM": 21,
+      "OTHER": 17
+    },
+    "categoryRates": {
+      "PROPERTY": 4.7175667287399135,
+      "VIOLENT": 2.4829298572315333,
+      "DRUGS": 0.8690254500310366,
+      "FRAUD": 5.21415270018622,
+      "VANDALISM": 2.60707635009311,
+      "OTHER": 2.1104903786468032
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 138,
+        "rate": 17.13221601489758
+      },
+      {
+        "year": "2022",
+        "total": 143,
+        "rate": 17.75294847920546
+      },
+      {
+        "year": "2023",
+        "total": 124,
+        "rate": 15.394165114835506
+      },
+      {
+        "year": "2024",
+        "total": 155,
+        "rate": 19.24270639354438
+      },
+      {
+        "year": "2025",
+        "total": 145,
+        "rate": 18.001241464928615
+      }
+    ],
+    "centroid": [
+      4.667876588300388,
+      52.29543143445262
+    ],
+    "postcode": "2135"
+  },
+  {
+    "code": "BU03940116",
+    "name": "Hoofddorp Floriande West",
+    "slug": "hoofddorp-floriande-west",
+    "population": 10115,
+    "totalCrimes": 186,
+    "crimeRate": 18.388531883341575,
+    "safetyScore": 8,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 52,
+      "VIOLENT": 34,
+      "DRUGS": 8,
+      "FRAUD": 41,
+      "VANDALISM": 23,
+      "OTHER": 28
+    },
+    "categoryRates": {
+      "PROPERTY": 5.14087988136431,
+      "VIOLENT": 3.361344537815126,
+      "DRUGS": 0.7909045971329708,
+      "FRAUD": 4.053386060306476,
+      "VANDALISM": 2.2738507167572912,
+      "OTHER": 2.7681660899653977
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 244,
+        "rate": 24.12259021255561
+      },
+      {
+        "year": "2022",
+        "total": 210,
+        "rate": 20.761245674740483
+      },
+      {
+        "year": "2023",
+        "total": 262,
+        "rate": 25.902125556104796
+      },
+      {
+        "year": "2024",
+        "total": 211,
+        "rate": 20.860108749382107
+      },
+      {
+        "year": "2025",
+        "total": 186,
+        "rate": 18.388531883341575
+      }
+    ],
+    "centroid": [
+      4.638649505646951,
+      52.31416917847662
+    ],
+    "postcode": "2134"
+  },
+  {
+    "code": "BU03940118",
+    "name": "Hoofddorp Toolenburg Zuid",
+    "slug": "hoofddorp-toolenburg-zuid",
+    "population": 4570,
+    "totalCrimes": 103,
+    "crimeRate": 22.538293216630198,
+    "safetyScore": 8,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 23,
+      "VIOLENT": 9,
+      "DRUGS": 10,
+      "FRAUD": 29,
+      "VANDALISM": 16,
+      "OTHER": 16
+    },
+    "categoryRates": {
+      "PROPERTY": 5.032822757111598,
+      "VIOLENT": 1.9693654266958425,
+      "DRUGS": 2.1881838074398248,
+      "FRAUD": 6.3457330415754925,
+      "VANDALISM": 3.50109409190372,
+      "OTHER": 3.50109409190372
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 69,
+        "rate": 15.098468271334792
+      },
+      {
+        "year": "2022",
+        "total": 65,
+        "rate": 14.223194748358862
+      },
+      {
+        "year": "2023",
+        "total": 87,
+        "rate": 19.037199124726477
+      },
+      {
+        "year": "2024",
+        "total": 105,
+        "rate": 22.975929978118163
+      },
+      {
+        "year": "2025",
+        "total": 103,
+        "rate": 22.538293216630198
+      }
+    ],
+    "centroid": [
+      4.653397858153886,
+      52.29481982779624
+    ],
+    "postcode": "2135"
+  },
+  {
+    "code": "BU03940232",
+    "name": "Nieuw-Vennep Welgelegen Noord",
+    "slug": "nieuw-vennep-welgelegen-noord",
+    "population": 2570,
+    "totalCrimes": 50,
+    "crimeRate": 19.45525291828794,
+    "safetyScore": 8,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 14,
+      "VIOLENT": 7,
+      "DRUGS": 3,
+      "FRAUD": 11,
+      "VANDALISM": 12,
+      "OTHER": 3
+    },
+    "categoryRates": {
+      "PROPERTY": 5.447470817120622,
+      "VIOLENT": 2.723735408560311,
+      "DRUGS": 1.1673151750972763,
+      "FRAUD": 4.280155642023347,
+      "VANDALISM": 4.669260700389105,
+      "OTHER": 1.1673151750972763
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 61,
+        "rate": 23.73540856031128
+      },
+      {
+        "year": "2022",
+        "total": 43,
+        "rate": 16.731517509727627
+      },
+      {
+        "year": "2023",
+        "total": 61,
+        "rate": 23.73540856031128
+      },
+      {
+        "year": "2024",
+        "total": 62,
+        "rate": 24.124513618677042
+      },
+      {
+        "year": "2025",
+        "total": 50,
+        "rate": 19.45525291828794
+      }
+    ],
+    "centroid": [
+      4.634401391299167,
+      52.27282033214966
+    ],
+    "postcode": "2152"
+  },
+  {
+    "code": "BU03940235",
+    "name": "Nieuw-Vennep Linquenda",
+    "slug": "nieuw-vennep-linquenda",
+    "population": 3950,
+    "totalCrimes": 87,
+    "crimeRate": 22.025316455696203,
+    "safetyScore": 8,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 35,
+      "VIOLENT": 12,
+      "DRUGS": 2,
+      "FRAUD": 23,
+      "VANDALISM": 9,
+      "OTHER": 6
+    },
+    "categoryRates": {
+      "PROPERTY": 8.860759493670887,
+      "VIOLENT": 3.0379746835443036,
+      "DRUGS": 0.5063291139240507,
+      "FRAUD": 5.822784810126582,
+      "VANDALISM": 2.278481012658228,
+      "OTHER": 1.5189873417721518
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 112,
+        "rate": 28.354430379746834
+      },
+      {
+        "year": "2022",
+        "total": 117,
+        "rate": 29.62025316455696
+      },
+      {
+        "year": "2023",
+        "total": 93,
+        "rate": 23.544303797468356
+      },
+      {
+        "year": "2024",
+        "total": 71,
+        "rate": 17.974683544303797
+      },
+      {
+        "year": "2025",
+        "total": 87,
+        "rate": 22.025316455696203
+      }
+    ],
+    "centroid": [
+      4.619691473773574,
+      52.263127163521055
+    ],
+    "postcode": "2151"
+  },
+  {
+    "code": "BU03940552",
+    "name": "Badhoevedorp Noordwest",
+    "slug": "badhoevedorp-noordwest",
+    "population": 2955,
+    "totalCrimes": 59,
+    "crimeRate": 19.96615905245347,
+    "safetyScore": 8,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 22,
+      "VIOLENT": 5,
+      "DRUGS": 0,
+      "FRAUD": 16,
+      "VANDALISM": 7,
+      "OTHER": 9
+    },
+    "categoryRates": {
+      "PROPERTY": 7.4450084602368864,
+      "VIOLENT": 1.6920473773265652,
+      "DRUGS": 0,
+      "FRAUD": 5.414551607445008,
+      "VANDALISM": 2.3688663282571913,
+      "OTHER": 3.045685279187817
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 51,
+        "rate": 17.258883248730964
+      },
+      {
+        "year": "2022",
+        "total": 55,
+        "rate": 18.612521150592215
+      },
+      {
+        "year": "2023",
+        "total": 66,
+        "rate": 22.335025380710658
+      },
+      {
+        "year": "2024",
+        "total": 61,
+        "rate": 20.642978003384094
+      },
+      {
+        "year": "2025",
+        "total": 59,
+        "rate": 19.96615905245347
+      }
+    ],
+    "centroid": [
+      4.777123826718219,
+      52.34575280556688
+    ],
+    "postcode": "1171"
+  },
+  {
+    "code": "BU03940560",
+    "name": "Badhoevedorp Oost",
+    "slug": "badhoevedorp-oost",
+    "population": 1010,
+    "totalCrimes": 22,
+    "crimeRate": 21.78217821782178,
+    "safetyScore": 8,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 12,
+      "VIOLENT": 1,
+      "DRUGS": 0,
+      "FRAUD": 4,
+      "VANDALISM": 2,
+      "OTHER": 3
+    },
+    "categoryRates": {
+      "PROPERTY": 11.881188118811881,
+      "VIOLENT": 0.9900990099009901,
+      "DRUGS": 0,
+      "FRAUD": 3.9603960396039604,
+      "VANDALISM": 1.9801980198019802,
+      "OTHER": 2.9702970297029703
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 22,
+        "rate": 21.78217821782178
+      },
+      {
+        "year": "2022",
+        "total": 28,
+        "rate": 27.722772277227723
+      },
+      {
+        "year": "2023",
+        "total": 34,
+        "rate": 33.663366336633665
+      },
+      {
+        "year": "2024",
+        "total": 21,
+        "rate": 20.792079207920793
+      },
+      {
+        "year": "2025",
+        "total": 22,
+        "rate": 21.78217821782178
+      }
+    ],
+    "centroid": [
+      4.786981525269422,
+      52.336131300023624
+    ],
+    "postcode": "1171"
+  },
+  {
+    "code": "BU03940780",
+    "name": "Rijsenhout Zuid",
+    "slug": "rijsenhout-zuid",
+    "population": 1360,
+    "totalCrimes": 21,
+    "crimeRate": 15.441176470588236,
+    "safetyScore": 8,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 5,
+      "VIOLENT": 2,
+      "DRUGS": 5,
+      "FRAUD": 6,
+      "VANDALISM": 1,
+      "OTHER": 2
+    },
+    "categoryRates": {
+      "PROPERTY": 3.676470588235294,
+      "VIOLENT": 1.4705882352941175,
+      "DRUGS": 3.676470588235294,
+      "FRAUD": 4.411764705882353,
+      "VANDALISM": 0.7352941176470588,
+      "OTHER": 1.4705882352941175
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 34,
+        "rate": 25
+      },
+      {
+        "year": "2022",
+        "total": 28,
+        "rate": 20.58823529411765
+      },
+      {
+        "year": "2023",
+        "total": 32,
+        "rate": 23.52941176470588
+      },
+      {
+        "year": "2024",
+        "total": 25,
+        "rate": 18.38235294117647
+      },
+      {
+        "year": "2025",
+        "total": 21,
+        "rate": 15.441176470588236
+      }
+    ],
+    "centroid": [
+      4.709031015793683,
+      52.25966505484466
+    ],
+    "postcode": "1435"
+  },
+  {
+    "code": "BU03940781",
+    "name": "Rijsenhout Dijk",
+    "slug": "rijsenhout-dijk",
+    "population": 585,
+    "totalCrimes": 12,
+    "crimeRate": 20.512820512820515,
+    "safetyScore": 8,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 6,
+      "VIOLENT": 1,
+      "DRUGS": 1,
+      "FRAUD": 2,
+      "VANDALISM": 0,
+      "OTHER": 2
+    },
+    "categoryRates": {
+      "PROPERTY": 10.256410256410257,
+      "VIOLENT": 1.7094017094017093,
+      "DRUGS": 1.7094017094017093,
+      "FRAUD": 3.4188034188034186,
+      "VANDALISM": 0,
+      "OTHER": 3.4188034188034186
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 16,
+        "rate": 27.35042735042735
+      },
+      {
+        "year": "2022",
+        "total": 12,
+        "rate": 20.512820512820515
+      },
+      {
+        "year": "2023",
+        "total": 8,
+        "rate": 13.675213675213675
+      },
+      {
+        "year": "2024",
+        "total": 14,
+        "rate": 23.931623931623932
+      },
+      {
+        "year": "2025",
+        "total": 12,
+        "rate": 20.512820512820515
+      }
+    ],
+    "centroid": [
+      4.713833107284289,
+      52.25529857738235
+    ],
+    "postcode": "1435"
+  },
+  {
+    "code": "BU03940988",
+    "name": "Buitenkaag",
+    "slug": "buitenkaag",
+    "population": 480,
+    "totalCrimes": 11,
+    "crimeRate": 22.916666666666664,
+    "safetyScore": 8,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 2,
+      "VIOLENT": 1,
+      "DRUGS": 2,
+      "FRAUD": 4,
+      "VANDALISM": 1,
+      "OTHER": 1
+    },
+    "categoryRates": {
+      "PROPERTY": 4.166666666666667,
+      "VIOLENT": 2.0833333333333335,
+      "DRUGS": 4.166666666666667,
+      "FRAUD": 8.333333333333334,
+      "VANDALISM": 2.0833333333333335,
+      "OTHER": 2.0833333333333335
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 11,
+        "rate": 22.916666666666664
+      },
+      {
+        "year": "2022",
+        "total": 12,
+        "rate": 25
+      },
+      {
+        "year": "2023",
+        "total": 16,
+        "rate": 33.333333333333336
+      },
+      {
+        "year": "2024",
+        "total": 14,
+        "rate": 29.166666666666668
+      },
+      {
+        "year": "2025",
+        "total": 11,
+        "rate": 22.916666666666664
+      }
+    ],
+    "centroid": [
+      4.560433013013457,
+      52.224910743966596
+    ],
+    "postcode": "2158"
+  },
+  {
+    "code": "BU03941090",
+    "name": "Lisserbroek",
+    "slug": "lisserbroek",
+    "population": 3165,
+    "totalCrimes": 54,
+    "crimeRate": 17.061611374407583,
+    "safetyScore": 8,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 19,
+      "VIOLENT": 3,
+      "DRUGS": 3,
+      "FRAUD": 14,
+      "VANDALISM": 10,
+      "OTHER": 5
+    },
+    "categoryRates": {
+      "PROPERTY": 6.003159557661927,
+      "VIOLENT": 0.9478672985781991,
+      "DRUGS": 0.9478672985781991,
+      "FRAUD": 4.423380726698262,
+      "VANDALISM": 3.1595576619273302,
+      "OTHER": 1.5797788309636651
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 61,
+        "rate": 19.273301737756714
+      },
+      {
+        "year": "2022",
+        "total": 35,
+        "rate": 11.058451816745656
+      },
+      {
+        "year": "2023",
+        "total": 43,
+        "rate": 13.586097946287518
+      },
+      {
+        "year": "2024",
+        "total": 45,
+        "rate": 14.218009478672984
+      },
+      {
+        "year": "2025",
+        "total": 54,
+        "rate": 17.061611374407583
+      }
+    ],
+    "centroid": [
+      4.572725279404228,
+      52.25328474230198
+    ],
+    "postcode": "2165"
+  },
+  {
+    "code": "BU03941294",
+    "name": "Zwaanshoek",
+    "slug": "zwaanshoek",
+    "population": 1715,
+    "totalCrimes": 26,
+    "crimeRate": 15.160349854227405,
+    "safetyScore": 8,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 9,
+      "VIOLENT": 1,
+      "DRUGS": 2,
+      "FRAUD": 5,
+      "VANDALISM": 6,
+      "OTHER": 3
+    },
+    "categoryRates": {
+      "PROPERTY": 5.247813411078718,
+      "VIOLENT": 0.5830903790087464,
+      "DRUGS": 1.1661807580174928,
+      "FRAUD": 2.9154518950437316,
+      "VANDALISM": 3.498542274052478,
+      "OTHER": 1.749271137026239
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 34,
+        "rate": 19.825072886297374
+      },
+      {
+        "year": "2022",
+        "total": 33,
+        "rate": 19.24198250728863
+      },
+      {
+        "year": "2023",
+        "total": 37,
+        "rate": 21.574344023323615
+      },
+      {
+        "year": "2024",
+        "total": 18,
+        "rate": 10.495626822157435
+      },
+      {
+        "year": "2025",
+        "total": 26,
+        "rate": 15.160349854227405
+      }
+    ],
+    "centroid": [
+      4.613623671054952,
+      52.31580873619294
+    ],
+    "postcode": "2136"
+  },
+  {
+    "code": "BU03941567",
+    "name": "Vijfhuizen",
+    "slug": "vijfhuizen",
+    "population": 1980,
+    "totalCrimes": 35,
+    "crimeRate": 17.676767676767675,
+    "safetyScore": 8,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 21,
+      "VIOLENT": 2,
+      "DRUGS": 1,
+      "FRAUD": 6,
+      "VANDALISM": 2,
+      "OTHER": 3
+    },
+    "categoryRates": {
+      "PROPERTY": 10.606060606060607,
+      "VIOLENT": 1.0101010101010102,
+      "DRUGS": 0.5050505050505051,
+      "FRAUD": 3.0303030303030303,
+      "VANDALISM": 1.0101010101010102,
+      "OTHER": 1.5151515151515151
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 57,
+        "rate": 28.78787878787879
+      },
+      {
+        "year": "2022",
+        "total": 38,
+        "rate": 19.19191919191919
+      },
+      {
+        "year": "2023",
+        "total": 34,
+        "rate": 17.17171717171717
+      },
+      {
+        "year": "2024",
+        "total": 44,
+        "rate": 22.22222222222222
+      },
+      {
+        "year": "2025",
+        "total": 35,
+        "rate": 17.676767676767675
+      }
+    ],
+    "centroid": [
+      4.67561214781059,
+      52.35148201794063
+    ],
+    "postcode": "2141"
+  },
+  {
+    "code": "BU03941569",
+    "name": "Vijfhuizen Stellinghof",
+    "slug": "vijfhuizen-stellinghof",
+    "population": 1835,
+    "totalCrimes": 34,
+    "crimeRate": 18.52861035422343,
+    "safetyScore": 8,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 16,
+      "VIOLENT": 4,
+      "DRUGS": 1,
+      "FRAUD": 7,
+      "VANDALISM": 1,
+      "OTHER": 5
+    },
+    "categoryRates": {
+      "PROPERTY": 8.719346049046322,
+      "VIOLENT": 2.1798365122615806,
+      "DRUGS": 0.5449591280653951,
+      "FRAUD": 3.8147138964577656,
+      "VANDALISM": 0.5449591280653951,
+      "OTHER": 2.7247956403269753
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 37,
+        "rate": 20.16348773841962
+      },
+      {
+        "year": "2022",
+        "total": 36,
+        "rate": 19.618528610354225
+      },
+      {
+        "year": "2023",
+        "total": 33,
+        "rate": 17.983651226158038
+      },
+      {
+        "year": "2024",
+        "total": 31,
+        "rate": 16.893732970027248
+      },
+      {
+        "year": "2025",
+        "total": 34,
+        "rate": 18.52861035422343
+      }
+    ],
+    "centroid": [
+      4.672684683103242,
+      52.34680189919534
+    ],
+    "postcode": "2141"
+  },
+  {
+    "code": "BU03942038",
+    "name": "Spaarndam",
+    "slug": "spaarndam",
+    "population": 3260,
+    "totalCrimes": 57,
+    "crimeRate": 17.484662576687118,
+    "safetyScore": 8,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 21,
+      "VIOLENT": 5,
+      "DRUGS": 0,
+      "FRAUD": 14,
+      "VANDALISM": 7,
+      "OTHER": 10
+    },
+    "categoryRates": {
+      "PROPERTY": 6.441717791411043,
+      "VIOLENT": 1.5337423312883436,
+      "DRUGS": 0,
+      "FRAUD": 4.294478527607362,
+      "VANDALISM": 2.147239263803681,
+      "OTHER": 3.067484662576687
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 76,
+        "rate": 23.312883435582823
+      },
+      {
+        "year": "2022",
+        "total": 34,
+        "rate": 10.429447852760736
+      },
+      {
+        "year": "2023",
+        "total": 60,
+        "rate": 18.404907975460123
+      },
+      {
+        "year": "2024",
+        "total": 47,
+        "rate": 14.417177914110429
+      },
+      {
+        "year": "2025",
+        "total": 57,
+        "rate": 17.484662576687118
+      }
+    ],
+    "centroid": [
+      4.6836746019279625,
+      52.411158980914564
+    ],
+    "postcode": "2064"
+  },
+  {
+    "code": "BU03942096",
+    "name": "Spaarnwoude",
+    "slug": "spaarnwoude",
+    "population": 100,
+    "totalCrimes": 2,
+    "crimeRate": 20,
+    "safetyScore": 8,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 1,
+      "VIOLENT": 0,
+      "DRUGS": 0,
+      "FRAUD": 1,
+      "VANDALISM": 0,
+      "OTHER": 0
+    },
+    "categoryRates": {
+      "PROPERTY": 10,
+      "VIOLENT": 0,
+      "DRUGS": 0,
+      "FRAUD": 10,
+      "VANDALISM": 0,
+      "OTHER": 0
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 2,
+        "rate": 20
+      },
+      {
+        "year": "2022",
+        "total": 5,
+        "rate": 50
+      },
+      {
+        "year": "2023",
+        "total": 5,
+        "rate": 50
+      },
+      {
+        "year": "2024",
+        "total": 1,
+        "rate": 10
+      },
+      {
+        "year": "2025",
+        "total": 2,
+        "rate": 20
+      }
+    ],
+    "centroid": [
+      4.693885128194424,
+      52.4010117601246
+    ],
+    "postcode": "2064"
+  },
+  {
+    "code": "BU03940236",
+    "name": "Nieuw-Vennep Getsewoud Noord",
+    "slug": "nieuw-vennep-getsewoud-noord",
+    "population": 7720,
+    "totalCrimes": 109,
+    "crimeRate": 14.119170984455957,
+    "safetyScore": 9,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 26,
+      "VIOLENT": 12,
+      "DRUGS": 8,
+      "FRAUD": 33,
+      "VANDALISM": 17,
+      "OTHER": 13
+    },
+    "categoryRates": {
+      "PROPERTY": 3.3678756476683938,
+      "VIOLENT": 1.5544041450777202,
+      "DRUGS": 1.0362694300518134,
+      "FRAUD": 4.274611398963731,
+      "VANDALISM": 2.2020725388601035,
+      "OTHER": 1.6839378238341969
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 145,
+        "rate": 18.78238341968912
+      },
+      {
+        "year": "2022",
+        "total": 114,
+        "rate": 14.766839378238343
+      },
+      {
+        "year": "2023",
+        "total": 122,
+        "rate": 15.803108808290157
+      },
+      {
+        "year": "2024",
+        "total": 129,
+        "rate": 16.70984455958549
+      },
+      {
+        "year": "2025",
+        "total": 109,
+        "rate": 14.119170984455957
+      }
+    ],
+    "centroid": [
+      4.626329475403842,
+      52.27837776219812
+    ],
+    "postcode": "2152"
+  },
+  {
+    "code": "BU03940348",
+    "name": "Zwanenburg Noordwest",
+    "slug": "zwanenburg-noordwest",
+    "population": 1185,
+    "totalCrimes": 17,
+    "crimeRate": 14.345991561181435,
+    "safetyScore": 9,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 6,
+      "VIOLENT": 1,
+      "DRUGS": 0,
+      "FRAUD": 7,
+      "VANDALISM": 3,
+      "OTHER": 0
+    },
+    "categoryRates": {
+      "PROPERTY": 5.063291139240507,
+      "VIOLENT": 0.8438818565400844,
+      "DRUGS": 0,
+      "FRAUD": 5.9071729957805905,
+      "VANDALISM": 2.5316455696202533,
+      "OTHER": 0
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 23,
+        "rate": 19.409282700421944
+      },
+      {
+        "year": "2022",
+        "total": 24,
+        "rate": 20.253164556962027
+      },
+      {
+        "year": "2023",
+        "total": 22,
+        "rate": 18.565400843881857
+      },
+      {
+        "year": "2024",
+        "total": 15,
+        "rate": 12.658227848101266
+      },
+      {
+        "year": "2025",
+        "total": 17,
+        "rate": 14.345991561181435
+      }
+    ],
+    "centroid": [
+      4.746642716562476,
+      52.38072747718851
+    ],
+    "postcode": "1161"
+  },
+  {
+    "code": "BU03940986",
+    "name": "Abbenes",
+    "slug": "abbenes",
+    "population": 990,
+    "totalCrimes": 13,
+    "crimeRate": 13.131313131313131,
+    "safetyScore": 9,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 5,
+      "VIOLENT": 3,
+      "DRUGS": 1,
+      "FRAUD": 3,
+      "VANDALISM": 0,
+      "OTHER": 1
+    },
+    "categoryRates": {
+      "PROPERTY": 5.050505050505051,
+      "VIOLENT": 3.0303030303030303,
+      "DRUGS": 1.0101010101010102,
+      "FRAUD": 3.0303030303030303,
+      "VANDALISM": 0,
+      "OTHER": 1.0101010101010102
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 15,
+        "rate": 15.151515151515152
+      },
+      {
+        "year": "2022",
+        "total": 15,
+        "rate": 15.151515151515152
+      },
+      {
+        "year": "2023",
+        "total": 15,
+        "rate": 15.151515151515152
+      },
+      {
+        "year": "2024",
+        "total": 14,
+        "rate": 14.141414141414142
+      },
+      {
+        "year": "2025",
+        "total": 13,
+        "rate": 13.131313131313131
+      }
+    ],
+    "centroid": [
+      4.590049409557094,
+      52.2337023352712
+    ],
+    "postcode": "2157"
+  },
+  {
+    "code": "BU03941193",
+    "name": "Beinsdorp",
+    "slug": "beinsdorp",
+    "population": 900,
+    "totalCrimes": 9,
+    "crimeRate": 10,
+    "safetyScore": 9,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 1,
+      "VIOLENT": 1,
+      "DRUGS": 4,
+      "FRAUD": 0,
+      "VANDALISM": 0,
+      "OTHER": 3
+    },
+    "categoryRates": {
+      "PROPERTY": 1.1111111111111112,
+      "VIOLENT": 1.1111111111111112,
+      "DRUGS": 4.444444444444445,
+      "FRAUD": 0,
+      "VANDALISM": 0,
+      "OTHER": 3.3333333333333335
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 11,
+        "rate": 12.222222222222223
+      },
+      {
+        "year": "2022",
+        "total": 11,
+        "rate": 12.222222222222223
+      },
+      {
+        "year": "2023",
+        "total": 11,
+        "rate": 12.222222222222223
+      },
+      {
+        "year": "2024",
+        "total": 16,
+        "rate": 17.77777777777778
+      },
+      {
+        "year": "2025",
+        "total": 9,
+        "rate": 10
+      }
+    ],
+    "centroid": [
+      4.595469375151414,
+      52.28541616383439
+    ],
+    "postcode": "2144"
+  }
+]

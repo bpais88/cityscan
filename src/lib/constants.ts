@@ -132,8 +132,8 @@ export function getChoroplethColor(score: number): string {
   return "#ff3333";
 }
 
-// Amsterdam center coordinates
-export const AMSTERDAM_CENTER: [number, number] = [52.3676, 4.9041];
+// Default map center (Netherlands overview)
+export const DEFAULT_CENTER: [number, number] = [52.3676, 4.9041];
 export const DEFAULT_ZOOM = 12;
 
 // CBS API base

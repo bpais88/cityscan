@@ -48,6 +48,15 @@ export interface SearchResult {
   threatLevel: string;
 }
 
+export interface CityIndex {
+  id: string;
+  name: string;
+  totalSectors: number;
+  avgScore: number;
+  criticalCount: number;
+  avgRate: number;
+}
+
 export interface CBSRecord {
   WijkenEnBuurten: string;
   SoortMisdrijf: string;

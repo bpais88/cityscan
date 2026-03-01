@@ -1,0 +1,1510 @@
+[
+  {
+    "code": "BU03850002",
+    "name": "Edam-Industriegebied",
+    "slug": "edam-industriegebied",
+    "population": 275,
+    "totalCrimes": 22,
+    "crimeRate": 80,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 5,
+      "VIOLENT": 1,
+      "DRUGS": 10,
+      "FRAUD": 2,
+      "VANDALISM": 1,
+      "OTHER": 3
+    },
+    "categoryRates": {
+      "PROPERTY": 18.18181818181818,
+      "VIOLENT": 3.6363636363636362,
+      "DRUGS": 36.36363636363636,
+      "FRAUD": 7.2727272727272725,
+      "VANDALISM": 3.6363636363636362,
+      "OTHER": 10.90909090909091
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 28,
+        "rate": 101.81818181818183
+      },
+      {
+        "year": "2022",
+        "total": 21,
+        "rate": 76.36363636363637
+      },
+      {
+        "year": "2023",
+        "total": 13,
+        "rate": 47.27272727272727
+      },
+      {
+        "year": "2024",
+        "total": 27,
+        "rate": 98.18181818181817
+      },
+      {
+        "year": "2025",
+        "total": 22,
+        "rate": 80
+      }
+    ],
+    "centroid": [
+      5.0404724955626286,
+      52.51407687685301
+    ],
+    "postcode": "1135"
+  },
+  {
+    "code": "BU03850101",
+    "name": "Purmerpolder",
+    "slug": "purmerpolder",
+    "population": 110,
+    "totalCrimes": 13,
+    "crimeRate": 118.18181818181817,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 1,
+      "VIOLENT": 0,
+      "DRUGS": 6,
+      "FRAUD": 1,
+      "VANDALISM": 1,
+      "OTHER": 4
+    },
+    "categoryRates": {
+      "PROPERTY": 9.09090909090909,
+      "VIOLENT": 0,
+      "DRUGS": 54.54545454545454,
+      "FRAUD": 9.09090909090909,
+      "VANDALISM": 9.09090909090909,
+      "OTHER": 36.36363636363636
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 7,
+        "rate": 63.63636363636363
+      },
+      {
+        "year": "2022",
+        "total": 5,
+        "rate": 45.45454545454545
+      },
+      {
+        "year": "2023",
+        "total": 12,
+        "rate": 109.09090909090908
+      },
+      {
+        "year": "2024",
+        "total": 7,
+        "rate": 63.63636363636363
+      },
+      {
+        "year": "2025",
+        "total": 13,
+        "rate": 118.18181818181817
+      }
+    ],
+    "centroid": [
+      5.03031441385842,
+      52.50334590104457
+    ],
+    "postcode": "1481"
+  },
+  {
+    "code": "BU03850201",
+    "name": "Volendam-Oude kom",
+    "slug": "volendam-oude-kom",
+    "population": 3275,
+    "totalCrimes": 142,
+    "crimeRate": 43.3587786259542,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 61,
+      "VIOLENT": 19,
+      "DRUGS": 5,
+      "FRAUD": 14,
+      "VANDALISM": 10,
+      "OTHER": 33
+    },
+    "categoryRates": {
+      "PROPERTY": 18.625954198473284,
+      "VIOLENT": 5.801526717557252,
+      "DRUGS": 1.5267175572519083,
+      "FRAUD": 4.2748091603053435,
+      "VANDALISM": 3.0534351145038165,
+      "OTHER": 10.076335877862595
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 95,
+        "rate": 29.00763358778626
+      },
+      {
+        "year": "2022",
+        "total": 100,
+        "rate": 30.534351145038165
+      },
+      {
+        "year": "2023",
+        "total": 108,
+        "rate": 32.97709923664122
+      },
+      {
+        "year": "2024",
+        "total": 143,
+        "rate": 43.66412213740458
+      },
+      {
+        "year": "2025",
+        "total": 142,
+        "rate": 43.3587786259542
+      }
+    ],
+    "centroid": [
+      5.067599202662038,
+      52.49124209481375
+    ],
+    "postcode": "1131"
+  },
+  {
+    "code": "BU03850209",
+    "name": "Volendam-Industriegebied",
+    "slug": "volendam-industriegebied",
+    "population": 105,
+    "totalCrimes": 37,
+    "crimeRate": 352.3809523809524,
+    "safetyScore": 1,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 22,
+      "VIOLENT": 0,
+      "DRUGS": 2,
+      "FRAUD": 3,
+      "VANDALISM": 2,
+      "OTHER": 8
+    },
+    "categoryRates": {
+      "PROPERTY": 209.52380952380952,
+      "VIOLENT": 0,
+      "DRUGS": 19.04761904761905,
+      "FRAUD": 28.57142857142857,
+      "VANDALISM": 19.04761904761905,
+      "OTHER": 76.1904761904762
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 44,
+        "rate": 419.04761904761904
+      },
+      {
+        "year": "2022",
+        "total": 41,
+        "rate": 390.4761904761905
+      },
+      {
+        "year": "2023",
+        "total": 28,
+        "rate": 266.6666666666667
+      },
+      {
+        "year": "2024",
+        "total": 38,
+        "rate": 361.90476190476187
+      },
+      {
+        "year": "2025",
+        "total": 37,
+        "rate": 352.3809523809524
+      }
+    ],
+    "centroid": [
+      5.07851461903811,
+      52.503275765252624
+    ],
+    "postcode": "1131"
+  },
+  {
+    "code": "BU03850202",
+    "name": "Volendam-Katham + Planetenbuurt",
+    "slug": "volendam-katham-planetenbuurt",
+    "population": 2070,
+    "totalCrimes": 65,
+    "crimeRate": 31.40096618357488,
+    "safetyScore": 3,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 20,
+      "VIOLENT": 21,
+      "DRUGS": 10,
+      "FRAUD": 6,
+      "VANDALISM": 4,
+      "OTHER": 4
+    },
+    "categoryRates": {
+      "PROPERTY": 9.66183574879227,
+      "VIOLENT": 10.144927536231883,
+      "DRUGS": 4.830917874396135,
+      "FRAUD": 2.898550724637681,
+      "VANDALISM": 1.932367149758454,
+      "OTHER": 1.932367149758454
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 31,
+        "rate": 14.975845410628018
+      },
+      {
+        "year": "2022",
+        "total": 48,
+        "rate": 23.18840579710145
+      },
+      {
+        "year": "2023",
+        "total": 57,
+        "rate": 27.53623188405797
+      },
+      {
+        "year": "2024",
+        "total": 51,
+        "rate": 24.637681159420293
+      },
+      {
+        "year": "2025",
+        "total": 65,
+        "rate": 31.40096618357488
+      }
+    ],
+    "centroid": [
+      5.062947885274017,
+      52.49624757683361
+    ],
+    "postcode": "1131"
+  },
+  {
+    "code": "BU03850801",
+    "name": "Schardam",
+    "slug": "schardam",
+    "population": 115,
+    "totalCrimes": 4,
+    "crimeRate": 34.78260869565217,
+    "safetyScore": 3,
+    "threatLevel": "CRITICAL",
+    "categories": {
+      "PROPERTY": 0,
+      "VIOLENT": 1,
+      "DRUGS": 1,
+      "FRAUD": 0,
+      "VANDALISM": 0,
+      "OTHER": 2
+    },
+    "categoryRates": {
+      "PROPERTY": 0,
+      "VIOLENT": 8.695652173913043,
+      "DRUGS": 8.695652173913043,
+      "FRAUD": 0,
+      "VANDALISM": 0,
+      "OTHER": 17.391304347826086
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 8,
+        "rate": 69.56521739130434
+      },
+      {
+        "year": "2022",
+        "total": 3,
+        "rate": 26.08695652173913
+      },
+      {
+        "year": "2023",
+        "total": 4,
+        "rate": 34.78260869565217
+      },
+      {
+        "year": "2024",
+        "total": 8,
+        "rate": 69.56521739130434
+      },
+      {
+        "year": "2025",
+        "total": 4,
+        "rate": 34.78260869565217
+      }
+    ],
+    "centroid": [
+      5.017941055607668,
+      52.60051186190812
+    ],
+    "postcode": "1476"
+  },
+  {
+    "code": "BU03850004",
+    "name": "Edam-Singelwijk",
+    "slug": "edam-singelwijk",
+    "population": 1750,
+    "totalCrimes": 47,
+    "crimeRate": 26.857142857142858,
+    "safetyScore": 4,
+    "threatLevel": "HIGH",
+    "categories": {
+      "PROPERTY": 15,
+      "VIOLENT": 10,
+      "DRUGS": 1,
+      "FRAUD": 6,
+      "VANDALISM": 11,
+      "OTHER": 4
+    },
+    "categoryRates": {
+      "PROPERTY": 8.571428571428571,
+      "VIOLENT": 5.714285714285714,
+      "DRUGS": 0.5714285714285715,
+      "FRAUD": 3.4285714285714284,
+      "VANDALISM": 6.285714285714286,
+      "OTHER": 2.285714285714286
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 59,
+        "rate": 33.714285714285715
+      },
+      {
+        "year": "2022",
+        "total": 68,
+        "rate": 38.857142857142854
+      },
+      {
+        "year": "2023",
+        "total": 45,
+        "rate": 25.714285714285715
+      },
+      {
+        "year": "2024",
+        "total": 50,
+        "rate": 28.57142857142857
+      },
+      {
+        "year": "2025",
+        "total": 47,
+        "rate": 26.857142857142858
+      }
+    ],
+    "centroid": [
+      5.05347491983752,
+      52.509263453996276
+    ],
+    "postcode": "1135"
+  },
+  {
+    "code": "BU03850001",
+    "name": "Edam-Oude kom",
+    "slug": "edam-oude-kom",
+    "population": 2730,
+    "totalCrimes": 69,
+    "crimeRate": 25.274725274725274,
+    "safetyScore": 5,
+    "threatLevel": "HIGH",
+    "categories": {
+      "PROPERTY": 23,
+      "VIOLENT": 9,
+      "DRUGS": 7,
+      "FRAUD": 13,
+      "VANDALISM": 8,
+      "OTHER": 9
+    },
+    "categoryRates": {
+      "PROPERTY": 8.424908424908425,
+      "VIOLENT": 3.2967032967032965,
+      "DRUGS": 2.5641025641025643,
+      "FRAUD": 4.761904761904763,
+      "VANDALISM": 2.93040293040293,
+      "OTHER": 3.2967032967032965
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 91,
+        "rate": 33.333333333333336
+      },
+      {
+        "year": "2022",
+        "total": 85,
+        "rate": 31.135531135531135
+      },
+      {
+        "year": "2023",
+        "total": 98,
+        "rate": 35.8974358974359
+      },
+      {
+        "year": "2024",
+        "total": 95,
+        "rate": 34.7985347985348
+      },
+      {
+        "year": "2025",
+        "total": 69,
+        "rate": 25.274725274725274
+      }
+    ],
+    "centroid": [
+      5.063207489502363,
+      52.51551005024799
+    ],
+    "postcode": "1135"
+  },
+  {
+    "code": "BU03850208",
+    "name": "Volendam-Bloemenbuurt",
+    "slug": "volendam-bloemenbuurt",
+    "population": 1485,
+    "totalCrimes": 33,
+    "crimeRate": 22.22222222222222,
+    "safetyScore": 5,
+    "threatLevel": "HIGH",
+    "categories": {
+      "PROPERTY": 11,
+      "VIOLENT": 1,
+      "DRUGS": 2,
+      "FRAUD": 9,
+      "VANDALISM": 6,
+      "OTHER": 4
+    },
+    "categoryRates": {
+      "PROPERTY": 7.407407407407407,
+      "VIOLENT": 0.6734006734006734,
+      "DRUGS": 1.3468013468013469,
+      "FRAUD": 6.0606060606060606,
+      "VANDALISM": 4.040404040404041,
+      "OTHER": 2.6936026936026938
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 26,
+        "rate": 17.50841750841751
+      },
+      {
+        "year": "2022",
+        "total": 25,
+        "rate": 16.835016835016834
+      },
+      {
+        "year": "2023",
+        "total": 31,
+        "rate": 20.875420875420875
+      },
+      {
+        "year": "2024",
+        "total": 29,
+        "rate": 19.528619528619526
+      },
+      {
+        "year": "2025",
+        "total": 33,
+        "rate": 22.22222222222222
+      }
+    ],
+    "centroid": [
+      5.070184097080486,
+      52.498780081228674
+    ],
+    "postcode": "1131"
+  },
+  {
+    "code": "BU03850401",
+    "name": "Oosthuizen",
+    "slug": "oosthuizen",
+    "population": 1675,
+    "totalCrimes": 38,
+    "crimeRate": 22.686567164179106,
+    "safetyScore": 5,
+    "threatLevel": "HIGH",
+    "categories": {
+      "PROPERTY": 10,
+      "VIOLENT": 3,
+      "DRUGS": 5,
+      "FRAUD": 10,
+      "VANDALISM": 6,
+      "OTHER": 4
+    },
+    "categoryRates": {
+      "PROPERTY": 5.970149253731344,
+      "VIOLENT": 1.791044776119403,
+      "DRUGS": 2.985074626865672,
+      "FRAUD": 5.970149253731344,
+      "VANDALISM": 3.582089552238806,
+      "OTHER": 2.3880597014925375
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 39,
+        "rate": 23.283582089552237
+      },
+      {
+        "year": "2022",
+        "total": 54,
+        "rate": 32.23880597014926
+      },
+      {
+        "year": "2023",
+        "total": 32,
+        "rate": 19.1044776119403
+      },
+      {
+        "year": "2024",
+        "total": 47,
+        "rate": 28.05970149253731
+      },
+      {
+        "year": "2025",
+        "total": 38,
+        "rate": 22.686567164179106
+      }
+    ],
+    "centroid": [
+      5.005007836731059,
+      52.57539329407308
+    ],
+    "postcode": "1474"
+  },
+  {
+    "code": "BU03850005",
+    "name": "Edam-Molenbuurt",
+    "slug": "edam-molenbuurt",
+    "population": 935,
+    "totalCrimes": 20,
+    "crimeRate": 21.390374331550802,
+    "safetyScore": 6,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 4,
+      "VIOLENT": 4,
+      "DRUGS": 2,
+      "FRAUD": 4,
+      "VANDALISM": 6,
+      "OTHER": 0
+    },
+    "categoryRates": {
+      "PROPERTY": 4.278074866310161,
+      "VIOLENT": 4.278074866310161,
+      "DRUGS": 2.1390374331550803,
+      "FRAUD": 4.278074866310161,
+      "VANDALISM": 6.4171122994652405,
+      "OTHER": 0
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 16,
+        "rate": 17.112299465240643
+      },
+      {
+        "year": "2022",
+        "total": 26,
+        "rate": 27.807486631016044
+      },
+      {
+        "year": "2023",
+        "total": 21,
+        "rate": 22.459893048128343
+      },
+      {
+        "year": "2024",
+        "total": 27,
+        "rate": 28.877005347593585
+      },
+      {
+        "year": "2025",
+        "total": 20,
+        "rate": 21.390374331550802
+      }
+    ],
+    "centroid": [
+      5.062045380147355,
+      52.51065695638135
+    ],
+    "postcode": "1135"
+  },
+  {
+    "code": "BU03850301",
+    "name": "Beets",
+    "slug": "beets",
+    "population": 530,
+    "totalCrimes": 9,
+    "crimeRate": 16.9811320754717,
+    "safetyScore": 6,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 2,
+      "VIOLENT": 0,
+      "DRUGS": 1,
+      "FRAUD": 2,
+      "VANDALISM": 2,
+      "OTHER": 2
+    },
+    "categoryRates": {
+      "PROPERTY": 3.7735849056603774,
+      "VIOLENT": 0,
+      "DRUGS": 1.8867924528301887,
+      "FRAUD": 3.7735849056603774,
+      "VANDALISM": 3.7735849056603774,
+      "OTHER": 3.7735849056603774
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 19,
+        "rate": 35.84905660377358
+      },
+      {
+        "year": "2022",
+        "total": 20,
+        "rate": 37.73584905660377
+      },
+      {
+        "year": "2023",
+        "total": 19,
+        "rate": 35.84905660377358
+      },
+      {
+        "year": "2024",
+        "total": 16,
+        "rate": 30.18867924528302
+      },
+      {
+        "year": "2025",
+        "total": 9,
+        "rate": 16.9811320754717
+      }
+    ],
+    "centroid": [
+      4.97121979859954,
+      52.58831403649847
+    ],
+    "postcode": "1475"
+  },
+  {
+    "code": "BU03850402",
+    "name": "De Watering",
+    "slug": "de-watering",
+    "population": 1950,
+    "totalCrimes": 38,
+    "crimeRate": 19.48717948717949,
+    "safetyScore": 6,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 10,
+      "VIOLENT": 5,
+      "DRUGS": 0,
+      "FRAUD": 13,
+      "VANDALISM": 5,
+      "OTHER": 5
+    },
+    "categoryRates": {
+      "PROPERTY": 5.128205128205129,
+      "VIOLENT": 2.5641025641025643,
+      "DRUGS": 0,
+      "FRAUD": 6.666666666666667,
+      "VANDALISM": 2.5641025641025643,
+      "OTHER": 2.5641025641025643
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 39,
+        "rate": 20
+      },
+      {
+        "year": "2022",
+        "total": 30,
+        "rate": 15.384615384615385
+      },
+      {
+        "year": "2023",
+        "total": 18,
+        "rate": 9.230769230769232
+      },
+      {
+        "year": "2024",
+        "total": 30,
+        "rate": 15.384615384615385
+      },
+      {
+        "year": "2025",
+        "total": 38,
+        "rate": 19.48717948717949
+      }
+    ],
+    "centroid": [
+      4.997004767850803,
+      52.568984846516976
+    ],
+    "postcode": "1474"
+  },
+  {
+    "code": "BU03850501",
+    "name": "Warder",
+    "slug": "warder",
+    "population": 780,
+    "totalCrimes": 16,
+    "crimeRate": 20.512820512820515,
+    "safetyScore": 6,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 5,
+      "VIOLENT": 0,
+      "DRUGS": 1,
+      "FRAUD": 3,
+      "VANDALISM": 5,
+      "OTHER": 2
+    },
+    "categoryRates": {
+      "PROPERTY": 6.41025641025641,
+      "VIOLENT": 0,
+      "DRUGS": 1.2820512820512822,
+      "FRAUD": 3.8461538461538463,
+      "VANDALISM": 6.41025641025641,
+      "OTHER": 2.5641025641025643
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 20,
+        "rate": 25.64102564102564
+      },
+      {
+        "year": "2022",
+        "total": 17,
+        "rate": 21.794871794871792
+      },
+      {
+        "year": "2023",
+        "total": 19,
+        "rate": 24.358974358974358
+      },
+      {
+        "year": "2024",
+        "total": 14,
+        "rate": 17.94871794871795
+      },
+      {
+        "year": "2025",
+        "total": 16,
+        "rate": 20.512820512820515
+      }
+    ],
+    "centroid": [
+      5.031392569444129,
+      52.5481688414227
+    ],
+    "postcode": "1473"
+  },
+  {
+    "code": "BU03850601",
+    "name": "Middelie",
+    "slug": "middelie",
+    "population": 700,
+    "totalCrimes": 15,
+    "crimeRate": 21.428571428571427,
+    "safetyScore": 6,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 3,
+      "VIOLENT": 2,
+      "DRUGS": 3,
+      "FRAUD": 4,
+      "VANDALISM": 2,
+      "OTHER": 1
+    },
+    "categoryRates": {
+      "PROPERTY": 4.285714285714286,
+      "VIOLENT": 2.857142857142857,
+      "DRUGS": 4.285714285714286,
+      "FRAUD": 5.714285714285714,
+      "VANDALISM": 2.857142857142857,
+      "OTHER": 1.4285714285714286
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 12,
+        "rate": 17.142857142857142
+      },
+      {
+        "year": "2022",
+        "total": 9,
+        "rate": 12.857142857142858
+      },
+      {
+        "year": "2023",
+        "total": 16,
+        "rate": 22.857142857142858
+      },
+      {
+        "year": "2024",
+        "total": 20,
+        "rate": 28.57142857142857
+      },
+      {
+        "year": "2025",
+        "total": 15,
+        "rate": 21.428571428571427
+      }
+    ],
+    "centroid": [
+      5.019865297989847,
+      52.5416767752147
+    ],
+    "postcode": "1472"
+  },
+  {
+    "code": "BU03850701",
+    "name": "Kwadijk",
+    "slug": "kwadijk",
+    "population": 800,
+    "totalCrimes": 14,
+    "crimeRate": 17.5,
+    "safetyScore": 6,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 3,
+      "VIOLENT": 0,
+      "DRUGS": 4,
+      "FRAUD": 3,
+      "VANDALISM": 2,
+      "OTHER": 2
+    },
+    "categoryRates": {
+      "PROPERTY": 3.75,
+      "VIOLENT": 0,
+      "DRUGS": 5,
+      "FRAUD": 3.75,
+      "VANDALISM": 2.5,
+      "OTHER": 2.5
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 15,
+        "rate": 18.75
+      },
+      {
+        "year": "2022",
+        "total": 12,
+        "rate": 15
+      },
+      {
+        "year": "2023",
+        "total": 11,
+        "rate": 13.75
+      },
+      {
+        "year": "2024",
+        "total": 13,
+        "rate": 16.25
+      },
+      {
+        "year": "2025",
+        "total": 14,
+        "rate": 17.5
+      }
+    ],
+    "centroid": [
+      4.986832243072838,
+      52.533899274677765
+    ],
+    "postcode": "1471"
+  },
+  {
+    "code": "BU03850207",
+    "name": "Volendam-Rozettenbuurt",
+    "slug": "volendam-rozettenbuurt",
+    "population": 1975,
+    "totalCrimes": 26,
+    "crimeRate": 13.164556962025316,
+    "safetyScore": 7,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 7,
+      "VIOLENT": 5,
+      "DRUGS": 4,
+      "FRAUD": 5,
+      "VANDALISM": 1,
+      "OTHER": 4
+    },
+    "categoryRates": {
+      "PROPERTY": 3.5443037974683542,
+      "VIOLENT": 2.5316455696202533,
+      "DRUGS": 2.0253164556962027,
+      "FRAUD": 2.5316455696202533,
+      "VANDALISM": 0.5063291139240507,
+      "OTHER": 2.0253164556962027
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 41,
+        "rate": 20.759493670886076
+      },
+      {
+        "year": "2022",
+        "total": 19,
+        "rate": 9.620253164556962
+      },
+      {
+        "year": "2023",
+        "total": 23,
+        "rate": 11.645569620253164
+      },
+      {
+        "year": "2024",
+        "total": 35,
+        "rate": 17.721518987341774
+      },
+      {
+        "year": "2025",
+        "total": 26,
+        "rate": 13.164556962025316
+      }
+    ],
+    "centroid": [
+      5.06850364574064,
+      52.50287092849315
+    ],
+    "postcode": "1131"
+  },
+  {
+    "code": "BU03850210",
+    "name": "Volendam-Middengebied",
+    "slug": "volendam-middengebied",
+    "population": 3695,
+    "totalCrimes": 47,
+    "crimeRate": 12.719891745602165,
+    "safetyScore": 7,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 8,
+      "VIOLENT": 7,
+      "DRUGS": 4,
+      "FRAUD": 18,
+      "VANDALISM": 5,
+      "OTHER": 5
+    },
+    "categoryRates": {
+      "PROPERTY": 2.165087956698241,
+      "VIOLENT": 1.8944519621109608,
+      "DRUGS": 1.0825439783491204,
+      "FRAUD": 4.871447902571043,
+      "VANDALISM": 1.3531799729364007,
+      "OTHER": 1.3531799729364007
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 47,
+        "rate": 12.719891745602165
+      },
+      {
+        "year": "2022",
+        "total": 54,
+        "rate": 14.614343707713125
+      },
+      {
+        "year": "2023",
+        "total": 36,
+        "rate": 9.742895805142085
+      },
+      {
+        "year": "2024",
+        "total": 46,
+        "rate": 12.449255751014885
+      },
+      {
+        "year": "2025",
+        "total": 47,
+        "rate": 12.719891745602165
+      }
+    ],
+    "centroid": [
+      5.065532910102999,
+      52.50602331983452
+    ],
+    "postcode": "1132"
+  },
+  {
+    "code": "BU03850212",
+    "name": "Broeckgouw",
+    "slug": "broeckgouw-0212",
+    "population": 2825,
+    "totalCrimes": 40,
+    "crimeRate": 14.15929203539823,
+    "safetyScore": 7,
+    "threatLevel": "MODERATE",
+    "categories": {
+      "PROPERTY": 6,
+      "VIOLENT": 9,
+      "DRUGS": 2,
+      "FRAUD": 13,
+      "VANDALISM": 5,
+      "OTHER": 5
+    },
+    "categoryRates": {
+      "PROPERTY": 2.1238938053097347,
+      "VIOLENT": 3.185840707964602,
+      "DRUGS": 0.7079646017699115,
+      "FRAUD": 4.601769911504424,
+      "VANDALISM": 1.7699115044247788,
+      "OTHER": 1.7699115044247788
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 32,
+        "rate": 11.327433628318584
+      },
+      {
+        "year": "2022",
+        "total": 45,
+        "rate": 15.929203539823009
+      },
+      {
+        "year": "2023",
+        "total": 29,
+        "rate": 10.265486725663717
+      },
+      {
+        "year": "2024",
+        "total": 36,
+        "rate": 12.743362831858407
+      },
+      {
+        "year": "2025",
+        "total": 40,
+        "rate": 14.15929203539823
+      }
+    ],
+    "centroid": [
+      5.075866180409754,
+      52.51240873995202
+    ],
+    "postcode": "1132"
+  },
+  {
+    "code": "BU03850003",
+    "name": "Edam-Zuid",
+    "slug": "edam-zuid",
+    "population": 1320,
+    "totalCrimes": 12,
+    "crimeRate": 9.09090909090909,
+    "safetyScore": 8,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 1,
+      "VIOLENT": 0,
+      "DRUGS": 0,
+      "FRAUD": 4,
+      "VANDALISM": 6,
+      "OTHER": 1
+    },
+    "categoryRates": {
+      "PROPERTY": 0.7575757575757576,
+      "VIOLENT": 0,
+      "DRUGS": 0,
+      "FRAUD": 3.0303030303030303,
+      "VANDALISM": 4.545454545454545,
+      "OTHER": 0.7575757575757576
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 18,
+        "rate": 13.636363636363635
+      },
+      {
+        "year": "2022",
+        "total": 10,
+        "rate": 7.575757575757576
+      },
+      {
+        "year": "2023",
+        "total": 17,
+        "rate": 12.878787878787879
+      },
+      {
+        "year": "2024",
+        "total": 16,
+        "rate": 12.121212121212121
+      },
+      {
+        "year": "2025",
+        "total": 12,
+        "rate": 9.09090909090909
+      }
+    ],
+    "centroid": [
+      5.046031754632822,
+      52.50696207158003
+    ],
+    "postcode": "1135"
+  },
+  {
+    "code": "BU03850203",
+    "name": "Volendam-Blokgouw 1 en 2",
+    "slug": "volendam-blokgouw-1-en-2",
+    "population": 2190,
+    "totalCrimes": 23,
+    "crimeRate": 10.502283105022832,
+    "safetyScore": 8,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 8,
+      "VIOLENT": 1,
+      "DRUGS": 2,
+      "FRAUD": 3,
+      "VANDALISM": 3,
+      "OTHER": 6
+    },
+    "categoryRates": {
+      "PROPERTY": 3.65296803652968,
+      "VIOLENT": 0.45662100456621,
+      "DRUGS": 0.91324200913242,
+      "FRAUD": 1.36986301369863,
+      "VANDALISM": 1.36986301369863,
+      "OTHER": 2.73972602739726
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 37,
+        "rate": 16.894977168949772
+      },
+      {
+        "year": "2022",
+        "total": 41,
+        "rate": 18.72146118721461
+      },
+      {
+        "year": "2023",
+        "total": 39,
+        "rate": 17.80821917808219
+      },
+      {
+        "year": "2024",
+        "total": 29,
+        "rate": 13.242009132420092
+      },
+      {
+        "year": "2025",
+        "total": 23,
+        "rate": 10.502283105022832
+      }
+    ],
+    "centroid": [
+      5.057149935141447,
+      52.4981875715387
+    ],
+    "postcode": "1132"
+  },
+  {
+    "code": "BU03850205",
+    "name": "Volendam-Blokgouw 4, 5 en 6",
+    "slug": "volendam-blokgouw-4-5-en-6",
+    "population": 1575,
+    "totalCrimes": 16,
+    "crimeRate": 10.158730158730158,
+    "safetyScore": 8,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 3,
+      "VIOLENT": 2,
+      "DRUGS": 0,
+      "FRAUD": 6,
+      "VANDALISM": 3,
+      "OTHER": 2
+    },
+    "categoryRates": {
+      "PROPERTY": 1.9047619047619047,
+      "VIOLENT": 1.2698412698412698,
+      "DRUGS": 0,
+      "FRAUD": 3.8095238095238093,
+      "VANDALISM": 1.9047619047619047,
+      "OTHER": 1.2698412698412698
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 22,
+        "rate": 13.968253968253968
+      },
+      {
+        "year": "2022",
+        "total": 24,
+        "rate": 15.238095238095237
+      },
+      {
+        "year": "2023",
+        "total": 30,
+        "rate": 19.04761904761905
+      },
+      {
+        "year": "2024",
+        "total": 17,
+        "rate": 10.793650793650794
+      },
+      {
+        "year": "2025",
+        "total": 16,
+        "rate": 10.158730158730158
+      }
+    ],
+    "centroid": [
+      5.053880061138941,
+      52.49417332889076
+    ],
+    "postcode": "1132"
+  },
+  {
+    "code": "BU03850206",
+    "name": "Volendam-Blokgouw 7 en 8",
+    "slug": "volendam-blokgouw-7-en-8",
+    "population": 2260,
+    "totalCrimes": 17,
+    "crimeRate": 7.522123893805309,
+    "safetyScore": 8,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 5,
+      "VIOLENT": 2,
+      "DRUGS": 0,
+      "FRAUD": 9,
+      "VANDALISM": 1,
+      "OTHER": 0
+    },
+    "categoryRates": {
+      "PROPERTY": 2.2123893805309733,
+      "VIOLENT": 0.8849557522123894,
+      "DRUGS": 0,
+      "FRAUD": 3.982300884955752,
+      "VANDALISM": 0.4424778761061947,
+      "OTHER": 0
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 18,
+        "rate": 7.964601769911504
+      },
+      {
+        "year": "2022",
+        "total": 26,
+        "rate": 11.504424778761061
+      },
+      {
+        "year": "2023",
+        "total": 22,
+        "rate": 9.734513274336283
+      },
+      {
+        "year": "2024",
+        "total": 19,
+        "rate": 8.4070796460177
+      },
+      {
+        "year": "2025",
+        "total": 17,
+        "rate": 7.522123893805309
+      }
+    ],
+    "centroid": [
+      5.047927977059663,
+      52.4963851130129
+    ],
+    "postcode": "1132"
+  },
+  {
+    "code": "BU03850007",
+    "name": "Broeckgouw",
+    "slug": "broeckgouw",
+    "population": 305,
+    "totalCrimes": 2,
+    "crimeRate": 6.557377049180328,
+    "safetyScore": 9,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 0,
+      "VIOLENT": 1,
+      "DRUGS": 0,
+      "FRAUD": 0,
+      "VANDALISM": 1,
+      "OTHER": 0
+    },
+    "categoryRates": {
+      "PROPERTY": 0,
+      "VIOLENT": 3.278688524590164,
+      "DRUGS": 0,
+      "FRAUD": 0,
+      "VANDALISM": 3.278688524590164,
+      "OTHER": 0
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 5,
+        "rate": 16.393442622950822
+      },
+      {
+        "year": "2022",
+        "total": 5,
+        "rate": 16.393442622950822
+      },
+      {
+        "year": "2023",
+        "total": 8,
+        "rate": 26.229508196721312
+      },
+      {
+        "year": "2024",
+        "total": 3,
+        "rate": 9.836065573770492
+      },
+      {
+        "year": "2025",
+        "total": 2,
+        "rate": 6.557377049180328
+      }
+    ],
+    "centroid": [
+      5.073384776966384,
+      52.513479407674794
+    ],
+    "postcode": "1135"
+  },
+  {
+    "code": "BU03850204",
+    "name": "Volendam-Blokgouw 3",
+    "slug": "volendam-blokgouw-3",
+    "population": 1280,
+    "totalCrimes": 9,
+    "crimeRate": 7.03125,
+    "safetyScore": 9,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 0,
+      "VIOLENT": 2,
+      "DRUGS": 0,
+      "FRAUD": 2,
+      "VANDALISM": 2,
+      "OTHER": 3
+    },
+    "categoryRates": {
+      "PROPERTY": 0,
+      "VIOLENT": 1.5625,
+      "DRUGS": 0,
+      "FRAUD": 1.5625,
+      "VANDALISM": 1.5625,
+      "OTHER": 2.34375
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 17,
+        "rate": 13.28125
+      },
+      {
+        "year": "2022",
+        "total": 24,
+        "rate": 18.75
+      },
+      {
+        "year": "2023",
+        "total": 14,
+        "rate": 10.9375
+      },
+      {
+        "year": "2024",
+        "total": 15,
+        "rate": 11.71875
+      },
+      {
+        "year": "2025",
+        "total": 9,
+        "rate": 7.03125
+      }
+    ],
+    "centroid": [
+      5.0528318789218,
+      52.50120989320221
+    ],
+    "postcode": "1132"
+  },
+  {
+    "code": "BU03850901",
+    "name": "Hobrede",
+    "slug": "hobrede",
+    "population": 170,
+    "totalCrimes": 0,
+    "crimeRate": 0,
+    "safetyScore": 10,
+    "threatLevel": "LOW",
+    "categories": {
+      "PROPERTY": 0,
+      "VIOLENT": 0,
+      "DRUGS": 0,
+      "FRAUD": 0,
+      "VANDALISM": 0,
+      "OTHER": 0
+    },
+    "categoryRates": {
+      "PROPERTY": 0,
+      "VIOLENT": 0,
+      "DRUGS": 0,
+      "FRAUD": 0,
+      "VANDALISM": 0,
+      "OTHER": 0
+    },
+    "trends": [
+      {
+        "year": "2021",
+        "total": 2,
+        "rate": 11.76470588235294
+      },
+      {
+        "year": "2022",
+        "total": 3,
+        "rate": 17.647058823529413
+      },
+      {
+        "year": "2023",
+        "total": 2,
+        "rate": 11.76470588235294
+      },
+      {
+        "year": "2024",
+        "total": 2,
+        "rate": 11.76470588235294
+      },
+      {
+        "year": "2025",
+        "total": 0,
+        "rate": 0
+      }
+    ],
+    "centroid": [
+      4.982671332894667,
+      52.544505329177845
+    ],
+    "postcode": "1477"
+  }
+]

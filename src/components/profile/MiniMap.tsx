@@ -16,15 +16,19 @@ interface MiniMapProps {
   geojson: GeoJSON.FeatureCollection;
   neighborhoods: Neighborhood[];
   selectedSlug: string;
+  cityId: string;
+  cityCenter: [number, number];
 }
 
-export default function MiniMap({ geojson, neighborhoods, selectedSlug }: MiniMapProps) {
+export default function MiniMap({ geojson, neighborhoods, selectedSlug, cityId, cityCenter }: MiniMapProps) {
   return (
     <div className="border border-[#333340]">
       <SafetyMap
         geojson={geojson}
         neighborhoods={neighborhoods}
         selectedSlug={selectedSlug}
+        cityId={cityId}
+        cityCenter={cityCenter}
         mini
       />
     </div>
