@@ -109,6 +109,21 @@ export default function SafetyMap({
           </div>`,
           { className: "dark-popup" }
         );
+
+        // Hover tooltip showing neighborhood name + threat level
+        layer.bindTooltip(
+          `<div style="font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.1em;">
+            <span style="color: #e0e0f0; font-weight: 600;">${n.name}</span>
+            <span style="color: ${threatColor}; margin-left: 6px;">${n.safetyScore}/10</span>
+          </div>`,
+          {
+            sticky: true,
+            direction: "top",
+            offset: [0, -10],
+            opacity: 0.95,
+            className: "dark-tooltip",
+          }
+        );
       }
 
       (layer as L.Path).on({
