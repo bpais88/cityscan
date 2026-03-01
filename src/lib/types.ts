@@ -12,6 +12,7 @@ export interface Neighborhood {
   trends: YearlyTrend[];
   centroid: [number, number]; // [lng, lat]
   postcode: string; // 4-digit Dutch postcode
+  aliases?: string[]; // popular area names (e.g. "Jordaan", "De Pijp")
 }
 
 export type CrimeCategory =

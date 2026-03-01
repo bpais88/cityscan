@@ -14,6 +14,7 @@ import {
   slugify,
 } from "../src/lib/scoring";
 import { CITIES } from "../src/lib/cities";
+import { NEIGHBORHOOD_ALIASES } from "../src/lib/aliases";
 
 const DATA_DIR = join(process.cwd(), "src/data");
 const RAW_DIR = join(DATA_DIR, "raw");
@@ -202,16 +203,26 @@ function processCity(cityId: string, gemeenteCode: string) {
     const threatLevel =
       safetyScore >= 8 ? "LOW" : safetyScore >= 6 ? "MODERATE" : safetyScore >= 4 ? "HIGH" : "CRITICAL";
 
+    const postcode = postcodeMap.get(code) ?? "";
+
+    // Match popular area aliases by postcode
+    const cityAliases = NEIGHBORHOOD_ALIASES[cityId] ?? [];
+    const aliases = cityAliases
+      .filter((a) => postcode && a.postcodes.includes(postcode))
+      .map((a) => a.name);
+
     neighborhoods.push({
       code, name, slug, population, totalCrimes, crimeRate, safetyScore, threatLevel,
       categories: latestCats, categoryRates, trends,
       centroid: centroidMap.get(code) ?? [4.9041, 52.3676],
-      postcode: postcodeMap.get(code) ?? "",
+      postcode,
+      ...(aliases.length > 0 ? { aliases } : {}),
     });
   }
 
   neighborhoods.sort((a, b) => a.safetyScore - b.safetyScore);
-  console.log(`  -> ${neighborhoods.length} neighborhoods | City rate: ${cityRate.toFixed(1)}/1K`);
+  const aliasCount = neighborhoods.filter((n) => n.aliases && n.aliases.length > 0).length;
+  console.log(`  -> ${neighborhoods.length} neighborhoods | City rate: ${cityRate.toFixed(1)}/1K | ${aliasCount} with aliases`);
 
   return { neighborhoods, cityAverages };
 }

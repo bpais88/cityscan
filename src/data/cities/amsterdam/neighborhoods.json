@@ -55,7 +55,12 @@
       4.882842020094375,
       52.38493481811526
     ],
-    "postcode": "1013"
+    "postcode": "1013",
+    "aliases": [
+      "Centrum",
+      "Westerpark",
+      "Spaarndammerbuurt"
+    ]
   },
   {
     "code": "BU0363AA06",
@@ -113,7 +118,12 @@
       4.8915274510227915,
       52.38060494754146
     ],
-    "postcode": "1013"
+    "postcode": "1013",
+    "aliases": [
+      "Centrum",
+      "Westerpark",
+      "Spaarndammerbuurt"
+    ]
   },
   {
     "code": "BU0363AB09",
@@ -171,7 +181,12 @@
       4.878548137706016,
       52.36682116399085
     ],
-    "postcode": "1016"
+    "postcode": "1016",
+    "aliases": [
+      "Jordaan",
+      "Centrum",
+      "Negen Straatjes"
+    ]
   },
   {
     "code": "BU0363AC03",
@@ -229,7 +244,12 @@
       4.8860943481754715,
       52.372102282601915
     ],
-    "postcode": "1016"
+    "postcode": "1016",
+    "aliases": [
+      "Jordaan",
+      "Centrum",
+      "Negen Straatjes"
+    ]
   },
   {
     "code": "BU0363AC04",
@@ -287,7 +307,12 @@
       4.885183472546959,
       52.36794411480399
     ],
-    "postcode": "1016"
+    "postcode": "1016",
+    "aliases": [
+      "Jordaan",
+      "Centrum",
+      "Negen Straatjes"
+    ]
   },
   {
     "code": "BU0363AD02",
@@ -345,7 +370,11 @@
       4.895437180728529,
       52.37816675454854
     ],
-    "postcode": "1012"
+    "postcode": "1012",
+    "aliases": [
+      "Centrum",
+      "De Wallen"
+    ]
   },
   {
     "code": "BU0363AD03",
@@ -403,7 +432,11 @@
       4.89678825825932,
       52.37729235868564
     ],
-    "postcode": "1012"
+    "postcode": "1012",
+    "aliases": [
+      "Centrum",
+      "De Wallen"
+    ]
   },
   {
     "code": "BU0363AD04",
@@ -461,7 +494,11 @@
       4.891122692468747,
       52.37479908197455
     ],
-    "postcode": "1012"
+    "postcode": "1012",
+    "aliases": [
+      "Centrum",
+      "De Wallen"
+    ]
   },
   {
     "code": "BU0363AD05",
@@ -519,7 +556,11 @@
       4.8928688376361205,
       52.37436401565312
     ],
-    "postcode": "1012"
+    "postcode": "1012",
+    "aliases": [
+      "Centrum",
+      "De Wallen"
+    ]
   },
   {
     "code": "BU0363AD06",
@@ -577,7 +618,11 @@
       4.8892347615262235,
       52.37075002453872
     ],
-    "postcode": "1012"
+    "postcode": "1012",
+    "aliases": [
+      "Centrum",
+      "De Wallen"
+    ]
   },
   {
     "code": "BU0363AD07",
@@ -635,7 +680,11 @@
       4.891090086195817,
       52.37072285435416
     ],
-    "postcode": "1012"
+    "postcode": "1012",
+    "aliases": [
+      "Centrum",
+      "De Wallen"
+    ]
   },
   {
     "code": "BU0363AD08",
@@ -693,7 +742,11 @@
       4.891699040214179,
       52.36799286496461
     ],
-    "postcode": "1012"
+    "postcode": "1012",
+    "aliases": [
+      "Centrum",
+      "De Wallen"
+    ]
   },
   {
     "code": "BU0363AE01",
@@ -751,7 +804,11 @@
       4.900991696362935,
       52.376298188832564
     ],
-    "postcode": "1012"
+    "postcode": "1012",
+    "aliases": [
+      "Centrum",
+      "De Wallen"
+    ]
   },
   {
     "code": "BU0363AE02",
@@ -809,7 +866,11 @@
       4.895895569854368,
       52.37401091526192
     ],
-    "postcode": "1012"
+    "postcode": "1012",
+    "aliases": [
+      "Centrum",
+      "De Wallen"
+    ]
   },
   {
     "code": "BU0363AE03",
@@ -867,7 +928,11 @@
       4.8994738527714965,
       52.37299306265681
     ],
-    "postcode": "1012"
+    "postcode": "1012",
+    "aliases": [
+      "Centrum",
+      "De Wallen"
+    ]
   },
   {
     "code": "BU0363AE04",
@@ -925,7 +990,11 @@
       4.893748761240071,
       52.37069783413104
     ],
-    "postcode": "1012"
+    "postcode": "1012",
+    "aliases": [
+      "Centrum",
+      "De Wallen"
+    ]
   },
   {
     "code": "BU0363AE05",
@@ -983,7 +1052,11 @@
       4.894785803928704,
       52.36954415293341
     ],
-    "postcode": "1012"
+    "postcode": "1012",
+    "aliases": [
+      "Centrum",
+      "De Wallen"
+    ]
   },
   {
     "code": "BU0363AF01",
@@ -1041,7 +1114,10 @@
       4.908633105553326,
       52.37726695685923
     ],
-    "postcode": "1011"
+    "postcode": "1011",
+    "aliases": [
+      "Centrum"
+    ]
   },
   {
     "code": "BU0363AF02",
@@ -1099,7 +1175,10 @@
       4.903582890001638,
       52.37441334687228
     ],
-    "postcode": "1011"
+    "postcode": "1011",
+    "aliases": [
+      "Centrum"
+    ]
   },
   {
     "code": "BU0363AF03",
@@ -1157,7 +1236,10 @@
       4.9052421950354965,
       52.374347985435264
     ],
-    "postcode": "1011"
+    "postcode": "1011",
+    "aliases": [
+      "Centrum"
+    ]
   },
   {
     "code": "BU0363AF09",
@@ -1215,7 +1297,10 @@
       4.901778723525449,
       52.36760959281933
     ],
-    "postcode": "1011"
+    "postcode": "1011",
+    "aliases": [
+      "Centrum"
+    ]
   },
   {
     "code": "BU0363AG01",
@@ -1273,7 +1358,12 @@
       4.886940023029803,
       52.367304574849705
     ],
-    "postcode": "1017"
+    "postcode": "1017",
+    "aliases": [
+      "Centrum",
+      "Leidseplein",
+      "Rembrandtplein"
+    ]
   },
   {
     "code": "BU0363AG02",
@@ -1331,7 +1421,12 @@
       4.8912088629553505,
       52.366592315245846
     ],
-    "postcode": "1017"
+    "postcode": "1017",
+    "aliases": [
+      "Centrum",
+      "Leidseplein",
+      "Rembrandtplein"
+    ]
   },
   {
     "code": "BU0363AG03",
@@ -1389,7 +1484,12 @@
       4.896802502539673,
       52.366404377757604
     ],
-    "postcode": "1017"
+    "postcode": "1017",
+    "aliases": [
+      "Centrum",
+      "Leidseplein",
+      "Rembrandtplein"
+    ]
   },
   {
     "code": "BU0363AG04",
@@ -1447,7 +1547,12 @@
       4.887864230507862,
       52.36531225263673
     ],
-    "postcode": "1017"
+    "postcode": "1017",
+    "aliases": [
+      "Centrum",
+      "Leidseplein",
+      "Rembrandtplein"
+    ]
   },
   {
     "code": "BU0363AH01",
@@ -1505,7 +1610,12 @@
       4.882460674999572,
       52.365028968035446
     ],
-    "postcode": "1017"
+    "postcode": "1017",
+    "aliases": [
+      "Centrum",
+      "Leidseplein",
+      "Rembrandtplein"
+    ]
   },
   {
     "code": "BU0363AH02",
@@ -1563,7 +1673,12 @@
       4.884717898073697,
       52.36369966002711
     ],
-    "postcode": "1017"
+    "postcode": "1017",
+    "aliases": [
+      "Centrum",
+      "Leidseplein",
+      "Rembrandtplein"
+    ]
   },
   {
     "code": "BU0363AH05",
@@ -1621,7 +1736,12 @@
       4.881387966737399,
       52.3645113985539
     ],
-    "postcode": "1017"
+    "postcode": "1017",
+    "aliases": [
+      "Centrum",
+      "Leidseplein",
+      "Rembrandtplein"
+    ]
   },
   {
     "code": "BU0363AH06",
@@ -1679,7 +1799,12 @@
       4.883609183960133,
       52.36234874584581
     ],
-    "postcode": "1017"
+    "postcode": "1017",
+    "aliases": [
+      "Centrum",
+      "Leidseplein",
+      "Rembrandtplein"
+    ]
   },
   {
     "code": "BU0363AJ03",
@@ -1737,7 +1862,10 @@
       4.910983941225346,
       52.361820769836356
     ],
-    "postcode": "1018"
+    "postcode": "1018",
+    "aliases": [
+      "Plantagebuurt"
+    ]
   },
   {
     "code": "BU0363AK01",
@@ -1853,7 +1981,11 @@
       4.851765087458084,
       52.39391908472131
     ],
-    "postcode": "1014"
+    "postcode": "1014",
+    "aliases": [
+      "Centrum",
+      "Westerpark"
+    ]
   },
   {
     "code": "BU0363EG01",
@@ -1969,7 +2101,12 @@
       4.8776203521651365,
       52.361905664370084
     ],
-    "postcode": "1054"
+    "postcode": "1054",
+    "aliases": [
+      "Oud-West",
+      "Vondelbuurt",
+      "Overtoom"
+    ]
   },
   {
     "code": "BU0363FA03",
@@ -2143,7 +2280,11 @@
       4.799164746698749,
       52.37051308797504
     ],
-    "postcode": "1067"
+    "postcode": "1067",
+    "aliases": [
+      "Nieuw-West",
+      "Geuzenveld"
+    ]
   },
   {
     "code": "BU0363FF03",
@@ -2259,7 +2400,11 @@
       4.784123633139211,
       52.36092095192407
     ],
-    "postcode": "1069"
+    "postcode": "1069",
+    "aliases": [
+      "Nieuw-West",
+      "Osdorp"
+    ]
   },
   {
     "code": "BU0363FP06",
@@ -2317,7 +2462,10 @@
       4.840244127465911,
       52.3414827544335
     ],
-    "postcode": "1062"
+    "postcode": "1062",
+    "aliases": [
+      "Nieuw-West"
+    ]
   },
   {
     "code": "BU0363FQ07",
@@ -2375,7 +2523,11 @@
       4.811027008905336,
       52.34008135410896
     ],
-    "postcode": "1066"
+    "postcode": "1066",
+    "aliases": [
+      "Nieuw-West",
+      "Slotervaart"
+    ]
   },
   {
     "code": "BU0363FQ10",
@@ -2433,7 +2585,11 @@
       4.828561476521123,
       52.33475777433201
     ],
-    "postcode": "1066"
+    "postcode": "1066",
+    "aliases": [
+      "Nieuw-West",
+      "Slotervaart"
+    ]
   },
   {
     "code": "BU0363KA06",
@@ -2549,7 +2705,12 @@
       4.882461304600074,
       52.360614642630665
     ],
-    "postcode": "1071"
+    "postcode": "1071",
+    "aliases": [
+      "Oud-Zuid",
+      "Museumkwartier",
+      "Vondelbuurt"
+    ]
   },
   {
     "code": "BU0363KD08",
@@ -2607,7 +2768,12 @@
       4.883539411846857,
       52.35673897546917
     ],
-    "postcode": "1071"
+    "postcode": "1071",
+    "aliases": [
+      "Oud-Zuid",
+      "Museumkwartier",
+      "Vondelbuurt"
+    ]
   },
   {
     "code": "BU0363KE02",
@@ -2665,7 +2831,11 @@
       4.894943886857658,
       52.357270140210204
     ],
-    "postcode": "1073"
+    "postcode": "1073",
+    "aliases": [
+      "De Pijp",
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KH06",
@@ -2723,7 +2893,10 @@
       4.851277751970199,
       52.34056347922976
     ],
-    "postcode": "1076"
+    "postcode": "1076",
+    "aliases": [
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KJ01",
@@ -2781,7 +2954,10 @@
       4.871399979026766,
       52.35097840088869
     ],
-    "postcode": "1077"
+    "postcode": "1077",
+    "aliases": [
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KK06",
@@ -2839,7 +3015,10 @@
       4.893400875846475,
       52.33768679427526
     ],
-    "postcode": "1079"
+    "postcode": "1079",
+    "aliases": [
+      "Rivierenbuurt"
+    ]
   },
   {
     "code": "BU0363KM05",
@@ -2897,7 +3076,10 @@
       4.899364807247781,
       52.33474211456335
     ],
-    "postcode": "1079"
+    "postcode": "1079",
+    "aliases": [
+      "Rivierenbuurt"
+    ]
   },
   {
     "code": "BU0363KP01",
@@ -2955,7 +3137,10 @@
       4.8680006897260135,
       52.34011676428004
     ],
-    "postcode": "1077"
+    "postcode": "1077",
+    "aliases": [
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KP03",
@@ -3013,7 +3198,10 @@
       4.863095265086219,
       52.33483229641966
     ],
-    "postcode": "1081"
+    "postcode": "1081",
+    "aliases": [
+      "Buitenveldert"
+    ]
   },
   {
     "code": "BU0363KQ01",
@@ -3071,7 +3259,10 @@
       4.841849109132905,
       52.33170177140581
     ],
-    "postcode": "1081"
+    "postcode": "1081",
+    "aliases": [
+      "Buitenveldert"
+    ]
   },
   {
     "code": "BU0363MA03",
@@ -3245,7 +3436,10 @@
       4.913860769263682,
       52.353769433357044
     ],
-    "postcode": "1091"
+    "postcode": "1091",
+    "aliases": [
+      "Oosterparkbuurt"
+    ]
   },
   {
     "code": "BU0363MC02",
@@ -3303,7 +3497,10 @@
       4.920409042188195,
       52.361937068928704
     ],
-    "postcode": "1092"
+    "postcode": "1092",
+    "aliases": [
+      "Oosterparkbuurt"
+    ]
   },
   {
     "code": "BU0363MC04",
@@ -3361,7 +3558,10 @@
       4.922802997470119,
       52.35828697638529
     ],
-    "postcode": "1092"
+    "postcode": "1092",
+    "aliases": [
+      "Oosterparkbuurt"
+    ]
   },
   {
     "code": "BU0363ME03",
@@ -3419,7 +3619,10 @@
       4.931215917372556,
       52.359412307773006
     ],
-    "postcode": "1093"
+    "postcode": "1093",
+    "aliases": [
+      "Dapperbuurt"
+    ]
   },
   {
     "code": "BU0363MH06",
@@ -3477,7 +3680,10 @@
       4.980277280165765,
       52.35600181646333
     ],
-    "postcode": "1095"
+    "postcode": "1095",
+    "aliases": [
+      "Indische Buurt"
+    ]
   },
   {
     "code": "BU0363MM04",
@@ -3535,7 +3741,10 @@
       4.921850577527593,
       52.34591092766391
     ],
-    "postcode": "1097"
+    "postcode": "1097",
+    "aliases": [
+      "Watergraafsmeer"
+    ]
   },
   {
     "code": "BU0363MN05",
@@ -3593,7 +3802,10 @@
       4.962807152431273,
       52.35515153339043
     ],
-    "postcode": "1098"
+    "postcode": "1098",
+    "aliases": [
+      "Watergraafsmeer"
+    ]
   },
   {
     "code": "BU0363MN06",
@@ -3651,7 +3863,10 @@
       4.9460490588505825,
       52.34751804305364
     ],
-    "postcode": "1098"
+    "postcode": "1098",
+    "aliases": [
+      "Watergraafsmeer"
+    ]
   },
   {
     "code": "BU0363MN07",
@@ -3709,7 +3924,10 @@
       4.949481917664793,
       52.35000538733325
     ],
-    "postcode": "1098"
+    "postcode": "1098",
+    "aliases": [
+      "Watergraafsmeer"
+    ]
   },
   {
     "code": "BU0363MQ03",
@@ -3883,7 +4101,10 @@
       4.905554098915933,
       52.40098980649417
     ],
-    "postcode": "1032"
+    "postcode": "1032",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NH04",
@@ -4231,7 +4452,11 @@
       4.934128725171803,
       52.30674948718823
     ],
-    "postcode": "1101"
+    "postcode": "1101",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TA03",
@@ -4289,7 +4514,11 @@
       4.944438025318854,
       52.30803751398046
     ],
-    "postcode": "1101"
+    "postcode": "1101",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TA07",
@@ -4347,7 +4576,11 @@
       4.959306643373938,
       52.28411733947175
     ],
-    "postcode": "1105"
+    "postcode": "1105",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TC03",
@@ -4405,7 +4638,11 @@
       4.954982938580225,
       52.31466600427895
     ],
-    "postcode": "1102"
+    "postcode": "1102",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363AA05",
@@ -4463,7 +4700,12 @@
       4.88631583453089,
       52.38345939165641
     ],
-    "postcode": "1013"
+    "postcode": "1013",
+    "aliases": [
+      "Centrum",
+      "Westerpark",
+      "Spaarndammerbuurt"
+    ]
   },
   {
     "code": "BU0363AB08",
@@ -4521,7 +4763,12 @@
       4.876289628463378,
       52.370515212689014
     ],
-    "postcode": "1016"
+    "postcode": "1016",
+    "aliases": [
+      "Jordaan",
+      "Centrum",
+      "Negen Straatjes"
+    ]
   },
   {
     "code": "BU0363AC02",
@@ -4579,7 +4826,12 @@
       4.887048832760933,
       52.37502841580861
     ],
-    "postcode": "1015"
+    "postcode": "1015",
+    "aliases": [
+      "Jordaan",
+      "Centrum",
+      "Westerpark"
+    ]
   },
   {
     "code": "BU0363AF06",
@@ -4637,7 +4889,10 @@
       4.904900541834887,
       52.37045495942066
     ],
-    "postcode": "1011"
+    "postcode": "1011",
+    "aliases": [
+      "Centrum"
+    ]
   },
   {
     "code": "BU0363AG05",
@@ -4695,7 +4950,12 @@
       4.892662999976738,
       52.363947826438405
     ],
-    "postcode": "1017"
+    "postcode": "1017",
+    "aliases": [
+      "Centrum",
+      "Leidseplein",
+      "Rembrandtplein"
+    ]
   },
   {
     "code": "BU0363AH08",
@@ -4753,7 +5013,12 @@
       4.899047621602522,
       52.35973328359653
     ],
-    "postcode": "1017"
+    "postcode": "1017",
+    "aliases": [
+      "Centrum",
+      "Leidseplein",
+      "Rembrandtplein"
+    ]
   },
   {
     "code": "BU0363FM03",
@@ -4811,7 +5076,10 @@
       4.8468528206146315,
       52.3677499671755
     ],
-    "postcode": "1057"
+    "postcode": "1057",
+    "aliases": [
+      "Bos en Lommer"
+    ]
   },
   {
     "code": "BU0363KD03",
@@ -4869,7 +5137,12 @@
       4.876580657846716,
       52.357901736005914
     ],
-    "postcode": "1071"
+    "postcode": "1071",
+    "aliases": [
+      "Oud-Zuid",
+      "Museumkwartier",
+      "Vondelbuurt"
+    ]
   },
   {
     "code": "BU0363AF04",
@@ -4927,7 +5200,10 @@
       4.910781397545965,
       52.37248819710828
     ],
-    "postcode": "1011"
+    "postcode": "1011",
+    "aliases": [
+      "Centrum"
+    ]
   },
   {
     "code": "BU0363AG06",
@@ -4985,7 +5261,12 @@
       4.899495157320521,
       52.36402253725022
     ],
-    "postcode": "1017"
+    "postcode": "1017",
+    "aliases": [
+      "Centrum",
+      "Leidseplein",
+      "Rembrandtplein"
+    ]
   },
   {
     "code": "BU0363BB01",
@@ -5043,7 +5324,12 @@
       4.865852889731466,
       52.40901855739903
     ],
-    "postcode": "1013"
+    "postcode": "1013",
+    "aliases": [
+      "Centrum",
+      "Westerpark",
+      "Spaarndammerbuurt"
+    ]
   },
   {
     "code": "BU0363EE03",
@@ -5101,7 +5387,11 @@
       4.859377073350038,
       52.38319884825335
     ],
-    "postcode": "1055"
+    "postcode": "1055",
+    "aliases": [
+      "Bos en Lommer",
+      "Staatsliedenbuurt"
+    ]
   },
   {
     "code": "BU0363KJ06",
@@ -5159,7 +5449,10 @@
       4.88159308234678,
       52.345777414140976
     ],
-    "postcode": "1077"
+    "postcode": "1077",
+    "aliases": [
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363MC01",
@@ -5217,7 +5510,10 @@
       4.912927247105131,
       52.36008115826114
     ],
-    "postcode": "1091"
+    "postcode": "1091",
+    "aliases": [
+      "Oosterparkbuurt"
+    ]
   },
   {
     "code": "BU0363MQ01",
@@ -5449,7 +5745,10 @@
       4.876828942031244,
       52.42136020215641
     ],
-    "postcode": "1035"
+    "postcode": "1035",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NG02",
@@ -5623,7 +5922,10 @@
       4.90117409980926,
       52.37166820746379
     ],
-    "postcode": "1011"
+    "postcode": "1011",
+    "aliases": [
+      "Centrum"
+    ]
   },
   {
     "code": "BU0363AF08",
@@ -5681,7 +5983,10 @@
       4.899573745985984,
       52.36968506207991
     ],
-    "postcode": "1011"
+    "postcode": "1011",
+    "aliases": [
+      "Centrum"
+    ]
   },
   {
     "code": "BU0363AH07",
@@ -5739,7 +6044,12 @@
       4.890305425966118,
       52.359718887767926
     ],
-    "postcode": "1017"
+    "postcode": "1017",
+    "aliases": [
+      "Centrum",
+      "Leidseplein",
+      "Rembrandtplein"
+    ]
   },
   {
     "code": "BU0363AJ01",
@@ -5797,7 +6107,10 @@
       4.907330811759859,
       52.36454272829426
     ],
-    "postcode": "1018"
+    "postcode": "1018",
+    "aliases": [
+      "Plantagebuurt"
+    ]
   },
   {
     "code": "BU0363AJ02",
@@ -5855,7 +6168,10 @@
       4.913944107082848,
       52.3657809876269
     ],
-    "postcode": "1018"
+    "postcode": "1018",
+    "aliases": [
+      "Plantagebuurt"
+    ]
   },
   {
     "code": "BU0363AJ04",
@@ -5913,7 +6229,10 @@
       4.9193372339608,
       52.36326856825937
     ],
-    "postcode": "1018"
+    "postcode": "1018",
+    "aliases": [
+      "Plantagebuurt"
+    ]
   },
   {
     "code": "BU0363EA03",
@@ -5971,7 +6290,11 @@
       4.856083853766676,
       52.387634829885606
     ],
-    "postcode": "1014"
+    "postcode": "1014",
+    "aliases": [
+      "Centrum",
+      "Westerpark"
+    ]
   },
   {
     "code": "BU0363ES02",
@@ -6029,7 +6352,11 @@
       4.867308967295722,
       52.3649665127735
     ],
-    "postcode": "1053"
+    "postcode": "1053",
+    "aliases": [
+      "Oud-West",
+      "Kinkerbuurt"
+    ]
   },
   {
     "code": "BU0363EU02",
@@ -6087,7 +6414,12 @@
       4.86981208206027,
       52.362679522981715
     ],
-    "postcode": "1054"
+    "postcode": "1054",
+    "aliases": [
+      "Oud-West",
+      "Vondelbuurt",
+      "Overtoom"
+    ]
   },
   {
     "code": "BU0363FD04",
@@ -6145,7 +6477,11 @@
       4.827037574481672,
       52.379193402836506
     ],
-    "postcode": "1063"
+    "postcode": "1063",
+    "aliases": [
+      "Nieuw-West",
+      "Slotermeer"
+    ]
   },
   {
     "code": "BU0363FE03",
@@ -6203,7 +6539,11 @@
       4.824887624571834,
       52.37129651292326
     ],
-    "postcode": "1064"
+    "postcode": "1064",
+    "aliases": [
+      "Nieuw-West",
+      "Slotermeer"
+    ]
   },
   {
     "code": "BU0363FK03",
@@ -6261,7 +6601,11 @@
       4.806978721312234,
       52.35878477954668
     ],
-    "postcode": "1068"
+    "postcode": "1068",
+    "aliases": [
+      "Nieuw-West",
+      "Osdorp"
+    ]
   },
   {
     "code": "BU0363KN01",
@@ -6319,7 +6663,10 @@
       4.872686123281853,
       52.343362168814565
     ],
-    "postcode": "1077"
+    "postcode": "1077",
+    "aliases": [
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363MB01",
@@ -6377,7 +6724,10 @@
       4.907418017313679,
       52.35860253114732
     ],
-    "postcode": "1091"
+    "postcode": "1091",
+    "aliases": [
+      "Oosterparkbuurt"
+    ]
   },
   {
     "code": "BU0363MC03",
@@ -6435,7 +6785,10 @@
       4.914561196511713,
       52.355707591338465
     ],
-    "postcode": "1091"
+    "postcode": "1091",
+    "aliases": [
+      "Oosterparkbuurt"
+    ]
   },
   {
     "code": "BU0363MM01",
@@ -6493,7 +6846,10 @@
       4.914454579689344,
       52.34769153417591
     ],
-    "postcode": "1097"
+    "postcode": "1097",
+    "aliases": [
+      "Watergraafsmeer"
+    ]
   },
   {
     "code": "BU0363TG03",
@@ -6551,7 +6907,11 @@
       4.979836115622193,
       52.316437119473484
     ],
-    "postcode": "1104"
+    "postcode": "1104",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363AB04",
@@ -6609,7 +6969,12 @@
       4.877592307044257,
       52.376754706543714
     ],
-    "postcode": "1015"
+    "postcode": "1015",
+    "aliases": [
+      "Jordaan",
+      "Centrum",
+      "Westerpark"
+    ]
   },
   {
     "code": "BU0363AB10",
@@ -6667,7 +7032,12 @@
       4.880292512529187,
       52.37033354607738
     ],
-    "postcode": "1016"
+    "postcode": "1016",
+    "aliases": [
+      "Jordaan",
+      "Centrum",
+      "Negen Straatjes"
+    ]
   },
   {
     "code": "BU0363AB11",
@@ -6725,7 +7095,12 @@
       4.881664378363276,
       52.36727829723137
     ],
-    "postcode": "1016"
+    "postcode": "1016",
+    "aliases": [
+      "Jordaan",
+      "Centrum",
+      "Negen Straatjes"
+    ]
   },
   {
     "code": "BU0363AC01",
@@ -6783,7 +7158,12 @@
       4.8899554398431615,
       52.37868531357044
     ],
-    "postcode": "1015"
+    "postcode": "1015",
+    "aliases": [
+      "Jordaan",
+      "Centrum",
+      "Westerpark"
+    ]
   },
   {
     "code": "BU0363AH03",
@@ -6841,7 +7221,12 @@
       4.890821080594248,
       52.36141647147998
     ],
-    "postcode": "1017"
+    "postcode": "1017",
+    "aliases": [
+      "Centrum",
+      "Leidseplein",
+      "Rembrandtplein"
+    ]
   },
   {
     "code": "BU0363AK05",
@@ -6899,7 +7284,10 @@
       4.929919873250939,
       52.36952694306676
     ],
-    "postcode": "1018"
+    "postcode": "1018",
+    "aliases": [
+      "Plantagebuurt"
+    ]
   },
   {
     "code": "BU0363AK08",
@@ -6957,7 +7345,10 @@
       4.923903246247402,
       52.36592367154631
     ],
-    "postcode": "1018"
+    "postcode": "1018",
+    "aliases": [
+      "Plantagebuurt"
+    ]
   },
   {
     "code": "BU0363EB05",
@@ -7015,7 +7406,12 @@
       4.875822623747216,
       52.39102714916082
     ],
-    "postcode": "1013"
+    "postcode": "1013",
+    "aliases": [
+      "Centrum",
+      "Westerpark",
+      "Spaarndammerbuurt"
+    ]
   },
   {
     "code": "BU0363EJ03",
@@ -7131,7 +7527,11 @@
       4.865608078147356,
       52.366888729001694
     ],
-    "postcode": "1053"
+    "postcode": "1053",
+    "aliases": [
+      "Oud-West",
+      "Kinkerbuurt"
+    ]
   },
   {
     "code": "BU0363EQ01",
@@ -7189,7 +7589,11 @@
       4.873832932059777,
       52.37100552418058
     ],
-    "postcode": "1053"
+    "postcode": "1053",
+    "aliases": [
+      "Oud-West",
+      "Kinkerbuurt"
+    ]
   },
   {
     "code": "BU0363EU03",
@@ -7247,7 +7651,12 @@
       4.877645233550653,
       52.3649830296017
     ],
-    "postcode": "1054"
+    "postcode": "1054",
+    "aliases": [
+      "Oud-West",
+      "Vondelbuurt",
+      "Overtoom"
+    ]
   },
   {
     "code": "BU0363FL03",
@@ -7305,7 +7714,11 @@
       4.830394353218495,
       52.36020915629313
     ],
-    "postcode": "1065"
+    "postcode": "1065",
+    "aliases": [
+      "Nieuw-West",
+      "Slotervaart"
+    ]
   },
   {
     "code": "BU0363FP02",
@@ -7363,7 +7776,10 @@
       4.839231099016034,
       52.35383054975837
     ],
-    "postcode": "1062"
+    "postcode": "1062",
+    "aliases": [
+      "Nieuw-West"
+    ]
   },
   {
     "code": "BU0363FQ09",
@@ -7421,7 +7837,11 @@
       4.831074496955112,
       52.34132666690021
     ],
-    "postcode": "1066"
+    "postcode": "1066",
+    "aliases": [
+      "Nieuw-West",
+      "Slotervaart"
+    ]
   },
   {
     "code": "BU0363KC02",
@@ -7479,7 +7899,10 @@
       4.861710462412779,
       52.35443945640985
     ],
-    "postcode": "1075"
+    "postcode": "1075",
+    "aliases": [
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KD06",
@@ -7537,7 +7960,12 @@
       4.873728324289025,
       52.35264868332837
     ],
-    "postcode": "1071"
+    "postcode": "1071",
+    "aliases": [
+      "Oud-Zuid",
+      "Museumkwartier",
+      "Vondelbuurt"
+    ]
   },
   {
     "code": "BU0363KE03",
@@ -7595,7 +8023,11 @@
       4.888637359341705,
       52.35414276780093
     ],
-    "postcode": "1072"
+    "postcode": "1072",
+    "aliases": [
+      "De Pijp",
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KE04",
@@ -7653,7 +8085,11 @@
       4.896442243952095,
       52.35579341612353
     ],
-    "postcode": "1073"
+    "postcode": "1073",
+    "aliases": [
+      "De Pijp",
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KJ05",
@@ -7711,7 +8147,10 @@
       4.879982211533474,
       52.34919658734662
     ],
-    "postcode": "1077"
+    "postcode": "1077",
+    "aliases": [
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KP04",
@@ -7769,7 +8208,11 @@
       4.873961423722716,
       52.336734674670346
     ],
-    "postcode": "1082"
+    "postcode": "1082",
+    "aliases": [
+      "Zuidas",
+      "Buitenveldert"
+    ]
   },
   {
     "code": "BU0363MB02",
@@ -7827,7 +8270,10 @@
       4.911614449541089,
       52.35267454469038
     ],
-    "postcode": "1091"
+    "postcode": "1091",
+    "aliases": [
+      "Oosterparkbuurt"
+    ]
   },
   {
     "code": "BU0363ME02",
@@ -7885,7 +8331,10 @@
       4.92934076153151,
       52.36142344265633
     ],
-    "postcode": "1093"
+    "postcode": "1093",
+    "aliases": [
+      "Dapperbuurt"
+    ]
   },
   {
     "code": "BU0363NB03",
@@ -7943,7 +8392,10 @@
       4.892231891705247,
       52.40347039696389
     ],
-    "postcode": "1033"
+    "postcode": "1033",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NB07",
@@ -8001,7 +8453,10 @@
       4.902025252734572,
       52.38643670278835
     ],
-    "postcode": "1031"
+    "postcode": "1031",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NF02",
@@ -8175,7 +8630,10 @@
       4.90865364410413,
       52.38853880918793
     ],
-    "postcode": "1031"
+    "postcode": "1031",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NL01",
@@ -8291,7 +8749,11 @@
       4.96875091775747,
       52.32209380185941
     ],
-    "postcode": "1103"
+    "postcode": "1103",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363AA03",
@@ -8349,7 +8811,12 @@
       4.8932639849703525,
       52.38566786593604
     ],
-    "postcode": "1013"
+    "postcode": "1013",
+    "aliases": [
+      "Centrum",
+      "Westerpark",
+      "Spaarndammerbuurt"
+    ]
   },
   {
     "code": "BU0363AB03",
@@ -8407,7 +8874,12 @@
       4.884630573088581,
       52.37952512736361
     ],
-    "postcode": "1015"
+    "postcode": "1015",
+    "aliases": [
+      "Jordaan",
+      "Centrum",
+      "Westerpark"
+    ]
   },
   {
     "code": "BU0363AB05",
@@ -8465,7 +8937,12 @@
       4.883189004084582,
       52.37720288095712
     ],
-    "postcode": "1015"
+    "postcode": "1015",
+    "aliases": [
+      "Jordaan",
+      "Centrum",
+      "Westerpark"
+    ]
   },
   {
     "code": "BU0363AB06",
@@ -8523,7 +9000,12 @@
       4.875710277336194,
       52.37311581340629
     ],
-    "postcode": "1016"
+    "postcode": "1016",
+    "aliases": [
+      "Jordaan",
+      "Centrum",
+      "Negen Straatjes"
+    ]
   },
   {
     "code": "BU0363AB07",
@@ -8581,7 +9063,12 @@
       4.880882965316849,
       52.37480907362342
     ],
-    "postcode": "1016"
+    "postcode": "1016",
+    "aliases": [
+      "Jordaan",
+      "Centrum",
+      "Negen Straatjes"
+    ]
   },
   {
     "code": "BU0363AF07",
@@ -8639,7 +9126,10 @@
       4.908504413006231,
       52.369473617510266
     ],
-    "postcode": "1011"
+    "postcode": "1011",
+    "aliases": [
+      "Centrum"
+    ]
   },
   {
     "code": "BU0363EB07",
@@ -8697,7 +9187,12 @@
       4.881246139244718,
       52.389958506555125
     ],
-    "postcode": "1013"
+    "postcode": "1013",
+    "aliases": [
+      "Centrum",
+      "Westerpark",
+      "Spaarndammerbuurt"
+    ]
   },
   {
     "code": "BU0363ED04",
@@ -8755,7 +9250,11 @@
       4.84516831148139,
       52.3748914182265
     ],
-    "postcode": "1055"
+    "postcode": "1055",
+    "aliases": [
+      "Bos en Lommer",
+      "Staatsliedenbuurt"
+    ]
   },
   {
     "code": "BU0363EE01",
@@ -8813,7 +9312,11 @@
       4.8474956261281665,
       52.381822417692945
     ],
-    "postcode": "1055"
+    "postcode": "1055",
+    "aliases": [
+      "Bos en Lommer",
+      "Staatsliedenbuurt"
+    ]
   },
   {
     "code": "BU0363EM02",
@@ -8871,7 +9374,10 @@
       4.853193075272188,
       52.36876299886595
     ],
-    "postcode": "1057"
+    "postcode": "1057",
+    "aliases": [
+      "Bos en Lommer"
+    ]
   },
   {
     "code": "BU0363ES03",
@@ -8929,7 +9435,11 @@
       4.874835601832629,
       52.367074467367445
     ],
-    "postcode": "1053"
+    "postcode": "1053",
+    "aliases": [
+      "Oud-West",
+      "Kinkerbuurt"
+    ]
   },
   {
     "code": "BU0363EU01",
@@ -8987,7 +9497,12 @@
       4.86659174142585,
       52.36185623405316
     ],
-    "postcode": "1054"
+    "postcode": "1054",
+    "aliases": [
+      "Oud-West",
+      "Vondelbuurt",
+      "Overtoom"
+    ]
   },
   {
     "code": "BU0363EV01",
@@ -9045,7 +9560,12 @@
       4.870640097666581,
       52.360443599937305
     ],
-    "postcode": "1054"
+    "postcode": "1054",
+    "aliases": [
+      "Oud-West",
+      "Vondelbuurt",
+      "Overtoom"
+    ]
   },
   {
     "code": "BU0363FB06",
@@ -9103,7 +9623,11 @@
       4.799737069107753,
       52.3776445887726
     ],
-    "postcode": "1067"
+    "postcode": "1067",
+    "aliases": [
+      "Nieuw-West",
+      "Geuzenveld"
+    ]
   },
   {
     "code": "BU0363FC01",
@@ -9161,7 +9685,11 @@
       4.815254639020957,
       52.38131893348711
     ],
-    "postcode": "1063"
+    "postcode": "1063",
+    "aliases": [
+      "Nieuw-West",
+      "Slotermeer"
+    ]
   },
   {
     "code": "BU0363FD03",
@@ -9219,7 +9747,11 @@
       4.831769695623845,
       52.38154768161851
     ],
-    "postcode": "1063"
+    "postcode": "1063",
+    "aliases": [
+      "Nieuw-West",
+      "Slotermeer"
+    ]
   },
   {
     "code": "BU0363FE02",
@@ -9277,7 +9809,11 @@
       4.827960419738285,
       52.37637416068579
     ],
-    "postcode": "1064"
+    "postcode": "1064",
+    "aliases": [
+      "Nieuw-West",
+      "Slotermeer"
+    ]
   },
   {
     "code": "BU0363FM01",
@@ -9335,7 +9871,10 @@
       4.84052721429975,
       52.37094428706122
     ],
-    "postcode": "1061"
+    "postcode": "1061",
+    "aliases": [
+      "Nieuw-West"
+    ]
   },
   {
     "code": "BU0363FN02",
@@ -9393,7 +9932,11 @@
       4.830979629341284,
       52.35581298476859
     ],
-    "postcode": "1065"
+    "postcode": "1065",
+    "aliases": [
+      "Nieuw-West",
+      "Slotervaart"
+    ]
   },
   {
     "code": "BU0363FN03",
@@ -9451,7 +9994,11 @@
       4.823901641826187,
       52.346844736031876
     ],
-    "postcode": "1066"
+    "postcode": "1066",
+    "aliases": [
+      "Nieuw-West",
+      "Slotervaart"
+    ]
   },
   {
     "code": "BU0363FN04",
@@ -9509,7 +10056,11 @@
       4.831558170800961,
       52.34919273693316
     ],
-    "postcode": "1066"
+    "postcode": "1066",
+    "aliases": [
+      "Nieuw-West",
+      "Slotervaart"
+    ]
   },
   {
     "code": "BU0363FP04",
@@ -9567,7 +10118,10 @@
       4.839147730084081,
       52.348616091899856
     ],
-    "postcode": "1062"
+    "postcode": "1062",
+    "aliases": [
+      "Nieuw-West"
+    ]
   },
   {
     "code": "BU0363FP05",
@@ -9683,7 +10237,11 @@
       4.798314121144924,
       52.34201754902223
     ],
-    "postcode": "1066"
+    "postcode": "1066",
+    "aliases": [
+      "Nieuw-West",
+      "Slotervaart"
+    ]
   },
   {
     "code": "BU0363KB02",
@@ -9741,7 +10299,10 @@
       4.852723508323156,
       52.34697896669199
     ],
-    "postcode": "1075"
+    "postcode": "1075",
+    "aliases": [
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KC03",
@@ -9799,7 +10360,10 @@
       4.862088427169402,
       52.35142736155764
     ],
-    "postcode": "1075"
+    "postcode": "1075",
+    "aliases": [
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KD09",
@@ -9857,7 +10421,12 @@
       4.885209862627392,
       52.35348500113203
     ],
-    "postcode": "1071"
+    "postcode": "1071",
+    "aliases": [
+      "Oud-Zuid",
+      "Museumkwartier",
+      "Vondelbuurt"
+    ]
   },
   {
     "code": "BU0363KE01",
@@ -9915,7 +10484,11 @@
       4.888302297718877,
       52.35775992183547
     ],
-    "postcode": "1072"
+    "postcode": "1072",
+    "aliases": [
+      "De Pijp",
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KE05",
@@ -9973,7 +10546,10 @@
       4.902948408036695,
       52.35709503413677
     ],
-    "postcode": "1074"
+    "postcode": "1074",
+    "aliases": [
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KF02",
@@ -10031,7 +10607,11 @@
       4.893493266663213,
       52.35102075199528
     ],
-    "postcode": "1072"
+    "postcode": "1072",
+    "aliases": [
+      "De Pijp",
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KF03",
@@ -10089,7 +10669,11 @@
       4.898177654606548,
       52.352786785628346
     ],
-    "postcode": "1073"
+    "postcode": "1073",
+    "aliases": [
+      "De Pijp",
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KH02",
@@ -10147,7 +10731,10 @@
       4.855321857791993,
       52.34494771573553
     ],
-    "postcode": "1076"
+    "postcode": "1076",
+    "aliases": [
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KH04",
@@ -10205,7 +10792,10 @@
       4.864752849376165,
       52.34867703529807
     ],
-    "postcode": "1076"
+    "postcode": "1076",
+    "aliases": [
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KJ02",
@@ -10263,7 +10853,10 @@
       4.873498909528931,
       52.349883982523394
     ],
-    "postcode": "1077"
+    "postcode": "1077",
+    "aliases": [
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KM01",
@@ -10321,7 +10914,10 @@
       4.910111454635446,
       52.34467656507859
     ],
-    "postcode": "1079"
+    "postcode": "1079",
+    "aliases": [
+      "Rivierenbuurt"
+    ]
   },
   {
     "code": "BU0363KM03",
@@ -10379,7 +10975,10 @@
       4.904496442826653,
       52.33901774992112
     ],
-    "postcode": "1079"
+    "postcode": "1079",
+    "aliases": [
+      "Rivierenbuurt"
+    ]
   },
   {
     "code": "BU0363MA07",
@@ -10495,7 +11094,10 @@
       4.922910973111103,
       52.35505796260749
     ],
-    "postcode": "1092"
+    "postcode": "1092",
+    "aliases": [
+      "Oosterparkbuurt"
+    ]
   },
   {
     "code": "BU0363ME01",
@@ -10553,7 +11155,10 @@
       4.928337546055496,
       52.36463388004818
     ],
-    "postcode": "1093"
+    "postcode": "1093",
+    "aliases": [
+      "Dapperbuurt"
+    ]
   },
   {
     "code": "BU0363MM03",
@@ -10611,7 +11216,10 @@
       4.927058561812514,
       52.35311716041923
     ],
-    "postcode": "1097"
+    "postcode": "1097",
+    "aliases": [
+      "Watergraafsmeer"
+    ]
   },
   {
     "code": "BU0363MM08",
@@ -10669,7 +11277,10 @@
       4.933965993546068,
       52.34657889217773
     ],
-    "postcode": "1097"
+    "postcode": "1097",
+    "aliases": [
+      "Watergraafsmeer"
+    ]
   },
   {
     "code": "BU0363MN01",
@@ -10727,7 +11338,10 @@
       4.934592084943301,
       52.35539411218953
     ],
-    "postcode": "1098"
+    "postcode": "1098",
+    "aliases": [
+      "Watergraafsmeer"
+    ]
   },
   {
     "code": "BU0363NA01",
@@ -10843,7 +11457,10 @@
       4.900118346171042,
       52.391894041541015
     ],
-    "postcode": "1031"
+    "postcode": "1031",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NB05",
@@ -10901,7 +11518,10 @@
       4.907551494829377,
       52.39580209240979
     ],
-    "postcode": "1032"
+    "postcode": "1032",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NE04",
@@ -10959,7 +11579,10 @@
       4.918564208014442,
       52.40332771137347
     ],
-    "postcode": "1034"
+    "postcode": "1034",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NF01",
@@ -11017,7 +11640,10 @@
       4.919088200532519,
       52.40013427822218
     ],
-    "postcode": "1034"
+    "postcode": "1034",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NL02",
@@ -11249,7 +11875,11 @@
       4.953738041475946,
       52.32000287376443
     ],
-    "postcode": "1102"
+    "postcode": "1102",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TD01",
@@ -11307,7 +11937,11 @@
       4.9530186024905305,
       52.31014235538051
     ],
-    "postcode": "1102"
+    "postcode": "1102",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TD03",
@@ -11365,7 +11999,11 @@
       4.957028518973652,
       52.30578871332597
     ],
-    "postcode": "1102"
+    "postcode": "1102",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TD04",
@@ -11423,7 +12061,11 @@
       4.962025200155944,
       52.30750169912109
     ],
-    "postcode": "1102"
+    "postcode": "1102",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TL01",
@@ -11481,7 +12123,10 @@
       4.978720133203533,
       52.29814877135129
     ],
-    "postcode": "1106"
+    "postcode": "1106",
+    "aliases": [
+      "Zuidoost"
+    ]
   },
   {
     "code": "BU0363AA01",
@@ -11539,7 +12184,12 @@
       4.884264532750306,
       52.38711110040365
     ],
-    "postcode": "1013"
+    "postcode": "1013",
+    "aliases": [
+      "Centrum",
+      "Westerpark",
+      "Spaarndammerbuurt"
+    ]
   },
   {
     "code": "BU0363AA02",
@@ -11597,7 +12247,12 @@
       4.889304671680235,
       52.38584629542561
     ],
-    "postcode": "1013"
+    "postcode": "1013",
+    "aliases": [
+      "Centrum",
+      "Westerpark",
+      "Spaarndammerbuurt"
+    ]
   },
   {
     "code": "BU0363AB01",
@@ -11655,7 +12310,12 @@
       4.880169379460828,
       52.38104353299359
     ],
-    "postcode": "1015"
+    "postcode": "1015",
+    "aliases": [
+      "Jordaan",
+      "Centrum",
+      "Westerpark"
+    ]
   },
   {
     "code": "BU0363AB02",
@@ -11713,7 +12373,12 @@
       4.883610735901815,
       52.38186895702409
     ],
-    "postcode": "1015"
+    "postcode": "1015",
+    "aliases": [
+      "Jordaan",
+      "Centrum",
+      "Westerpark"
+    ]
   },
   {
     "code": "BU0363AH04",
@@ -11771,7 +12436,12 @@
       4.899591374923512,
       52.36158193423971
     ],
-    "postcode": "1017"
+    "postcode": "1017",
+    "aliases": [
+      "Centrum",
+      "Leidseplein",
+      "Rembrandtplein"
+    ]
   },
   {
     "code": "BU0363AK02",
@@ -11829,7 +12499,10 @@
       4.919500079152109,
       52.372593664058236
     ],
-    "postcode": "1018"
+    "postcode": "1018",
+    "aliases": [
+      "Plantagebuurt"
+    ]
   },
   {
     "code": "BU0363AK04",
@@ -11887,7 +12560,10 @@
       4.924896843508314,
       52.3707493391149
     ],
-    "postcode": "1018"
+    "postcode": "1018",
+    "aliases": [
+      "Plantagebuurt"
+    ]
   },
   {
     "code": "BU0363AK07",
@@ -11945,7 +12621,10 @@
       4.9191118491405526,
       52.36808974194016
     ],
-    "postcode": "1018"
+    "postcode": "1018",
+    "aliases": [
+      "Plantagebuurt"
+    ]
   },
   {
     "code": "BU0363BB03",
@@ -12003,7 +12682,12 @@
       4.876061932226541,
       52.39987866040851
     ],
-    "postcode": "1013"
+    "postcode": "1013",
+    "aliases": [
+      "Centrum",
+      "Westerpark",
+      "Spaarndammerbuurt"
+    ]
   },
   {
     "code": "BU0363EB04",
@@ -12061,7 +12745,12 @@
       4.872977561178795,
       52.391915344696855
     ],
-    "postcode": "1013"
+    "postcode": "1013",
+    "aliases": [
+      "Centrum",
+      "Westerpark",
+      "Spaarndammerbuurt"
+    ]
   },
   {
     "code": "BU0363EB06",
@@ -12119,7 +12808,12 @@
       4.878574170548234,
       52.3887602409064
     ],
-    "postcode": "1013"
+    "postcode": "1013",
+    "aliases": [
+      "Centrum",
+      "Westerpark",
+      "Spaarndammerbuurt"
+    ]
   },
   {
     "code": "BU0363EB08",
@@ -12177,7 +12871,12 @@
       4.888757523238089,
       52.38910592006328
     ],
-    "postcode": "1013"
+    "postcode": "1013",
+    "aliases": [
+      "Centrum",
+      "Westerpark",
+      "Spaarndammerbuurt"
+    ]
   },
   {
     "code": "BU0363EB10",
@@ -12235,7 +12934,12 @@
       4.882019790326412,
       52.38811822979279
     ],
-    "postcode": "1013"
+    "postcode": "1013",
+    "aliases": [
+      "Centrum",
+      "Westerpark",
+      "Spaarndammerbuurt"
+    ]
   },
   {
     "code": "BU0363EE04",
@@ -12293,7 +12997,11 @@
       4.8572826491702505,
       52.3806061422921
     ],
-    "postcode": "1055"
+    "postcode": "1055",
+    "aliases": [
+      "Bos en Lommer",
+      "Staatsliedenbuurt"
+    ]
   },
   {
     "code": "BU0363EF01",
@@ -12351,7 +13059,10 @@
       4.847086539537976,
       52.37407286771398
     ],
-    "postcode": "1056"
+    "postcode": "1056",
+    "aliases": [
+      "Bos en Lommer"
+    ]
   },
   {
     "code": "BU0363EF02",
@@ -12409,7 +13120,11 @@
       4.853168715016988,
       52.37661480193541
     ],
-    "postcode": "1055"
+    "postcode": "1055",
+    "aliases": [
+      "Bos en Lommer",
+      "Staatsliedenbuurt"
+    ]
   },
   {
     "code": "BU0363EH03",
@@ -12757,7 +13472,10 @@
       4.845590288661437,
       52.37108682469196
     ],
-    "postcode": "1056"
+    "postcode": "1056",
+    "aliases": [
+      "Bos en Lommer"
+    ]
   },
   {
     "code": "BU0363EK03",
@@ -12815,7 +13533,10 @@
       4.851307730303123,
       52.37170312471097
     ],
-    "postcode": "1056"
+    "postcode": "1056",
+    "aliases": [
+      "Bos en Lommer"
+    ]
   },
   {
     "code": "BU0363EL01",
@@ -12873,7 +13594,10 @@
       4.8578949820589745,
       52.37284791376358
     ],
-    "postcode": "1056"
+    "postcode": "1056",
+    "aliases": [
+      "Bos en Lommer"
+    ]
   },
   {
     "code": "BU0363EL02",
@@ -12931,7 +13655,10 @@
       4.862070905647807,
       52.37276006242945
     ],
-    "postcode": "1056"
+    "postcode": "1056",
+    "aliases": [
+      "Bos en Lommer"
+    ]
   },
   {
     "code": "BU0363EM01",
@@ -12989,7 +13716,10 @@
       4.850517314445548,
       52.36863018697084
     ],
-    "postcode": "1057"
+    "postcode": "1057",
+    "aliases": [
+      "Bos en Lommer"
+    ]
   },
   {
     "code": "BU0363EM04",
@@ -13047,7 +13777,10 @@
       4.855189736400451,
       52.36622813260053
     ],
-    "postcode": "1057"
+    "postcode": "1057",
+    "aliases": [
+      "Bos en Lommer"
+    ]
   },
   {
     "code": "BU0363EN03",
@@ -13105,7 +13838,10 @@
       4.858928619201797,
       52.366077896806964
     ],
-    "postcode": "1057"
+    "postcode": "1057",
+    "aliases": [
+      "Bos en Lommer"
+    ]
   },
   {
     "code": "BU0363ER01",
@@ -13279,7 +14015,12 @@
       4.858646406477269,
       52.358068176094626
     ],
-    "postcode": "1054"
+    "postcode": "1054",
+    "aliases": [
+      "Oud-West",
+      "Vondelbuurt",
+      "Overtoom"
+    ]
   },
   {
     "code": "BU0363FB08",
@@ -13337,7 +14078,11 @@
       4.803763725092541,
       52.37486864847076
     ],
-    "postcode": "1067"
+    "postcode": "1067",
+    "aliases": [
+      "Nieuw-West",
+      "Geuzenveld"
+    ]
   },
   {
     "code": "BU0363FC02",
@@ -13395,7 +14140,11 @@
       4.814128095139202,
       52.37790924334581
     ],
-    "postcode": "1064"
+    "postcode": "1064",
+    "aliases": [
+      "Nieuw-West",
+      "Slotermeer"
+    ]
   },
   {
     "code": "BU0363FC03",
@@ -13453,7 +14202,11 @@
       4.813891206510909,
       52.37386726775339
     ],
-    "postcode": "1064"
+    "postcode": "1064",
+    "aliases": [
+      "Nieuw-West",
+      "Slotermeer"
+    ]
   },
   {
     "code": "BU0363FD01",
@@ -13511,7 +14264,11 @@
       4.823152276213364,
       52.38260579864195
     ],
-    "postcode": "1063"
+    "postcode": "1063",
+    "aliases": [
+      "Nieuw-West",
+      "Slotermeer"
+    ]
   },
   {
     "code": "BU0363FE01",
@@ -13569,7 +14326,11 @@
       4.822484058356677,
       52.37762073869827
     ],
-    "postcode": "1064"
+    "postcode": "1064",
+    "aliases": [
+      "Nieuw-West",
+      "Slotermeer"
+    ]
   },
   {
     "code": "BU0363FF01",
@@ -13627,7 +14388,11 @@
       4.773740837183227,
       52.37097497656669
     ],
-    "postcode": "1067"
+    "postcode": "1067",
+    "aliases": [
+      "Nieuw-West",
+      "Geuzenveld"
+    ]
   },
   {
     "code": "BU0363FJ01",
@@ -13685,7 +14450,11 @@
       4.791791162196418,
       52.36209631826232
     ],
-    "postcode": "1069"
+    "postcode": "1069",
+    "aliases": [
+      "Nieuw-West",
+      "Osdorp"
+    ]
   },
   {
     "code": "BU0363FJ03",
@@ -13743,7 +14512,11 @@
       4.796620588971669,
       52.35546196713943
     ],
-    "postcode": "1069"
+    "postcode": "1069",
+    "aliases": [
+      "Nieuw-West",
+      "Osdorp"
+    ]
   },
   {
     "code": "BU0363FK01",
@@ -13801,7 +14574,11 @@
       4.802365021513148,
       52.362715985939005
     ],
-    "postcode": "1068"
+    "postcode": "1068",
+    "aliases": [
+      "Nieuw-West",
+      "Osdorp"
+    ]
   },
   {
     "code": "BU0363FK04",
@@ -13859,7 +14636,11 @@
       4.811332582554256,
       52.356376144680745
     ],
-    "postcode": "1068"
+    "postcode": "1068",
+    "aliases": [
+      "Nieuw-West",
+      "Osdorp"
+    ]
   },
   {
     "code": "BU0363FK05",
@@ -13917,7 +14698,11 @@
       4.812319776965431,
       52.354753874911225
     ],
-    "postcode": "1068"
+    "postcode": "1068",
+    "aliases": [
+      "Nieuw-West",
+      "Osdorp"
+    ]
   },
   {
     "code": "BU0363FM04",
@@ -13975,7 +14760,10 @@
       4.838174045792577,
       52.361704714163366
     ],
-    "postcode": "1062"
+    "postcode": "1062",
+    "aliases": [
+      "Nieuw-West"
+    ]
   },
   {
     "code": "BU0363FM05",
@@ -14091,7 +14879,11 @@
       4.822744878814098,
       52.35584490699421
     ],
-    "postcode": "1065"
+    "postcode": "1065",
+    "aliases": [
+      "Nieuw-West",
+      "Slotervaart"
+    ]
   },
   {
     "code": "BU0363FP03",
@@ -14207,7 +14999,11 @@
       4.812015567060281,
       52.3455607643279
     ],
-    "postcode": "1066"
+    "postcode": "1066",
+    "aliases": [
+      "Nieuw-West",
+      "Slotervaart"
+    ]
   },
   {
     "code": "BU0363KA01",
@@ -14555,7 +15351,10 @@
       4.855017439921742,
       52.353899784172086
     ],
-    "postcode": "1075"
+    "postcode": "1075",
+    "aliases": [
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KC04",
@@ -14613,7 +15412,10 @@
       4.8670489670474675,
       52.35337065242377
     ],
-    "postcode": "1075"
+    "postcode": "1075",
+    "aliases": [
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KD02",
@@ -14671,7 +15473,12 @@
       4.869765609610157,
       52.35600197406538
     ],
-    "postcode": "1071"
+    "postcode": "1071",
+    "aliases": [
+      "Oud-Zuid",
+      "Museumkwartier",
+      "Vondelbuurt"
+    ]
   },
   {
     "code": "BU0363KD07",
@@ -14729,7 +15536,12 @@
       4.879307952787742,
       52.353656979434845
     ],
-    "postcode": "1071"
+    "postcode": "1071",
+    "aliases": [
+      "Oud-Zuid",
+      "Museumkwartier",
+      "Vondelbuurt"
+    ]
   },
   {
     "code": "BU0363KD10",
@@ -14787,7 +15599,12 @@
       4.883392624574536,
       52.351234659047286
     ],
-    "postcode": "1071"
+    "postcode": "1071",
+    "aliases": [
+      "Oud-Zuid",
+      "Museumkwartier",
+      "Vondelbuurt"
+    ]
   },
   {
     "code": "BU0363KF01",
@@ -14845,7 +15662,11 @@
       4.889210079919087,
       52.35079503319627
     ],
-    "postcode": "1072"
+    "postcode": "1072",
+    "aliases": [
+      "De Pijp",
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KF04",
@@ -14903,7 +15724,10 @@
       4.904652871419027,
       52.35444908908501
     ],
-    "postcode": "1074"
+    "postcode": "1074",
+    "aliases": [
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KG02",
@@ -14961,7 +15785,11 @@
       4.899889770109386,
       52.350612958150656
     ],
-    "postcode": "1073"
+    "postcode": "1073",
+    "aliases": [
+      "De Pijp",
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KG03",
@@ -15019,7 +15847,10 @@
       4.907375370936597,
       52.351205075002625
     ],
-    "postcode": "1074"
+    "postcode": "1074",
+    "aliases": [
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KJ03",
@@ -15077,7 +15908,10 @@
       4.872407535308739,
       52.34777425719088
     ],
-    "postcode": "1077"
+    "postcode": "1077",
+    "aliases": [
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KJ04",
@@ -15135,7 +15969,10 @@
       4.8727117798508095,
       52.345216421104055
     ],
-    "postcode": "1077"
+    "postcode": "1077",
+    "aliases": [
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KK02",
@@ -15193,7 +16030,10 @@
       4.894152670588935,
       52.343979485059066
     ],
-    "postcode": "1078"
+    "postcode": "1078",
+    "aliases": [
+      "Rivierenbuurt"
+    ]
   },
   {
     "code": "BU0363KK04",
@@ -15251,7 +16091,10 @@
       4.902804883994657,
       52.34500387968069
     ],
-    "postcode": "1079"
+    "postcode": "1079",
+    "aliases": [
+      "Rivierenbuurt"
+    ]
   },
   {
     "code": "BU0363KL01",
@@ -15309,7 +16152,10 @@
       4.900388063593695,
       52.347277928243884
     ],
-    "postcode": "1078"
+    "postcode": "1078",
+    "aliases": [
+      "Rivierenbuurt"
+    ]
   },
   {
     "code": "BU0363KL02",
@@ -15367,7 +16213,10 @@
       4.909082063211168,
       52.348168283391864
     ],
-    "postcode": "1078"
+    "postcode": "1078",
+    "aliases": [
+      "Rivierenbuurt"
+    ]
   },
   {
     "code": "BU0363KP05",
@@ -15425,7 +16274,11 @@
       4.8834658365509815,
       52.33646323138269
     ],
-    "postcode": "1083"
+    "postcode": "1083",
+    "aliases": [
+      "Zuidas",
+      "Buitenveldert"
+    ]
   },
   {
     "code": "BU0363KQ03",
@@ -15483,7 +16336,10 @@
       4.8608347602845186,
       52.33128409548277
     ],
-    "postcode": "1081"
+    "postcode": "1081",
+    "aliases": [
+      "Buitenveldert"
+    ]
   },
   {
     "code": "BU0363KQ04",
@@ -15541,7 +16397,11 @@
       4.87577170868248,
       52.33225553556543
     ],
-    "postcode": "1082"
+    "postcode": "1082",
+    "aliases": [
+      "Zuidas",
+      "Buitenveldert"
+    ]
   },
   {
     "code": "BU0363KQ05",
@@ -15599,7 +16459,10 @@
       4.8593174765851845,
       52.325191984342176
     ],
-    "postcode": "1081"
+    "postcode": "1081",
+    "aliases": [
+      "Buitenveldert"
+    ]
   },
   {
     "code": "BU0363KR01",
@@ -15657,7 +16520,11 @@
       4.883151574162511,
       52.33428104379808
     ],
-    "postcode": "1083"
+    "postcode": "1083",
+    "aliases": [
+      "Zuidas",
+      "Buitenveldert"
+    ]
   },
   {
     "code": "BU0363KR02",
@@ -15715,7 +16582,11 @@
       4.8847204743001695,
       52.331260251285485
     ],
-    "postcode": "1083"
+    "postcode": "1083",
+    "aliases": [
+      "Zuidas",
+      "Buitenveldert"
+    ]
   },
   {
     "code": "BU0363KR03",
@@ -15773,7 +16644,11 @@
       4.885636893600953,
       52.325254921950446
     ],
-    "postcode": "1083"
+    "postcode": "1083",
+    "aliases": [
+      "Zuidas",
+      "Buitenveldert"
+    ]
   },
   {
     "code": "BU0363MA04",
@@ -15947,7 +16822,10 @@
       4.9173443799157734,
       52.35328876593592
     ],
-    "postcode": "1091"
+    "postcode": "1091",
+    "aliases": [
+      "Oosterparkbuurt"
+    ]
   },
   {
     "code": "BU0363MF01",
@@ -16005,7 +16883,10 @@
       4.933814131412739,
       52.36451186678581
     ],
-    "postcode": "1094"
+    "postcode": "1094",
+    "aliases": [
+      "Indische Buurt"
+    ]
   },
   {
     "code": "BU0363MG01",
@@ -16063,7 +16944,10 @@
       4.944957208597884,
       52.36470887230716
     ],
-    "postcode": "1095"
+    "postcode": "1095",
+    "aliases": [
+      "Indische Buurt"
+    ]
   },
   {
     "code": "BU0363MH04",
@@ -16121,7 +17005,10 @@
       4.959135602350233,
       52.36802764507196
     ],
-    "postcode": "1095"
+    "postcode": "1095",
+    "aliases": [
+      "Indische Buurt"
+    ]
   },
   {
     "code": "BU0363MH05",
@@ -16179,7 +17066,10 @@
       4.9687095211764545,
       52.36665674355246
     ],
-    "postcode": "1095"
+    "postcode": "1095",
+    "aliases": [
+      "Indische Buurt"
+    ]
   },
   {
     "code": "BU0363MJ01",
@@ -16295,7 +17185,10 @@
       4.991611523602503,
       52.359455855371834
     ],
-    "postcode": "1087"
+    "postcode": "1087",
+    "aliases": [
+      "IJburg"
+    ]
   },
   {
     "code": "BU0363MK04",
@@ -16353,7 +17246,10 @@
       5.015347188762194,
       52.35139851459626
     ],
-    "postcode": "1087"
+    "postcode": "1087",
+    "aliases": [
+      "IJburg"
+    ]
   },
   {
     "code": "BU0363MM02",
@@ -16411,7 +17307,10 @@
       4.920949430580983,
       52.34990206704841
     ],
-    "postcode": "1097"
+    "postcode": "1097",
+    "aliases": [
+      "Watergraafsmeer"
+    ]
   },
   {
     "code": "BU0363MM06",
@@ -16469,7 +17368,10 @@
       4.921576642230238,
       52.34456581258152
     ],
-    "postcode": "1097"
+    "postcode": "1097",
+    "aliases": [
+      "Watergraafsmeer"
+    ]
   },
   {
     "code": "BU0363MN03",
@@ -16527,7 +17429,10 @@
       4.941041240921702,
       52.35276813846839
     ],
-    "postcode": "1098"
+    "postcode": "1098",
+    "aliases": [
+      "Watergraafsmeer"
+    ]
   },
   {
     "code": "BU0363MQ05",
@@ -16643,7 +17548,10 @@
       4.890742830939377,
       52.41631468632602
     ],
-    "postcode": "1033"
+    "postcode": "1033",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NA07",
@@ -16701,7 +17609,10 @@
       4.8904414902387146,
       52.41928897055038
     ],
-    "postcode": "1035"
+    "postcode": "1035",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NK02",
@@ -16759,7 +17670,10 @@
       4.913254038806901,
       52.39576054463018
     ],
-    "postcode": "1032"
+    "postcode": "1032",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NL03",
@@ -16933,7 +17847,10 @@
       5.0115941808861875,
       52.3114135273357
     ],
-    "postcode": "1109"
+    "postcode": "1109",
+    "aliases": [
+      "Zuidoost"
+    ]
   },
   {
     "code": "BU0363SB04",
@@ -17107,7 +18024,11 @@
       4.953828300977511,
       52.29946769635437
     ],
-    "postcode": "1105"
+    "postcode": "1105",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TD02",
@@ -17165,7 +18086,11 @@
       4.956062691150616,
       52.31102726948977
     ],
-    "postcode": "1102"
+    "postcode": "1102",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TE03",
@@ -17223,7 +18148,11 @@
       4.969791535535925,
       52.32405018068471
     ],
-    "postcode": "1103"
+    "postcode": "1103",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TH02",
@@ -17281,7 +18210,11 @@
       4.96936729658255,
       52.31590909837487
     ],
-    "postcode": "1104"
+    "postcode": "1104",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TJ01",
@@ -17339,7 +18272,10 @@
       4.962110181320804,
       52.30042228371972
     ],
-    "postcode": "1106"
+    "postcode": "1106",
+    "aliases": [
+      "Zuidoost"
+    ]
   },
   {
     "code": "BU0363TK01",
@@ -17397,7 +18333,10 @@
       4.9818515975068,
       52.304656977408484
     ],
-    "postcode": "1108"
+    "postcode": "1108",
+    "aliases": [
+      "Zuidoost"
+    ]
   },
   {
     "code": "BU0363TL02",
@@ -17455,7 +18394,10 @@
       4.978689076093668,
       52.29514346748077
     ],
-    "postcode": "1107"
+    "postcode": "1107",
+    "aliases": [
+      "Zuidoost"
+    ]
   },
   {
     "code": "BU0363TM01",
@@ -17513,7 +18455,10 @@
       4.982962247608635,
       52.29847901624144
     ],
-    "postcode": "1106"
+    "postcode": "1106",
+    "aliases": [
+      "Zuidoost"
+    ]
   },
   {
     "code": "BU0363TM02",
@@ -17571,7 +18516,10 @@
       4.984841321958024,
       52.29482788588946
     ],
-    "postcode": "1107"
+    "postcode": "1107",
+    "aliases": [
+      "Zuidoost"
+    ]
   },
   {
     "code": "BU0363AK03",
@@ -17629,7 +18577,10 @@
       4.921512594194812,
       52.371423606060084
     ],
-    "postcode": "1018"
+    "postcode": "1018",
+    "aliases": [
+      "Plantagebuurt"
+    ]
   },
   {
     "code": "BU0363AK06",
@@ -17687,7 +18638,10 @@
       4.929949745243609,
       52.36837678733565
     ],
-    "postcode": "1018"
+    "postcode": "1018",
+    "aliases": [
+      "Plantagebuurt"
+    ]
   },
   {
     "code": "BU0363EC01",
@@ -17745,7 +18699,11 @@
       4.876707890677104,
       52.39386591049771
     ],
-    "postcode": "1014"
+    "postcode": "1014",
+    "aliases": [
+      "Centrum",
+      "Westerpark"
+    ]
   },
   {
     "code": "BU0363EC02",
@@ -17803,7 +18761,12 @@
       4.891487052369787,
       52.39079072200567
     ],
-    "postcode": "1013"
+    "postcode": "1013",
+    "aliases": [
+      "Centrum",
+      "Westerpark",
+      "Spaarndammerbuurt"
+    ]
   },
   {
     "code": "BU0363ED01",
@@ -17861,7 +18824,10 @@
       4.841970956026311,
       52.382148669409226
     ],
-    "postcode": "1061"
+    "postcode": "1061",
+    "aliases": [
+      "Nieuw-West"
+    ]
   },
   {
     "code": "BU0363ED02",
@@ -17919,7 +18885,10 @@
       4.840719545963688,
       52.37732965128329
     ],
-    "postcode": "1061"
+    "postcode": "1061",
+    "aliases": [
+      "Nieuw-West"
+    ]
   },
   {
     "code": "BU0363ED03",
@@ -17977,7 +18946,10 @@
       4.840026282164187,
       52.37386049714906
     ],
-    "postcode": "1061"
+    "postcode": "1061",
+    "aliases": [
+      "Nieuw-West"
+    ]
   },
   {
     "code": "BU0363EE02",
@@ -18035,7 +19007,11 @@
       4.853355524325201,
       52.38334458209682
     ],
-    "postcode": "1055"
+    "postcode": "1055",
+    "aliases": [
+      "Bos en Lommer",
+      "Staatsliedenbuurt"
+    ]
   },
   {
     "code": "BU0363EE05",
@@ -18093,7 +19069,10 @@
       4.855754807009396,
       52.37779942134837
     ],
-    "postcode": "1056"
+    "postcode": "1056",
+    "aliases": [
+      "Bos en Lommer"
+    ]
   },
   {
     "code": "BU0363EE06",
@@ -18151,7 +19130,10 @@
       4.860050439675913,
       52.37835506093856
     ],
-    "postcode": "1056"
+    "postcode": "1056",
+    "aliases": [
+      "Bos en Lommer"
+    ]
   },
   {
     "code": "BU0363EG02",
@@ -18499,7 +19481,10 @@
       4.848622069149449,
       52.37116987279371
     ],
-    "postcode": "1056"
+    "postcode": "1056",
+    "aliases": [
+      "Bos en Lommer"
+    ]
   },
   {
     "code": "BU0363EK04",
@@ -18557,7 +19542,10 @@
       4.854552334283892,
       52.37237861849544
     ],
-    "postcode": "1056"
+    "postcode": "1056",
+    "aliases": [
+      "Bos en Lommer"
+    ]
   },
   {
     "code": "BU0363EL03",
@@ -18615,7 +19603,10 @@
       4.864528396560861,
       52.373290303876196
     ],
-    "postcode": "1056"
+    "postcode": "1056",
+    "aliases": [
+      "Bos en Lommer"
+    ]
   },
   {
     "code": "BU0363EM03",
@@ -18673,7 +19664,10 @@
       4.8510462787074,
       52.36486138871589
     ],
-    "postcode": "1057"
+    "postcode": "1057",
+    "aliases": [
+      "Bos en Lommer"
+    ]
   },
   {
     "code": "BU0363EN01",
@@ -18731,7 +19725,10 @@
       4.858208328196972,
       52.3698230680965
     ],
-    "postcode": "1057"
+    "postcode": "1057",
+    "aliases": [
+      "Bos en Lommer"
+    ]
   },
   {
     "code": "BU0363EN02",
@@ -18789,7 +19786,10 @@
       4.861234337737061,
       52.36989156587173
     ],
-    "postcode": "1057"
+    "postcode": "1057",
+    "aliases": [
+      "Bos en Lommer"
+    ]
   },
   {
     "code": "BU0363EN04",
@@ -18847,7 +19847,10 @@
       4.860682781611869,
       52.36702154576399
     ],
-    "postcode": "1057"
+    "postcode": "1057",
+    "aliases": [
+      "Bos en Lommer"
+    ]
   },
   {
     "code": "BU0363EP01",
@@ -18905,7 +19908,11 @@
       4.8668357307426655,
       52.369287926722656
     ],
-    "postcode": "1053"
+    "postcode": "1053",
+    "aliases": [
+      "Oud-West",
+      "Kinkerbuurt"
+    ]
   },
   {
     "code": "BU0363ES01",
@@ -18963,7 +19970,11 @@
       4.860981024284466,
       52.363683308462456
     ],
-    "postcode": "1053"
+    "postcode": "1053",
+    "aliases": [
+      "Oud-West",
+      "Kinkerbuurt"
+    ]
   },
   {
     "code": "BU0363ET01",
@@ -19021,7 +20032,12 @@
       4.85986466346466,
       52.360314151461914
     ],
-    "postcode": "1054"
+    "postcode": "1054",
+    "aliases": [
+      "Oud-West",
+      "Vondelbuurt",
+      "Overtoom"
+    ]
   },
   {
     "code": "BU0363FB02",
@@ -19079,7 +20095,11 @@
       4.791661630657343,
       52.38027857836071
     ],
-    "postcode": "1067"
+    "postcode": "1067",
+    "aliases": [
+      "Nieuw-West",
+      "Geuzenveld"
+    ]
   },
   {
     "code": "BU0363FB03",
@@ -19137,7 +20157,11 @@
       4.804282114440544,
       52.38260442907285
     ],
-    "postcode": "1067"
+    "postcode": "1067",
+    "aliases": [
+      "Nieuw-West",
+      "Geuzenveld"
+    ]
   },
   {
     "code": "BU0363FB04",
@@ -19195,7 +20219,11 @@
       4.808719365018338,
       52.38262224181747
     ],
-    "postcode": "1067"
+    "postcode": "1067",
+    "aliases": [
+      "Nieuw-West",
+      "Geuzenveld"
+    ]
   },
   {
     "code": "BU0363FB05",
@@ -19253,7 +20281,11 @@
       4.79624360546027,
       52.37662941891509
     ],
-    "postcode": "1067"
+    "postcode": "1067",
+    "aliases": [
+      "Nieuw-West",
+      "Geuzenveld"
+    ]
   },
   {
     "code": "BU0363FB07",
@@ -19311,7 +20343,11 @@
       4.806191282841699,
       52.3786775472047
     ],
-    "postcode": "1067"
+    "postcode": "1067",
+    "aliases": [
+      "Nieuw-West",
+      "Geuzenveld"
+    ]
   },
   {
     "code": "BU0363FD02",
@@ -19369,7 +20405,11 @@
       4.8348491046023865,
       52.38364965396455
     ],
-    "postcode": "1063"
+    "postcode": "1063",
+    "aliases": [
+      "Nieuw-West",
+      "Slotermeer"
+    ]
   },
   {
     "code": "BU0363FH02",
@@ -19427,7 +20467,11 @@
       4.78349080689597,
       52.356910451591766
     ],
-    "postcode": "1069"
+    "postcode": "1069",
+    "aliases": [
+      "Nieuw-West",
+      "Osdorp"
+    ]
   },
   {
     "code": "BU0363FJ02",
@@ -19485,7 +20529,11 @@
       4.79456045073277,
       52.358930686246865
     ],
-    "postcode": "1069"
+    "postcode": "1069",
+    "aliases": [
+      "Nieuw-West",
+      "Osdorp"
+    ]
   },
   {
     "code": "BU0363FJ04",
@@ -19543,7 +20591,11 @@
       4.798669751683842,
       52.35027082373791
     ],
-    "postcode": "1069"
+    "postcode": "1069",
+    "aliases": [
+      "Nieuw-West",
+      "Osdorp"
+    ]
   },
   {
     "code": "BU0363FK02",
@@ -19601,7 +20653,11 @@
       4.80743358027692,
       52.36357209999143
     ],
-    "postcode": "1068"
+    "postcode": "1068",
+    "aliases": [
+      "Nieuw-West",
+      "Osdorp"
+    ]
   },
   {
     "code": "BU0363FL02",
@@ -19659,7 +20715,11 @@
       4.819923827334045,
       52.359292745675596
     ],
-    "postcode": "1065"
+    "postcode": "1065",
+    "aliases": [
+      "Nieuw-West",
+      "Slotervaart"
+    ]
   },
   {
     "code": "BU0363FM02",
@@ -19717,7 +20777,10 @@
       4.837479648337649,
       52.36737704409909
     ],
-    "postcode": "1061"
+    "postcode": "1061",
+    "aliases": [
+      "Nieuw-West"
+    ]
   },
   {
     "code": "BU0363FM06",
@@ -19775,7 +20838,10 @@
       4.838298890469289,
       52.35862316260616
     ],
-    "postcode": "1062"
+    "postcode": "1062",
+    "aliases": [
+      "Nieuw-West"
+    ]
   },
   {
     "code": "BU0363FP01",
@@ -19833,7 +20899,10 @@
       4.8383436832394136,
       52.357013608138004
     ],
-    "postcode": "1062"
+    "postcode": "1062",
+    "aliases": [
+      "Nieuw-West"
+    ]
   },
   {
     "code": "BU0363FQ03",
@@ -19891,7 +20960,11 @@
       4.816835583155326,
       52.34892432998571
     ],
-    "postcode": "1066"
+    "postcode": "1066",
+    "aliases": [
+      "Nieuw-West",
+      "Slotervaart"
+    ]
   },
   {
     "code": "BU0363FQ06",
@@ -19949,7 +21022,11 @@
       4.818198697241478,
       52.34425452953866
     ],
-    "postcode": "1066"
+    "postcode": "1066",
+    "aliases": [
+      "Nieuw-West",
+      "Slotervaart"
+    ]
   },
   {
     "code": "BU0363KG01",
@@ -20007,7 +21084,11 @@
       4.896875747417818,
       52.34972417854112
     ],
-    "postcode": "1073"
+    "postcode": "1073",
+    "aliases": [
+      "De Pijp",
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KH01",
@@ -20065,7 +21146,10 @@
       4.859569799112104,
       52.34916063074374
     ],
-    "postcode": "1075"
+    "postcode": "1075",
+    "aliases": [
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KH03",
@@ -20123,7 +21207,10 @@
       4.860892842395314,
       52.34697122949971
     ],
-    "postcode": "1076"
+    "postcode": "1076",
+    "aliases": [
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KH05",
@@ -20181,7 +21268,10 @@
       4.861830433953238,
       52.34370782063186
     ],
-    "postcode": "1076"
+    "postcode": "1076",
+    "aliases": [
+      "Oud-Zuid"
+    ]
   },
   {
     "code": "BU0363KK01",
@@ -20239,7 +21329,10 @@
       4.888490933572597,
       52.3463621376553
     ],
-    "postcode": "1078"
+    "postcode": "1078",
+    "aliases": [
+      "Rivierenbuurt"
+    ]
   },
   {
     "code": "BU0363KK03",
@@ -20297,7 +21390,10 @@
       4.898415275218239,
       52.34448328501346
     ],
-    "postcode": "1078"
+    "postcode": "1078",
+    "aliases": [
+      "Rivierenbuurt"
+    ]
   },
   {
     "code": "BU0363KK05",
@@ -20355,7 +21451,10 @@
       4.897700648371275,
       52.339646335157624
     ],
-    "postcode": "1079"
+    "postcode": "1079",
+    "aliases": [
+      "Rivierenbuurt"
+    ]
   },
   {
     "code": "BU0363KM02",
@@ -20413,7 +21512,10 @@
       4.899201009610729,
       52.34201980624648
     ],
-    "postcode": "1079"
+    "postcode": "1079",
+    "aliases": [
+      "Rivierenbuurt"
+    ]
   },
   {
     "code": "BU0363KM04",
@@ -20471,7 +21573,10 @@
       4.911261598173457,
       52.34191465859199
     ],
-    "postcode": "1079"
+    "postcode": "1079",
+    "aliases": [
+      "Rivierenbuurt"
+    ]
   },
   {
     "code": "BU0363KQ06",
@@ -20529,7 +21634,11 @@
       4.875588394610719,
       52.32590173211188
     ],
-    "postcode": "1082"
+    "postcode": "1082",
+    "aliases": [
+      "Zuidas",
+      "Buitenveldert"
+    ]
   },
   {
     "code": "BU0363MA01",
@@ -20703,7 +21812,10 @@
       4.93553906698679,
       52.36252875455996
     ],
-    "postcode": "1094"
+    "postcode": "1094",
+    "aliases": [
+      "Indische Buurt"
+    ]
   },
   {
     "code": "BU0363MF03",
@@ -20761,7 +21873,10 @@
       4.936397829926702,
       52.35984939659577
     ],
-    "postcode": "1094"
+    "postcode": "1094",
+    "aliases": [
+      "Indische Buurt"
+    ]
   },
   {
     "code": "BU0363MG02",
@@ -20819,7 +21934,10 @@
       4.951970895667979,
       52.366857067914104
     ],
-    "postcode": "1095"
+    "postcode": "1095",
+    "aliases": [
+      "Indische Buurt"
+    ]
   },
   {
     "code": "BU0363MG03",
@@ -20877,7 +21995,10 @@
       4.942819077699752,
       52.36020847441827
     ],
-    "postcode": "1095"
+    "postcode": "1095",
+    "aliases": [
+      "Indische Buurt"
+    ]
   },
   {
     "code": "BU0363MH02",
@@ -20935,7 +22056,10 @@
       4.96537692236367,
       52.37405077093101
     ],
-    "postcode": "1095"
+    "postcode": "1095",
+    "aliases": [
+      "Indische Buurt"
+    ]
   },
   {
     "code": "BU0363MJ05",
@@ -20993,7 +22117,10 @@
       5.001562497354133,
       52.35591934045961
     ],
-    "postcode": "1087"
+    "postcode": "1087",
+    "aliases": [
+      "IJburg"
+    ]
   },
   {
     "code": "BU0363ML01",
@@ -21051,7 +22178,10 @@
       5.005900749880334,
       52.353200801744585
     ],
-    "postcode": "1087"
+    "postcode": "1087",
+    "aliases": [
+      "IJburg"
+    ]
   },
   {
     "code": "BU0363MM07",
@@ -21109,7 +22239,10 @@
       4.926531918186717,
       52.34437650784915
     ],
-    "postcode": "1097"
+    "postcode": "1097",
+    "aliases": [
+      "Watergraafsmeer"
+    ]
   },
   {
     "code": "BU0363MN02",
@@ -21167,7 +22300,10 @@
       4.93808892529017,
       52.35573272600263
     ],
-    "postcode": "1098"
+    "postcode": "1098",
+    "aliases": [
+      "Watergraafsmeer"
+    ]
   },
   {
     "code": "BU0363MN04",
@@ -21225,7 +22361,10 @@
       4.948008372867859,
       52.35683572704611
     ],
-    "postcode": "1098"
+    "postcode": "1098",
+    "aliases": [
+      "Watergraafsmeer"
+    ]
   },
   {
     "code": "BU0363MN08",
@@ -21283,7 +22422,10 @@
       4.95172129961206,
       52.34356112437152
     ],
-    "postcode": "1098"
+    "postcode": "1098",
+    "aliases": [
+      "Watergraafsmeer"
+    ]
   },
   {
     "code": "BU0363MP03",
@@ -21341,7 +22483,10 @@
       4.945702279182322,
       52.3407388498451
     ],
-    "postcode": "1097"
+    "postcode": "1097",
+    "aliases": [
+      "Watergraafsmeer"
+    ]
   },
   {
     "code": "BU0363NA03",
@@ -21399,7 +22544,10 @@
       4.889528479356419,
       52.42102227853853
     ],
-    "postcode": "1035"
+    "postcode": "1035",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NA06",
@@ -21457,7 +22605,10 @@
       4.885935471487698,
       52.417093518365505
     ],
-    "postcode": "1033"
+    "postcode": "1033",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NC02",
@@ -21515,7 +22666,10 @@
       4.88867503475837,
       52.413969940314885
     ],
-    "postcode": "1033"
+    "postcode": "1033",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NC03",
@@ -21573,7 +22727,10 @@
       4.896165019102062,
       52.40918309763822
     ],
-    "postcode": "1033"
+    "postcode": "1033",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NC04",
@@ -21631,7 +22788,10 @@
       4.903308983442661,
       52.407195562250564
     ],
-    "postcode": "1036"
+    "postcode": "1036",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363ND02",
@@ -21689,7 +22849,10 @@
       4.906521565279234,
       52.4163429898644
     ],
-    "postcode": "1035"
+    "postcode": "1035",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NE01",
@@ -21747,7 +22910,10 @@
       4.920620178369084,
       52.41179898200305
     ],
-    "postcode": "1034"
+    "postcode": "1034",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NE02",
@@ -21805,7 +22971,10 @@
       4.92446430127772,
       52.4105977194549
     ],
-    "postcode": "1034"
+    "postcode": "1034",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NE03",
@@ -21863,7 +23032,10 @@
       4.9090841772703175,
       52.40573154297049
     ],
-    "postcode": "1034"
+    "postcode": "1034",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NE06",
@@ -21921,7 +23093,10 @@
       4.912748917752203,
       52.40134596680176
     ],
-    "postcode": "1034"
+    "postcode": "1034",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NF03",
@@ -22501,7 +23676,10 @@
       4.916385857582976,
       52.398734400367445
     ],
-    "postcode": "1032"
+    "postcode": "1032",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NM01",
@@ -23371,7 +24549,11 @@
       4.942533753943757,
       52.32100353901394
     ],
-    "postcode": "1102"
+    "postcode": "1102",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TB02",
@@ -23429,7 +24611,11 @@
       4.946720355758645,
       52.32378071542328
     ],
-    "postcode": "1102"
+    "postcode": "1102",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TC02",
@@ -23487,7 +24673,11 @@
       4.954986108670316,
       52.318836003500834
     ],
-    "postcode": "1102"
+    "postcode": "1102",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TC04",
@@ -23545,7 +24735,11 @@
       4.960715435506134,
       52.316470979793344
     ],
-    "postcode": "1102"
+    "postcode": "1102",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TF03",
@@ -23603,7 +24797,11 @@
       4.9890500489194345,
       52.31787092560077
     ],
-    "postcode": "1104"
+    "postcode": "1104",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TG01",
@@ -23661,7 +24859,11 @@
       4.974331480373821,
       52.32031969248862
     ],
-    "postcode": "1103"
+    "postcode": "1103",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TG02",
@@ -23719,7 +24921,11 @@
       4.976410752265313,
       52.318766299156245
     ],
-    "postcode": "1104"
+    "postcode": "1104",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TH01",
@@ -23777,7 +24983,11 @@
       4.969662003806708,
       52.312115723505116
     ],
-    "postcode": "1104"
+    "postcode": "1104",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TH03",
@@ -23835,7 +25045,11 @@
       4.973924237278542,
       52.31172687761288
     ],
-    "postcode": "1104"
+    "postcode": "1104",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TH04",
@@ -23893,7 +25107,11 @@
       4.978681244914741,
       52.31272059063003
     ],
-    "postcode": "1104"
+    "postcode": "1104",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TJ02",
@@ -23951,7 +25169,10 @@
       4.97276442664461,
       52.30164213310945
     ],
-    "postcode": "1106"
+    "postcode": "1106",
+    "aliases": [
+      "Zuidoost"
+    ]
   },
   {
     "code": "BU0363TJ03",
@@ -24009,7 +25230,10 @@
       4.966100825716642,
       52.29694011003939
     ],
-    "postcode": "1106"
+    "postcode": "1106",
+    "aliases": [
+      "Zuidoost"
+    ]
   },
   {
     "code": "BU0363TL04",
@@ -24067,7 +25291,10 @@
       4.97621799964096,
       52.29021212235405
     ],
-    "postcode": "1107"
+    "postcode": "1107",
+    "aliases": [
+      "Zuidoost"
+    ]
   },
   {
     "code": "BU0363TM03",
@@ -24125,7 +25352,10 @@
       4.997887521325942,
       52.30010724305492
     ],
-    "postcode": "1106"
+    "postcode": "1106",
+    "aliases": [
+      "Zuidoost"
+    ]
   },
   {
     "code": "BU0363FG01",
@@ -24183,7 +25413,11 @@
       4.780050436288437,
       52.35465669367202
     ],
-    "postcode": "1069"
+    "postcode": "1069",
+    "aliases": [
+      "Nieuw-West",
+      "Osdorp"
+    ]
   },
   {
     "code": "BU0363FG02",
@@ -24357,7 +25591,11 @@
       4.830003783706418,
       52.36900268121611
     ],
-    "postcode": "1064"
+    "postcode": "1064",
+    "aliases": [
+      "Nieuw-West",
+      "Slotermeer"
+    ]
   },
   {
     "code": "BU0363FQ02",
@@ -24415,7 +25653,11 @@
       4.802834970455752,
       52.34716824319669
     ],
-    "postcode": "1066"
+    "postcode": "1066",
+    "aliases": [
+      "Nieuw-West",
+      "Slotervaart"
+    ]
   },
   {
     "code": "BU0363FQ04",
@@ -24473,7 +25715,11 @@
       4.8039913843696445,
       52.34389381284847
     ],
-    "postcode": "1066"
+    "postcode": "1066",
+    "aliases": [
+      "Nieuw-West",
+      "Slotervaart"
+    ]
   },
   {
     "code": "BU0363MA02",
@@ -24763,7 +26009,10 @@
       4.991099066829498,
       52.35555063370319
     ],
-    "postcode": "1087"
+    "postcode": "1087",
+    "aliases": [
+      "IJburg"
+    ]
   },
   {
     "code": "BU0363ML02",
@@ -24821,7 +26070,10 @@
       5.00765506911249,
       52.34909907838023
     ],
-    "postcode": "1087"
+    "postcode": "1087",
+    "aliases": [
+      "IJburg"
+    ]
   },
   {
     "code": "BU0363ML03",
@@ -24879,7 +26131,10 @@
       5.002519261962681,
       52.34606919020712
     ],
-    "postcode": "1087"
+    "postcode": "1087",
+    "aliases": [
+      "IJburg"
+    ]
   },
   {
     "code": "BU0363NA04",
@@ -24937,7 +26192,10 @@
       4.89490179418577,
       52.42155652972609
     ],
-    "postcode": "1035"
+    "postcode": "1035",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NC01",
@@ -24995,7 +26253,10 @@
       4.878568402515035,
       52.41651116662137
     ],
-    "postcode": "1033"
+    "postcode": "1033",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363ND01",
@@ -25053,7 +26314,10 @@
       4.903741974298906,
       52.42125075527172
     ],
-    "postcode": "1035"
+    "postcode": "1035",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NE05",
@@ -25111,7 +26375,10 @@
       4.906888081375841,
       52.40314313026088
     ],
-    "postcode": "1034"
+    "postcode": "1034",
+    "aliases": [
+      "Noord"
+    ]
   },
   {
     "code": "BU0363NH01",
@@ -25517,7 +26784,10 @@
       5.012825138798756,
       52.30636883090872
     ],
-    "postcode": "1109"
+    "postcode": "1109",
+    "aliases": [
+      "Zuidoost"
+    ]
   },
   {
     "code": "BU0363SB03",
@@ -25865,7 +27135,11 @@
       4.9660622605807205,
       52.324354687649645
     ],
-    "postcode": "1103"
+    "postcode": "1103",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TF01",
@@ -25923,7 +27197,11 @@
       4.979726158477095,
       52.3274860035535
     ],
-    "postcode": "1103"
+    "postcode": "1103",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TF02",
@@ -25981,7 +27259,11 @@
       4.980526597223545,
       52.32144730478735
     ],
-    "postcode": "1103"
+    "postcode": "1103",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TH05",
@@ -26039,7 +27321,11 @@
       4.986384752472789,
       52.31517697289545
     ],
-    "postcode": "1104"
+    "postcode": "1104",
+    "aliases": [
+      "Zuidoost",
+      "Bijlmer"
+    ]
   },
   {
     "code": "BU0363TL03",
@@ -26097,7 +27383,10 @@
       4.9670774163241935,
       52.29414890478506
     ],
-    "postcode": "1107"
+    "postcode": "1107",
+    "aliases": [
+      "Zuidoost"
+    ]
   },
   {
     "code": "BU0363TM04",
@@ -26155,7 +27444,10 @@
       4.992881054997687,
       52.29247811856825
     ],
-    "postcode": "1107"
+    "postcode": "1107",
+    "aliases": [
+      "Zuidoost"
+    ]
   },
   {
     "code": "BU0363FQ08",
@@ -26213,7 +27505,11 @@
       4.82441927959877,
       52.34408304805667
     ],
-    "postcode": "1066"
+    "postcode": "1066",
+    "aliases": [
+      "Nieuw-West",
+      "Slotervaart"
+    ]
   },
   {
     "code": "BU0363SD06",

@@ -22,9 +22,10 @@ export default function SearchBar({ neighborhoods, cityId }: SearchBarProps) {
     () =>
       new Fuse(neighborhoods, {
         keys: [
-          { name: "name", weight: 0.5 },
-          { name: "postcode", weight: 0.35 },
-          { name: "code", weight: 0.15 },
+          { name: "name", weight: 0.4 },
+          { name: "aliases", weight: 0.35 },
+          { name: "postcode", weight: 0.15 },
+          { name: "code", weight: 0.1 },
         ],
         threshold: 0.3,
         minMatchCharLength: 2,
