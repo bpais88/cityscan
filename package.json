@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build:data": "tsx scripts/build-data.ts",
-    "build": "npm run build:data && next build",
+    "fetch:data": "tsx scripts/build-data.ts",
+    "build": "next build",
     "start": "next start",
     "lint": "eslint"
   },

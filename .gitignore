@@ -36,9 +36,7 @@ yarn-error.log*
 # vercel
 .vercel
 
-# generated data
-/src/data/*.json
-/src/data/*.geo.json
+# raw CBS data (large, fetched via npm run fetch:data)
 /src/data/raw/
 
 # typescript

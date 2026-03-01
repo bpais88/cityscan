@@ -10,7 +10,7 @@ import {
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
 import { useRouter } from "next/navigation";
-import { getChoroplethColor, AMSTERDAM_CENTER, DEFAULT_ZOOM, DARK_TILE_URL, DARK_TILE_ATTRIBUTION } from "@/lib/constants";
+import { getChoroplethColor, DEFAULT_CENTER, DEFAULT_ZOOM, DARK_TILE_URL, DARK_TILE_ATTRIBUTION } from "@/lib/constants";
 import type { Neighborhood } from "@/lib/types";
 import MapLegend from "./MapLegend";
 
@@ -27,6 +27,9 @@ interface SafetyMapProps {
   neighborhoods: Neighborhood[];
   selectedSlug?: string;
   mini?: boolean;
+  cityId?: string;
+  cityCenter?: [number, number];
+  cityZoom?: number;
 }
 
 function MapController({ center, zoom }: { center: [number, number]; zoom: number }) {
@@ -42,6 +45,9 @@ export default function SafetyMap({
   neighborhoods,
   selectedSlug,
   mini = false,
+  cityId,
+  cityCenter,
+  cityZoom,
 }: SafetyMapProps) {
   const router = useRouter();
   const [hoveredCode, setHoveredCode] = useState<string | null>(null);
@@ -109,8 +115,8 @@ export default function SafetyMap({
         mouseover: () => setHoveredCode(code ?? null),
         mouseout: () => setHoveredCode(null),
         click: () => {
-          if (n && !mini) {
-            router.push(`/buurt/${n.slug}`);
+          if (n && !mini && cityId) {
+            router.push(`/${cityId}/${n.slug}`);
           }
         },
       });
@@ -125,8 +131,8 @@ export default function SafetyMap({
     : undefined;
   const center: [number, number] = selected
     ? [selected.centroid[1], selected.centroid[0]]
-    : AMSTERDAM_CENTER;
-  const zoom = mini ? 14 : DEFAULT_ZOOM;
+    : cityCenter ?? DEFAULT_CENTER;
+  const zoom = mini ? 14 : (cityZoom ?? DEFAULT_ZOOM);
 
   return (
     <div className={`relative ${mini ? "h-[250px]" : "h-[calc(100vh-120px)]"}`}>

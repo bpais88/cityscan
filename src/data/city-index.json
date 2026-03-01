@@ -1,0 +1,82 @@
+[
+  {
+    "id": "amsterdam",
+    "name": "Amsterdam",
+    "totalSectors": 454,
+    "avgScore": 5.9,
+    "criticalCount": 96,
+    "avgRate": 83.7
+  },
+  {
+    "id": "haarlem",
+    "name": "Haarlem",
+    "totalSectors": 99,
+    "avgScore": 6.2,
+    "criticalCount": 14,
+    "avgRate": 54.2
+  },
+  {
+    "id": "bloemendaal",
+    "name": "Bloemendaal",
+    "totalSectors": 22,
+    "avgScore": 6,
+    "criticalCount": 3,
+    "avgRate": 39.8
+  },
+  {
+    "id": "edam-volendam",
+    "name": "Edam-Volendam",
+    "totalSectors": 26,
+    "avgScore": 5.6,
+    "criticalCount": 6,
+    "avgRate": 21.5
+  },
+  {
+    "id": "purmerend",
+    "name": "Purmerend",
+    "totalSectors": 31,
+    "avgScore": 5.3,
+    "criticalCount": 7,
+    "avgRate": 33.7
+  },
+  {
+    "id": "zaanstad",
+    "name": "Zaanstad",
+    "totalSectors": 72,
+    "avgScore": 5.4,
+    "criticalCount": 20,
+    "avgRate": 45.5
+  },
+  {
+    "id": "haarlemmermeer",
+    "name": "Haarlemmermeer",
+    "totalSectors": 91,
+    "avgScore": 5,
+    "criticalCount": 30,
+    "avgRate": 43.1
+  },
+  {
+    "id": "amstelveen",
+    "name": "Amstelveen",
+    "totalSectors": 46,
+    "avgScore": 5.3,
+    "criticalCount": 10,
+    "avgRate": 37.9
+  },
+  {
+    "id": "diemen",
+    "name": "Diemen",
+    "totalSectors": 27,
+    "avgScore": 5.7,
+    "criticalCount": 4,
+    "avgRate": 49.2
+  },
+  {
+    "id": "ouder-amstel",
+    "name": "Ouder-Amstel",
+    "totalSectors": 7,
+    "avgScore": 4,
+    "criticalCount": 3,
+    "avgRate": 74.4
+  }
+]

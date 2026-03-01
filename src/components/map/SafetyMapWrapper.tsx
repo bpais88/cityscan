@@ -19,6 +19,9 @@ interface SafetyMapWrapperProps {
   neighborhoods: Neighborhood[];
   selectedSlug?: string;
   mini?: boolean;
+  cityId?: string;
+  cityCenter?: [number, number];
+  cityZoom?: number;
 }
 
 export default function SafetyMapWrapper(props: SafetyMapWrapperProps) {
