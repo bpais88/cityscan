@@ -79,6 +79,15 @@ export const CATEGORY_LABELS: Record<CrimeCategory, string> = {
   OTHER: "OTHER",
 };
 
+export const CATEGORY_DESCRIPTIONS: Record<CrimeCategory, string> = {
+  PROPERTY: "Burglary, bike theft, vehicle theft, pickpocketing, shoplifting, commercial break-ins",
+  VIOLENT: "Assault, threats, robbery, murder, sexual offenses, human trafficking",
+  DRUGS: "Drug trafficking, drug/alcohol nuisance, DUI (road, water, aviation)",
+  FRAUD: "Horizontal fraud, vertical fraud, cybercrime, other fraud",
+  VANDALISM: "Property damage, arson, domestic disputes, trespassing, public order disturbance",
+  OTHER: "Road accidents, discrimination, environmental violations, regulatory offenses",
+};
+
 export const ALL_CATEGORIES: CrimeCategory[] = [
   "PROPERTY",
   "VIOLENT",

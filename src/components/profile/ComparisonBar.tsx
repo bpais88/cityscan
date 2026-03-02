@@ -1,7 +1,7 @@
 "use client";
 
 import type { CrimeCategory } from "@/lib/types";
-import { CATEGORY_LABELS, ALL_CATEGORIES } from "@/lib/constants";
+import { CATEGORY_LABELS, CATEGORY_DESCRIPTIONS, ALL_CATEGORIES } from "@/lib/constants";
 
 interface ComparisonBarProps {
   categoryRates: Record<CrimeCategory, number>;
@@ -49,9 +49,14 @@ export default function ComparisonBar({ categoryRates, cityRates }: ComparisonBa
           <div key={item.category}>
             {/* Label row */}
             <div className="flex justify-between items-baseline mb-1.5">
-              <span className="text-[11px] text-[#e0e0f0] tracking-wider font-medium">
-                {item.label}
-              </span>
+              <div>
+                <span className="text-[11px] text-[#e0e0f0] tracking-wider font-medium">
+                  {item.label}
+                </span>
+                <div className="text-[9px] text-[#666680] mt-0.5 leading-tight">
+                  {CATEGORY_DESCRIPTIONS[item.category]}
+                </div>
+              </div>
               <div className="flex items-center gap-3">
                 <span className="text-[11px] text-[#e0e0f0] font-bold tabular-nums">
                   {item.sectorRate.toFixed(1)}

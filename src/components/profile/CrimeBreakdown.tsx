@@ -11,7 +11,7 @@ import {
   Cell,
 } from "recharts";
 import type { CrimeCategory } from "@/lib/types";
-import { CATEGORY_LABELS, ALL_CATEGORIES } from "@/lib/constants";
+import { CATEGORY_LABELS, CATEGORY_DESCRIPTIONS, ALL_CATEGORIES } from "@/lib/constants";
 
 interface CrimeBreakdownProps {
   categories: Record<CrimeCategory, number>;
@@ -30,6 +30,7 @@ const BAR_COLORS: Record<CrimeCategory, string> = {
 export default function CrimeBreakdown({ categories, categoryRates }: CrimeBreakdownProps) {
   const data = ALL_CATEGORIES.map((cat) => ({
     name: CATEGORY_LABELS[cat],
+    desc: CATEGORY_DESCRIPTIONS[cat],
     count: categories[cat],
     rate: categoryRates[cat],
     category: cat,
@@ -60,13 +61,20 @@ export default function CrimeBreakdown({ categories, categoryRates }: CrimeBreak
               fontFamily: "monospace",
               fontSize: 11,
               color: "#e0e0f0",
+              maxWidth: 320,
             }}
             // eslint-disable-next-line @typescript-eslint/no-explicit-any
-            formatter={((value: any, name: any) => {
-              const v = Number(value ?? 0);
-              if (name === "count") return [`${v} incidents`, "COUNT"];
-              return [`${v.toFixed(1)} per 1K`, "RATE"];
-            }) as any}
+            content={({ active, payload }: any) => {
+              if (!active || !payload?.[0]) return null;
+              const d = payload[0].payload;
+              return (
+                <div style={{ background: "rgba(10,10,15,0.95)", border: "1px solid #333340", padding: "8px 10px", fontFamily: "monospace", fontSize: 11 }}>
+                  <div style={{ color: "#e0e0f0", fontWeight: 700, marginBottom: 4 }}>{d.name}</div>
+                  <div style={{ color: "#888899", fontSize: 10, marginBottom: 6, lineHeight: "1.4" }}>{d.desc}</div>
+                  <div style={{ color: "#00ffcc" }}>{d.count} incidents &middot; {d.rate.toFixed(1)} per 1K</div>
+                </div>
+              );
+            }}
           />
           <Bar dataKey="count" radius={[0, 2, 2, 0]}>
             {data.map((entry) => (
