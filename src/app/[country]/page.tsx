@@ -109,6 +109,10 @@ export default async function CountryPage({
 
                     <div className="space-y-2">
                       <div className="flex justify-between text-[10px] text-[#888899] tracking-wider">
+                        <span>POPULATION</span>
+                        <span className="text-[#e0e0f0]">{city.totalPopulation.toLocaleString()}</span>
+                      </div>
+                      <div className="flex justify-between text-[10px] text-[#888899] tracking-wider">
                         <span>SECTORS</span>
                         <span className="text-[#e0e0f0]">{city.totalSectors}</span>
                       </div>

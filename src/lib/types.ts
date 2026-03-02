@@ -56,6 +56,7 @@ export interface CityIndex {
   avgScore: number;
   criticalCount: number;
   avgRate: number;
+  totalPopulation: number;
 }
 
 export interface MunicipalityComparison {
