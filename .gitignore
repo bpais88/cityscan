@@ -36,7 +36,7 @@ yarn-error.log*
 # vercel
 .vercel
 
-# raw CBS data (large, fetched via npm run fetch:data)
+# raw CBS data (fetched via pipeline)
 /src/data/raw/
 
 # pipeline temp files
