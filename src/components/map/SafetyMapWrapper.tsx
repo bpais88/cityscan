@@ -19,6 +19,7 @@ interface SafetyMapWrapperProps {
   neighborhoods: Neighborhood[];
   selectedSlug?: string;
   mini?: boolean;
+  countryCode?: string;
   cityId?: string;
   cityCenter?: [number, number];
   cityZoom?: number;
