@@ -39,6 +39,12 @@ yarn-error.log*
 # raw CBS data (large, fetched via npm run fetch:data)
 /src/data/raw/
 
+# pipeline temp files
+/.pipeline-temp/
+
+# drizzle migrations
+/drizzle/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts

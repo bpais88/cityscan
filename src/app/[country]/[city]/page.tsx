@@ -5,57 +5,44 @@ import StatusBar from "@/components/ui/StatusBar";
 import Panel from "@/components/ui/Panel";
 import Link from "next/link";
 import { ArrowLeft } from "lucide-react";
-import { CITIES } from "@/lib/cities";
-import type { Neighborhood } from "@/lib/types";
+import { getCountry, getMunicipality, getNeighborhoods, getGeoJSON } from "@/db/queries";
 
-async function getCityData(cityId: string) {
-  let neighborhoods: Neighborhood[] = [];
-  let geojson: GeoJSON.FeatureCollection = { type: "FeatureCollection", features: [] };
+export const revalidate = 86400;
 
-  try {
-    neighborhoods = (
-      await import(`@/data/cities/${cityId}/neighborhoods.json`)
-    ).default as unknown as Neighborhood[];
-  } catch {
-    // Data not yet built
-  }
-
-  try {
-    geojson = (
-      await import(`@/data/${cityId}.geo.json`)
-    ).default as unknown as GeoJSON.FeatureCollection;
-  } catch {
-    // Data not yet built
-  }
-
-  return { neighborhoods, geojson };
-}
-
-export async function generateStaticParams() {
-  return CITIES.map((city) => ({ city: city.id }));
-}
-
-export async function generateMetadata({ params }: { params: Promise<{ city: string }> }) {
-  const { city: cityId } = await params;
-  const cfg = CITIES.find((c) => c.id === cityId);
-  if (!cfg) return { title: "CITY NOT FOUND" };
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ country: string; city: string }>;
+}) {
+  const { country: countryCode, city: cityId } = await params;
+  const country = await getCountry(countryCode);
+  if (!country) return { title: "NOT FOUND" };
+  const muni = await getMunicipality(cityId);
+  if (!muni || muni.countryCode !== countryCode) return { title: "CITY NOT FOUND" };
 
   return {
-    title: `${cfg.name.toUpperCase()} — SECTOR INTELLIGENCE`,
-    description: `Neighborhood safety analysis for ${cfg.name}. Powered by CBS police crime data.`,
+    title: `${muni.name.toUpperCase()} — SECTOR INTELLIGENCE`,
+    description: `Neighborhood safety analysis for ${muni.name}. Powered by ${country.dataSource}.`,
   };
 }
 
 export default async function CityPage({
   params,
 }: {
-  params: Promise<{ city: string }>;
+  params: Promise<{ country: string; city: string }>;
 }) {
-  const { city: cityId } = await params;
-  const cfg = CITIES.find((c) => c.id === cityId);
-  if (!cfg) notFound();
+  const { country: countryCode, city: cityId } = await params;
 
-  const { neighborhoods, geojson } = await getCityData(cityId);
+  const country = await getCountry(countryCode);
+  if (!country) notFound();
+
+  const muni = await getMunicipality(cityId);
+  if (!muni || muni.countryCode !== countryCode) notFound();
+
+  const [neighborhoods, geojson] = await Promise.all([
+    getNeighborhoods(cityId),
+    getGeoJSON(cityId),
+  ]);
 
   const totalSectors = neighborhoods.length;
   const criticalCount = neighborhoods.filter((n) => n.threatLevel === "CRITICAL").length;
@@ -66,13 +53,13 @@ export default async function CityPage({
 
   return (
     <div className="min-h-screen">
-      <StatusBar cityName={cfg.name} sectorCount={totalSectors} />
+      <StatusBar cityName={muni.name} sectorCount={totalSectors} />
 
       <div className="pt-10 px-4 py-6 md:px-8">
         <div className="max-w-7xl mx-auto">
           {/* Navigation */}
           <Link
-            href="/"
+            href={`/${countryCode}`}
             className="inline-flex items-center gap-2 text-[#888899] hover:text-[#00ffcc] text-xs tracking-wider transition-colors mb-4"
           >
             <ArrowLeft size={14} />
@@ -81,13 +68,13 @@ export default async function CityPage({
 
           <div className="mb-6">
             <h1 className="text-[10px] tracking-[0.3em] text-[#888899] uppercase mb-1">
-              CLASSIFIED // {cfg.name.toUpperCase()} MUNICIPAL INTELLIGENCE
+              CLASSIFIED // {muni.name.toUpperCase()} MUNICIPAL INTELLIGENCE
             </h1>
             <h2 className="text-2xl md:text-3xl font-bold text-[#e0e0f0] tracking-tight">
               SECTOR <span className="text-[#00ffcc] glow-text-cyan">THREAT ANALYSIS</span>
             </h2>
             <p className="text-xs text-[#666680] mt-2 tracking-wider">
-              REAL-TIME NEIGHBORHOOD SAFETY PROFILING // CBS POLITIE DATA INTEGRATION
+              REAL-TIME NEIGHBORHOOD SAFETY PROFILING // {country.dataSource.toUpperCase()} INTEGRATION
             </p>
           </div>
 
@@ -113,7 +100,7 @@ export default async function CityPage({
 
           {/* Search */}
           <div className="mb-6">
-            <SearchBar neighborhoods={neighborhoods} cityId={cityId} />
+            <SearchBar neighborhoods={neighborhoods} countryCode={countryCode} cityId={cityId} />
           </div>
         </div>
       </div>
@@ -123,17 +110,18 @@ export default async function CityPage({
         <SafetyMapWrapper
           geojson={geojson}
           neighborhoods={neighborhoods}
+          countryCode={countryCode}
           cityId={cityId}
-          cityCenter={cfg.center}
-          cityZoom={cfg.zoom}
+          cityCenter={[muni.centerLat, muni.centerLng]}
+          cityZoom={muni.zoom}
         />
       </div>
 
       {/* Footer */}
       <div className="px-4 py-4 border-t border-[#333340]">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between text-[9px] text-[#666680] tracking-wider font-mono">
-          <span>DATA: CBS OPEN DATA (47018NED) // PDOK WFS BOUNDARIES</span>
-          <span>{cfg.name.toUpperCase()} SECTOR INTELLIGENCE v2.0</span>
+          <span>DATA: {country.dataSource.toUpperCase()}</span>
+          <span>{muni.name.toUpperCase()} SECTOR INTELLIGENCE v2.0</span>
         </div>
       </div>
     </div>

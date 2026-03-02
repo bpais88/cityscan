@@ -8,95 +8,57 @@ import MiniMap from "@/components/profile/MiniMap";
 import CrimeBreakdown from "@/components/profile/CrimeBreakdown";
 import TrendChart from "@/components/profile/TrendChart";
 import ComparisonBar from "@/components/profile/ComparisonBar";
-import { CITIES } from "@/lib/cities";
-import type { Neighborhood, CityAverages } from "@/lib/types";
+import {
+  getCountry,
+  getMunicipality,
+  getNeighborhoods,
+  getNeighborhoodBySlug,
+  getGeoJSON,
+  getCityAverages,
+} from "@/db/queries";
 
-async function getCityData(cityId: string) {
-  let neighborhoods: Neighborhood[] = [];
-  let geojson: GeoJSON.FeatureCollection = { type: "FeatureCollection", features: [] };
-  let cityAverages: CityAverages = {
-    totalRate: 0,
-    categoryRates: { PROPERTY: 0, VIOLENT: 0, DRUGS: 0, FRAUD: 0, VANDALISM: 0, OTHER: 0 },
-    yearlyRates: {},
-  };
-
-  try {
-    neighborhoods = (
-      await import(`@/data/cities/${cityId}/neighborhoods.json`)
-    ).default as unknown as Neighborhood[];
-  } catch { /* not built yet */ }
-
-  try {
-    geojson = (
-      await import(`@/data/${cityId}.geo.json`)
-    ).default as unknown as GeoJSON.FeatureCollection;
-  } catch { /* not built yet */ }
-
-  try {
-    cityAverages = (
-      await import(`@/data/cities/${cityId}/city-averages.json`)
-    ).default as unknown as CityAverages;
-  } catch { /* not built yet */ }
-
-  return { neighborhoods, geojson, cityAverages };
-}
-
-export async function generateStaticParams() {
-  const allParams: { city: string; slug: string }[] = [];
-
-  for (const city of CITIES) {
-    try {
-      const neighborhoods = (
-        await import(`@/data/cities/${city.id}/neighborhoods.json`)
-      ).default as unknown as Neighborhood[];
-      for (const n of neighborhoods) {
-        allParams.push({ city: city.id, slug: n.slug });
-      }
-    } catch {
-      // Data not built for this city
-    }
-  }
-
-  return allParams;
-}
+export const revalidate = 86400;
 
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ city: string; slug: string }>;
+  params: Promise<{ country: string; city: string; slug: string }>;
 }) {
-  const { city: cityId, slug } = await params;
-  const cfg = CITIES.find((c) => c.id === cityId);
-  if (!cfg) return { title: "NOT FOUND" };
+  const { country: countryCode, city: cityId, slug } = await params;
+  const country = await getCountry(countryCode);
+  if (!country) return { title: "NOT FOUND" };
+  const muni = await getMunicipality(cityId);
+  if (!muni || muni.countryCode !== countryCode) return { title: "CITY NOT FOUND" };
 
-  try {
-    const neighborhoods = (
-      await import(`@/data/cities/${cityId}/neighborhoods.json`)
-    ).default as unknown as Neighborhood[];
-    const neighborhood = neighborhoods.find((n) => n.slug === slug);
-    if (!neighborhood) return { title: "SECTOR NOT FOUND" };
+  const neighborhood = await getNeighborhoodBySlug(cityId, slug);
+  if (!neighborhood) return { title: "SECTOR NOT FOUND" };
 
-    return {
-      title: `${neighborhood.name} — ${cfg.name} — THREAT: ${neighborhood.threatLevel}`,
-      description: `Safety analysis for ${neighborhood.name}, ${cfg.name}. Score: ${neighborhood.safetyScore}/10. Crime rate: ${neighborhood.crimeRate.toFixed(1)} per 1000 residents.`,
-    };
-  } catch {
-    return { title: "SECTOR NOT FOUND" };
-  }
+  return {
+    title: `${neighborhood.name} — ${muni.name} — THREAT: ${neighborhood.threatLevel}`,
+    description: `Safety analysis for ${neighborhood.name}, ${muni.name}. Score: ${neighborhood.safetyScore}/10. Crime rate: ${neighborhood.crimeRate.toFixed(1)} per 1000 residents.`,
+  };
 }
 
 export default async function NeighborhoodPage({
   params,
 }: {
-  params: Promise<{ city: string; slug: string }>;
+  params: Promise<{ country: string; city: string; slug: string }>;
 }) {
-  const { city: cityId, slug } = await params;
-  const cfg = CITIES.find((c) => c.id === cityId);
-  if (!cfg) notFound();
+  const { country: countryCode, city: cityId, slug } = await params;
 
-  const { neighborhoods, geojson, cityAverages } = await getCityData(cityId);
+  const country = await getCountry(countryCode);
+  if (!country) notFound();
 
-  const neighborhood = neighborhoods.find((n) => n.slug === slug);
+  const muni = await getMunicipality(cityId);
+  if (!muni || muni.countryCode !== countryCode) notFound();
+
+  const [neighborhood, neighborhoods, geojson, cityAverages] = await Promise.all([
+    getNeighborhoodBySlug(cityId, slug),
+    getNeighborhoods(cityId),
+    getGeoJSON(cityId),
+    getCityAverages(cityId),
+  ]);
+
   if (!neighborhood) notFound();
 
   const sorted = [...neighborhoods].sort((a, b) => a.safetyScore - b.safetyScore);
@@ -104,23 +66,23 @@ export default async function NeighborhoodPage({
 
   return (
     <div className="min-h-screen">
-      <StatusBar cityName={cfg.name} sectorCount={neighborhoods.length} />
+      <StatusBar cityName={muni.name} sectorCount={neighborhoods.length} />
 
       <div className="pt-10 px-4 py-6 md:px-8">
         <div className="max-w-6xl mx-auto">
           {/* Navigation */}
           <Link
-            href={`/${cityId}`}
+            href={`/${countryCode}/${cityId}`}
             className="inline-flex items-center gap-2 text-[#888899] hover:text-[#00ffcc] text-xs tracking-wider transition-colors mb-6"
           >
             <ArrowLeft size={14} />
-            RETURN TO {cfg.name.toUpperCase()} OVERVIEW
+            RETURN TO {muni.name.toUpperCase()} OVERVIEW
           </Link>
 
           {/* Header */}
           <div className="mb-8">
             <div className="text-[9px] tracking-[0.3em] text-[#888899] uppercase mb-1">
-              SECTOR ANALYSIS // {cfg.name.toUpperCase()} // {neighborhood.code}
+              SECTOR ANALYSIS // {muni.name.toUpperCase()} // {neighborhood.code}
             </div>
             <h1 className="text-3xl md:text-4xl font-bold text-[#e0e0f0] tracking-tight mb-2">
               {neighborhood.name.toUpperCase()}
@@ -157,8 +119,9 @@ export default async function NeighborhoodPage({
                   geojson={geojson}
                   neighborhoods={neighborhoods}
                   selectedSlug={slug}
+                  countryCode={countryCode}
                   cityId={cityId}
-                  cityCenter={cfg.center}
+                  cityCenter={[muni.centerLat, muni.centerLng]}
                 />
               </Panel>
             </div>
@@ -191,8 +154,8 @@ export default async function NeighborhoodPage({
           {/* Footer */}
           <div className="mt-8 py-4 border-t border-[#333340]">
             <div className="flex flex-col md:flex-row items-center justify-between text-[9px] text-[#666680] tracking-wider">
-              <span>DATA: CBS OPEN DATA (47018NED) // PDOK WFS BOUNDARIES</span>
-              <span>{cfg.name.toUpperCase()} SECTOR INTELLIGENCE v2.0</span>
+              <span>DATA: {country.dataSource.toUpperCase()}</span>
+              <span>{muni.name.toUpperCase()} SECTOR INTELLIGENCE v2.0</span>
             </div>
           </div>
         </div>

@@ -27,6 +27,7 @@ interface SafetyMapProps {
   neighborhoods: Neighborhood[];
   selectedSlug?: string;
   mini?: boolean;
+  countryCode?: string;
   cityId?: string;
   cityCenter?: [number, number];
   cityZoom?: number;
@@ -45,6 +46,7 @@ export default function SafetyMap({
   neighborhoods,
   selectedSlug,
   mini = false,
+  countryCode,
   cityId,
   cityCenter,
   cityZoom,
@@ -132,7 +134,8 @@ export default function SafetyMap({
         mouseout: () => setHoveredCode(null),
         click: () => {
           if (n && !mini && cityId) {
-            router.push(`/${cityId}/${n.slug}`);
+            const base = countryCode ? `/${countryCode}/${cityId}` : `/${cityId}`;
+            router.push(`${base}/${n.slug}`);
           }
         },
       });
