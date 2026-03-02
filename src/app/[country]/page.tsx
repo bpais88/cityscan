@@ -60,6 +60,21 @@ export default async function CountryPage({
             </p>
           </div>
 
+          {/* National overview link */}
+          <div className="flex justify-center mb-6">
+            <Link
+              href={`/${countryCode}/compare`}
+              className="group inline-flex items-center gap-2 border border-[#333340] bg-[#0a0a0f]/80 px-5 py-2.5 hover:border-[#00ffcc]/50 hover:shadow-[0_0_20px_rgba(0,255,204,0.08)] transition-all"
+            >
+              <span className="text-[10px] tracking-[0.25em] text-[#888899] group-hover:text-[#00ffcc] transition-colors uppercase font-mono">
+                NATIONAL OVERVIEW
+              </span>
+              <span className="text-[#00ffcc] text-xs group-hover:translate-x-0.5 transition-transform">
+                →
+              </span>
+            </Link>
+          </div>
+
           {/* Global stats */}
           <div className="grid grid-cols-3 gap-3 mb-8 max-w-xl mx-auto">
             <Panel>

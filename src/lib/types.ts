@@ -58,6 +58,18 @@ export interface CityIndex {
   avgRate: number;
 }
 
+export interface MunicipalityComparison {
+  id: string;
+  name: string;
+  totalSectors: number;
+  avgScore: number;
+  criticalCount: number;
+  avgRate: number;
+  totalRate: number;
+  centerLat: number;
+  centerLng: number;
+}
+
 export interface CBSRecord {
   WijkenEnBuurten: string;
   SoortMisdrijf: string;
