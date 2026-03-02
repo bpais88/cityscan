@@ -110,11 +110,12 @@ export default function SafetyMap({
           { className: "dark-popup" }
         );
 
-        // Hover tooltip showing neighborhood name + threat level
+        // Hover tooltip showing neighborhood name + threat level + population
         layer.bindTooltip(
           `<div style="font-family: 'JetBrains Mono', monospace; font-size: 10px; letter-spacing: 0.1em;">
             <span style="color: #e0e0f0; font-weight: 600;">${n.name}</span>
             <span style="color: ${threatColor}; margin-left: 6px;">${n.safetyScore}/10</span>
+            <span style="color: #888899; margin-left: 6px;">${n.population.toLocaleString()} res.</span>
           </div>`,
           {
             sticky: true,
