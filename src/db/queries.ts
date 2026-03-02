@@ -1,4 +1,4 @@
-import { db } from "./index";
+import { getDb } from "./index";
 import { countries, municipalities, neighborhoods } from "./schema";
 import { eq, and, sql } from "drizzle-orm";
 import type {
@@ -11,11 +11,11 @@ import type {
 // ── Country queries ─────────────────────────────────────────────
 
 export async function getCountries() {
-  return db.select().from(countries);
+  return getDb().select().from(countries);
 }
 
 export async function getCountry(code: string) {
-  const rows = await db
+  const rows = await getDb()
     .select()
     .from(countries)
     .where(eq(countries.code, code))
@@ -27,7 +27,7 @@ export async function getCountry(code: string) {
 
 /** Returns CityIndex[] for the landing/country page (same shape as city-index.json) */
 export async function getCityIndex(countryCode: string): Promise<CityIndex[]> {
-  const rows = await db
+  const rows = await getDb()
     .select({
       id: municipalities.id,
       name: municipalities.name,
@@ -51,7 +51,7 @@ export async function getCityIndex(countryCode: string): Promise<CityIndex[]> {
 
 /** Replaces CITIES.find() — returns municipality config for map rendering */
 export async function getMunicipality(id: string) {
-  const rows = await db
+  const rows = await getDb()
     .select()
     .from(municipalities)
     .where(eq(municipalities.id, id))
@@ -63,7 +63,7 @@ export async function getMunicipality(id: string) {
 
 /** Returns Neighborhood[] for a city (same shape as neighborhoods.json) */
 export async function getNeighborhoods(cityId: string): Promise<Neighborhood[]> {
-  const rows = await db
+  const rows = await getDb()
     .select()
     .from(neighborhoods)
     .where(eq(neighborhoods.municipalityId, cityId));
@@ -90,7 +90,7 @@ export async function getCityAverages(cityId: string): Promise<CityAverages> {
 
 /** Reconstructs GeoJSON FeatureCollection from geometry column */
 export async function getGeoJSON(cityId: string): Promise<GeoJSON.FeatureCollection> {
-  const rows = await db
+  const rows = await getDb()
     .select({
       code: neighborhoods.code,
       name: neighborhoods.name,
@@ -122,7 +122,7 @@ export async function getNeighborhoodBySlug(
   cityId: string,
   slug: string
 ): Promise<Neighborhood | null> {
-  const rows = await db
+  const rows = await getDb()
     .select()
     .from(neighborhoods)
     .where(
@@ -156,7 +156,7 @@ export async function searchGlobal(
 
   // Search municipalities
   const muniQuery = countryCode
-    ? db
+    ? getDb()
         .select()
         .from(municipalities)
         .where(
@@ -166,7 +166,7 @@ export async function searchGlobal(
           )
         )
         .limit(5)
-    : db
+    : getDb()
         .select()
         .from(municipalities)
         .where(
@@ -203,7 +203,7 @@ export async function searchGlobal(
         LIMIT 10
       `;
 
-  const nhoods = await db.execute(nhoodQuery);
+  const nhoods = await getDb().execute(nhoodQuery);
   for (const r of nhoods.rows) {
     results.push({
       type: "neighborhood",
