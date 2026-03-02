@@ -56,6 +56,19 @@ export interface CityIndex {
   avgScore: number;
   criticalCount: number;
   avgRate: number;
+  totalPopulation: number;
+}
+
+export interface MunicipalityComparison {
+  id: string;
+  name: string;
+  totalSectors: number;
+  avgScore: number;
+  criticalCount: number;
+  avgRate: number;
+  totalRate: number;
+  centerLat: number;
+  centerLng: number;
 }
 
 export interface CBSRecord {

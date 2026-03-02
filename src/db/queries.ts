@@ -6,6 +6,7 @@ import type {
   CityAverages,
   CityIndex,
   CrimeCategory,
+  MunicipalityComparison,
 } from "@/lib/types";
 
 // ── Country queries ─────────────────────────────────────────────
@@ -27,6 +28,17 @@ export async function getCountry(code: string) {
 
 /** Returns CityIndex[] for the landing/country page (same shape as city-index.json) */
 export async function getCityIndex(countryCode: string): Promise<CityIndex[]> {
+  const populationSub = getDb()
+    .select({
+      municipalityId: neighborhoods.municipalityId,
+      totalPopulation: sql<number>`coalesce(sum(${neighborhoods.population}), 0)`.as(
+        "total_population"
+      ),
+    })
+    .from(neighborhoods)
+    .groupBy(neighborhoods.municipalityId)
+    .as("pop");
+
   const rows = await getDb()
     .select({
       id: municipalities.id,
@@ -35,6 +47,38 @@ export async function getCityIndex(countryCode: string): Promise<CityIndex[]> {
       avgScore: municipalities.avgScore,
       criticalCount: municipalities.criticalCount,
       avgRate: municipalities.avgRate,
+      totalPopulation: populationSub.totalPopulation,
+    })
+    .from(municipalities)
+    .leftJoin(populationSub, eq(municipalities.id, populationSub.municipalityId))
+    .where(eq(municipalities.countryCode, countryCode));
+
+  return rows.map((r) => ({
+    id: r.id,
+    name: r.name,
+    totalSectors: r.totalSectors,
+    avgScore: Number(r.avgScore),
+    criticalCount: r.criticalCount,
+    avgRate: Number(r.avgRate),
+    totalPopulation: Number(r.totalPopulation ?? 0),
+  }));
+}
+
+/** Returns all municipalities with coordinates for the national comparison map */
+export async function getAllMunicipalitiesForComparison(
+  countryCode: string
+): Promise<MunicipalityComparison[]> {
+  const rows = await getDb()
+    .select({
+      id: municipalities.id,
+      name: municipalities.name,
+      totalSectors: municipalities.totalSectors,
+      avgScore: municipalities.avgScore,
+      criticalCount: municipalities.criticalCount,
+      avgRate: municipalities.avgRate,
+      totalRate: municipalities.totalRate,
+      centerLat: municipalities.centerLat,
+      centerLng: municipalities.centerLng,
     })
     .from(municipalities)
     .where(eq(municipalities.countryCode, countryCode));
@@ -46,6 +90,9 @@ export async function getCityIndex(countryCode: string): Promise<CityIndex[]> {
     avgScore: Number(r.avgScore),
     criticalCount: r.criticalCount,
     avgRate: Number(r.avgRate),
+    totalRate: Number(r.totalRate),
+    centerLat: r.centerLat,
+    centerLng: r.centerLng,
   }));
 }
 
