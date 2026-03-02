@@ -68,21 +68,109 @@ export default function MethodologyPage() {
 
           {/* Crime Categories */}
           <Panel title="CRIME CATEGORIES" className="mb-6">
-            <div className="text-xs text-[#888899] leading-relaxed mb-3">
-              The 59 CBS crime types are grouped into 6 categories:
+            <div className="text-xs text-[#888899] leading-relaxed mb-4">
+              The 59 CBS crime types (SoortMisdrijf) are grouped into 6 categories.
+              Below are the official CBS crime type names (Dutch) with English translations.
             </div>
-            <div className="space-y-2">
+            <div className="space-y-5">
               {[
-                { cat: "PROPERTY", desc: "Burglary, theft, bike theft, pickpocketing, shoplifting, vehicle theft" },
-                { cat: "VIOLENT", desc: "Assault, threats, robbery, murder, sexual offenses, domestic violence" },
-                { cat: "DRUG-RELATED", desc: "Drug trade, drug nuisance, DUI" },
-                { cat: "FRAUD & CYBER", desc: "Financial fraud, identity fraud, cybercrime" },
-                { cat: "VANDALISM", desc: "Property damage, arson, domestic disputes, public order" },
-                { cat: "OTHER", desc: "Traffic offenses, environmental crimes, administrative violations" },
-              ].map((item) => (
-                <div key={item.cat} className="flex gap-3 text-xs">
-                  <span className="text-[#00ffcc] font-semibold w-32 shrink-0 text-[10px] tracking-wider">{item.cat}</span>
-                  <span className="text-[#888899]">{item.desc}</span>
+                {
+                  cat: "PROPERTY CRIME",
+                  color: "#00ffcc",
+                  crimes: [
+                    { code: "1.1.1", nl: "Diefstal/inbraak woning", en: "Home burglary/break-in" },
+                    { code: "1.1.2", nl: "Diefstal/inbraak box/garage/schuur", en: "Shed/garage break-in" },
+                    { code: "1.2.1", nl: "Diefstal uit/vanaf motorvoertuigen", en: "Theft from motor vehicles" },
+                    { code: "1.2.2", nl: "Diefstal van motorvoertuigen", en: "Motor vehicle theft" },
+                    { code: "1.2.3", nl: "Diefstal van brom-, snor-, fietsen", en: "Bike/moped theft" },
+                    { code: "1.2.4", nl: "Zakkenrollerij", en: "Pickpocketing" },
+                    { code: "1.2.5", nl: "Diefstal af/uit/van ov. voertuigen", en: "Theft from other vehicles" },
+                    { code: "1.5.2", nl: "Diefstallen (water)", en: "Theft (waterways)" },
+                    { code: "1.6.2", nl: "Overige vermogensdelicten", en: "Other property offenses" },
+                    { code: "2.5.1", nl: "Diefstal/inbraak bedrijven enz.", en: "Commercial burglary/break-in" },
+                    { code: "2.5.2", nl: "Winkeldiefstal", en: "Shoplifting" },
+                  ],
+                },
+                {
+                  cat: "VIOLENT CRIME",
+                  color: "#ff3333",
+                  crimes: [
+                    { code: "1.4.1", nl: "Zedenmisdrijf", en: "Sexual offenses" },
+                    { code: "1.4.2", nl: "Moord, doodslag", en: "Murder, manslaughter" },
+                    { code: "1.4.3", nl: "Openlijk geweld (persoon)", en: "Public violence (against person)" },
+                    { code: "1.4.4", nl: "Bedreiging", en: "Threats" },
+                    { code: "1.4.5", nl: "Mishandeling", en: "Assault" },
+                    { code: "1.4.6", nl: "Straatroof", en: "Street robbery" },
+                    { code: "1.4.7", nl: "Overval", en: "Armed robbery" },
+                    { code: "1.6.3", nl: "Mensenhandel", en: "Human trafficking" },
+                    { code: "3.1.2", nl: "Mensensmokkel", en: "People smuggling" },
+                    { code: "3.1.3", nl: "Wapenhandel", en: "Arms trafficking" },
+                    { code: "3.2.1", nl: "Kinderporno", en: "Child exploitation material" },
+                    { code: "3.2.2", nl: "Kinderprostitutie", en: "Child prostitution" },
+                  ],
+                },
+                {
+                  cat: "DRUG-RELATED",
+                  color: "#ffaa00",
+                  crimes: [
+                    { code: "3.1.1", nl: "Drugshandel", en: "Drug trafficking" },
+                    { code: "2.1.1", nl: "Drugs/drankoverlast", en: "Drug/alcohol nuisance" },
+                    { code: "3.3.2", nl: "Onder invloed (lucht)", en: "DUI (aviation)" },
+                    { code: "3.4.2", nl: "Onder invloed (water)", en: "DUI (waterways)" },
+                    { code: "3.5.2", nl: "Onder invloed (weg)", en: "DUI (road)" },
+                  ],
+                },
+                {
+                  cat: "FRAUD & CYBER",
+                  color: "#e0e0f0",
+                  crimes: [
+                    { code: "3.9.1", nl: "Horizontale fraude", en: "Horizontal fraud (citizen-to-citizen)" },
+                    { code: "3.9.2", nl: "Verticale fraude", en: "Vertical fraud (against government/institutions)" },
+                    { code: "3.9.3", nl: "Fraude (overig)", en: "Other fraud" },
+                    { code: "3.7.4", nl: "Cybercrime", en: "Cybercrime" },
+                  ],
+                },
+                {
+                  cat: "VANDALISM & NUISANCE",
+                  color: "#ffaa00",
+                  crimes: [
+                    { code: "2.2.1", nl: "Vernieling cq. zaakbeschadiging", en: "Vandalism / property damage" },
+                    { code: "1.6.1", nl: "Brand/ontploffing", en: "Arson / explosion" },
+                    { code: "2.4.1", nl: "Burengerucht (relatieproblemen)", en: "Domestic disputes / neighbor conflicts" },
+                    { code: "2.4.2", nl: "Huisvredebreuk", en: "Trespassing (residential)" },
+                    { code: "3.6.4", nl: "Aantasting openbare orde", en: "Public order disturbance" },
+                  ],
+                },
+                {
+                  cat: "OTHER",
+                  color: "#666680",
+                  crimes: [
+                    { code: "1.3.1", nl: "Ongevallen (weg)", en: "Road accidents" },
+                    { code: "3.7.1", nl: "Discriminatie", en: "Discrimination" },
+                    { code: "3.7.2", nl: "Vreemdelingenzorg", en: "Immigration matters" },
+                    { code: "3.7.3", nl: "Maatsch. integriteit (overig)", en: "Social integrity (other)" },
+                    { code: "2.7.2", nl: "Bijzondere wetten", en: "Special legislation violations" },
+                    { code: "2.7.3", nl: "Leefbaarheid (overig)", en: "Livability (other)" },
+                    { code: "2.6.1–14", nl: "Milieudelicten, APV, etc.", en: "Environmental, regulatory, and administrative violations" },
+                  ],
+                },
+              ].map((group) => (
+                <div key={group.cat}>
+                  <h4
+                    className="text-[10px] tracking-[0.2em] font-bold mb-2 uppercase"
+                    style={{ color: group.color }}
+                  >
+                    {group.cat}
+                  </h4>
+                  <div className="space-y-1 pl-3 border-l border-[#333340]">
+                    {group.crimes.map((crime) => (
+                      <div key={crime.code} className="flex gap-2 text-[11px]">
+                        <span className="text-[#666680] w-12 shrink-0 font-mono text-[10px]">{crime.code}</span>
+                        <span className="text-[#888899] flex-1">{crime.nl}</span>
+                        <span className="text-[#e0e0f0] flex-1">{crime.en}</span>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               ))}
             </div>
