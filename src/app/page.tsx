@@ -129,7 +129,12 @@ export default async function HomePage() {
           <div className="py-4 border-t border-[#333340]">
             <div className="flex flex-col md:flex-row items-center justify-between text-[9px] text-[#666680] tracking-wider font-mono">
               <span>DATA: CBS OPEN DATA (47018NED) // PDOK WFS BOUNDARIES</span>
-              <span>CITYSCAN v2.0 // AVG SAFETY: {overallAvg}/10</span>
+              <div className="flex items-center gap-3">
+                <Link href="/methodology" className="text-[#888899] hover:text-[#00ffcc] transition-colors">
+                  METHODOLOGY
+                </Link>
+                <span>CITYSCAN v2.0 // AVG SAFETY: {overallAvg}/10</span>
+              </div>
             </div>
           </div>
         </div>
