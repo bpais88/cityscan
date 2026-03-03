@@ -33,7 +33,9 @@ export default async function CountryPage({
   const country = await getCountry(countryCode);
   if (!country) notFound();
 
-  const cities = await getCityIndex(countryCode);
+  const cities = (await getCityIndex(countryCode)).sort((a, b) =>
+    a.name.localeCompare(b.name)
+  );
 
   const totalSectors = cities.reduce((s, c) => s + c.totalSectors, 0);
   const totalCritical = cities.reduce((s, c) => s + c.criticalCount, 0);
