@@ -4,7 +4,7 @@ import StatusBar from "@/components/ui/StatusBar";
 import Panel from "@/components/ui/Panel";
 import { getCountry, getCityIndex } from "@/db/queries";
 
-export const revalidate = 86400;
+export const revalidate = 60;
 
 export async function generateMetadata({ params }: { params: Promise<{ country: string }> }) {
   const { country: countryCode } = await params;
