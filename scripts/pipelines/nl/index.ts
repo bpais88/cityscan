@@ -31,26 +31,26 @@ async function run() {
     gemeenteCode: c.gemeenteCode,
   }));
 
-  // 1. Fetch CBS data
-  const hasRawData = cities.some((c) =>
-    existsSync(join(RAW_DIR, c.id, "buurt-crimes.json"))
+  // 1. Fetch CBS data (only for cities missing raw data)
+  const citiesMissingRaw = cities.filter(
+    (c) => !existsSync(join(RAW_DIR, c.id, "buurt-crimes.json"))
   );
-  if (!hasRawData) {
-    console.log("[1] Fetching CBS data...");
-    await fetchCBSData(cities, RAW_DIR);
+  if (citiesMissingRaw.length > 0) {
+    console.log(`[1] Fetching CBS data for ${citiesMissingRaw.length} cities...`);
+    await fetchCBSData(citiesMissingRaw, RAW_DIR);
   } else {
-    console.log("[1] CBS data exists, skipping fetch");
+    console.log("[1] CBS data exists for all cities, skipping fetch");
   }
 
-  // 2. Fetch geodata
-  const hasGeoData = cities.some((c) =>
-    existsSync(join(GEO_DIR, `${c.id}.geo.json`))
+  // 2. Fetch geodata (only for cities missing geo data)
+  const citiesMissingGeo = cities.filter(
+    (c) => !existsSync(join(GEO_DIR, `${c.id}.geo.json`))
   );
-  if (!hasGeoData) {
-    console.log("\n[2] Fetching geodata...");
-    await fetchGeoData(cities, GEO_DIR);
+  if (citiesMissingGeo.length > 0) {
+    console.log(`\n[2] Fetching geodata for ${citiesMissingGeo.length} cities...`);
+    await fetchGeoData(citiesMissingGeo, GEO_DIR);
   } else {
-    console.log("[2] Geodata exists, skipping fetch");
+    console.log("[2] Geodata exists for all cities, skipping fetch");
   }
 
   // 3. Ensure NL country record
