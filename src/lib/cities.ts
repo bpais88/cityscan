@@ -19,6 +19,7 @@ export const CITIES: CityConfig[] = [
   { id: "ouder-amstel", name: "Ouder-Amstel", gemeenteCode: "0437", center: [52.2960, 4.9120], zoom: 13 },
   { id: "wijdemeren", name: "Wijdemeren", gemeenteCode: "1696", center: [52.2050, 5.0600], zoom: 13 },
   { id: "de-ronde-venen", name: "De Ronde Venen", gemeenteCode: "0736", center: [52.2150, 4.9000], zoom: 13 },
+  { id: "hoorn", name: "Hoorn", gemeenteCode: "0405", center: [52.6425, 5.0597], zoom: 13 },
   { id: "tilburg", name: "Tilburg", gemeenteCode: "0855", center: [51.5555, 5.0913], zoom: 13 },
   { id: "rotterdam", name: "Rotterdam", gemeenteCode: "0599", center: [51.9225, 4.4792], zoom: 12 },
   { id: "den-haag", name: "Den Haag", gemeenteCode: "0518", center: [52.0705, 4.3007], zoom: 12 },
